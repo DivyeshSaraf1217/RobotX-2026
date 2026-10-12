@@ -1,0 +1,5 @@
+Motor C - Left side from rear, (port?) SERVO 3
+
+Motor D - Right Side from rear, (Starboard?) SERVO 1
+
+Z is thrust in mavlink manual control, Y is yaw.

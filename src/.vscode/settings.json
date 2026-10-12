@@ -1,0 +1,19 @@
+{
+    "ROS2.distro": "humble",
+    "python.autoComplete.extraPaths": [
+        "/home/divy/lidar_ws/install/rslidar_msg/local/lib/python3.10/dist-packages",
+        "/home/divy/project_first_ws/install/turtlesim_catch_all_py/lib/python3.10/site-packages",
+        "/home/divy/project_first_ws/install/interfaces/local/lib/python3.10/dist-packages",
+        "/home/divy/microros_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/divy/lidar_ws/install/rslidar_msg/local/lib/python3.10/dist-packages",
+        "/home/divy/project_first_ws/install/turtlesim_catch_all_py/lib/python3.10/site-packages",
+        "/home/divy/project_first_ws/install/interfaces/local/lib/python3.10/dist-packages",
+        "/home/divy/microros_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ]
+}
