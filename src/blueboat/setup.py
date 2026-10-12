@@ -32,7 +32,8 @@ setup(
             'movement_recorder=blueboat.movement_recorder:main',
             'rc_override=blueboat.rc_override:main',
             'rov_teleop=blueboat.teleop_cmdvel_rov:main',
-            'bluerov_cam=blueboat.bluerov_cam:main'
+            'bluerov_cam=blueboat.bluerov_cam:main',
+            'neopixel_light=blueboat.mavros_serial_led_controller:main'
         ],
     },
 )

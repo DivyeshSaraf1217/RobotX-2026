@@ -1,0 +1,12 @@
+[console_scripts]
+arm_disarm = blueboat.arm_disarm:main
+bluerov_cam = blueboat.bluerov_cam:main
+coord_list = blueboat.coord_list:main
+local_pub_one = blueboat.local_pub_onee:main
+movement_recorder = blueboat.movement_recorder:main
+neopixel_light = blueboat.mavros_serial_led_controller:main
+rc_override = blueboat.rc_override:main
+rov_teleop = blueboat.teleop_cmdvel_rov:main
+rviz_mapper = blueboat.rviz_mapper:main
+teleop_guided = blueboat.teleop_test:main
+

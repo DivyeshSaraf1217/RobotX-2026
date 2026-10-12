@@ -1,0 +1,33 @@
+[0.533s] Invoking command in '/home/divy/Blueboat/src/blueboat': PYTHONPATH=/home/divy/Blueboat/build/blueboat/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/divy/Blueboat/install/blueboat/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/blueboat build --build-base /home/divy/Blueboat/build/blueboat/build install --record /home/divy/Blueboat/build/blueboat/install.log --install-scripts $base/lib/blueboat --single-version-externally-managed install_data
+[0.701s] running egg_info
+[0.701s] writing ../../build/blueboat/blueboat.egg-info/PKG-INFO
+[0.702s] writing dependency_links to ../../build/blueboat/blueboat.egg-info/dependency_links.txt
+[0.702s] writing entry points to ../../build/blueboat/blueboat.egg-info/entry_points.txt
+[0.702s] writing requirements to ../../build/blueboat/blueboat.egg-info/requires.txt
+[0.702s] writing top-level names to ../../build/blueboat/blueboat.egg-info/top_level.txt
+[0.703s] reading manifest file '../../build/blueboat/blueboat.egg-info/SOURCES.txt'
+[0.710s] writing manifest file '../../build/blueboat/blueboat.egg-info/SOURCES.txt'
+[0.710s] running build
+[0.710s] running build_py
+[0.710s] copying blueboat/mavros_serial_led_controller.py -> /home/divy/Blueboat/build/blueboat/build/lib/blueboat
+[0.710s] running install
+[0.710s] running install_lib
+[0.711s] copying /home/divy/Blueboat/build/blueboat/build/lib/blueboat/mavros_serial_led_controller.py -> /home/divy/Blueboat/install/blueboat/lib/python3.10/site-packages/blueboat
+[0.712s] byte-compiling /home/divy/Blueboat/install/blueboat/lib/python3.10/site-packages/blueboat/mavros_serial_led_controller.py to mavros_serial_led_controller.cpython-310.pyc
+[0.712s] running install_data
+[0.712s] running install_egg_info
+[0.713s] removing '/home/divy/Blueboat/install/blueboat/lib/python3.10/site-packages/blueboat-0.0.0-py3.10.egg-info' (and everything under it)
+[0.714s] Copying ../../build/blueboat/blueboat.egg-info to /home/divy/Blueboat/install/blueboat/lib/python3.10/site-packages/blueboat-0.0.0-py3.10.egg-info
+[0.714s] running install_scripts
+[0.729s] Installing arm_disarm script to /home/divy/Blueboat/install/blueboat/lib/blueboat
+[0.729s] Installing bluerov_cam script to /home/divy/Blueboat/install/blueboat/lib/blueboat
+[0.729s] Installing coord_list script to /home/divy/Blueboat/install/blueboat/lib/blueboat
+[0.729s] Installing local_pub_one script to /home/divy/Blueboat/install/blueboat/lib/blueboat
+[0.729s] Installing movement_recorder script to /home/divy/Blueboat/install/blueboat/lib/blueboat
+[0.729s] Installing neopixel_light script to /home/divy/Blueboat/install/blueboat/lib/blueboat
+[0.729s] Installing rc_override script to /home/divy/Blueboat/install/blueboat/lib/blueboat
+[0.729s] Installing rov_teleop script to /home/divy/Blueboat/install/blueboat/lib/blueboat
+[0.729s] Installing rviz_mapper script to /home/divy/Blueboat/install/blueboat/lib/blueboat
+[0.729s] Installing teleop_guided script to /home/divy/Blueboat/install/blueboat/lib/blueboat
+[0.729s] writing list of installed files to '/home/divy/Blueboat/build/blueboat/install.log'
+[0.752s] Invoked command in '/home/divy/Blueboat/src/blueboat' returned '0': PYTHONPATH=/home/divy/Blueboat/build/blueboat/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/divy/Blueboat/install/blueboat/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/blueboat build --build-base /home/divy/Blueboat/build/blueboat/build install --record /home/divy/Blueboat/build/blueboat/install.log --install-scripts $base/lib/blueboat --single-version-externally-managed install_data
