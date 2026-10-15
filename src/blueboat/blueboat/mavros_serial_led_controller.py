@@ -10,7 +10,7 @@ class MavrosLedController(Node):
         # Open serial port to Arduino. 
         # Change /dev/ttyUSB0 to /dev/ttyACM0 if using an Arduino Uno/Mega via USB
         try:
-            self.arduino = serial.Serial('/dev/ttyUSB0', baudrate=115200, timeout=1)
+            self.arduino = serial.Serial('/dev/ttyTHS1', baudrate=115200, timeout=1)
             self.get_logger().info("Connected to Arduino on /dev/ttyUSB0")
         except serial.SerialException as e:
             self.get_logger().error(f"Serial connection failed: {e}")
