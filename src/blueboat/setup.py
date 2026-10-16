@@ -24,15 +24,13 @@ setup(
     },
     entry_points={
         'console_scripts': [
-            'arm_disarm=blueboat.arm_disarm:main',
+            'manual_control_teleop=blueboat.manual_control_teleop:main',
             'teleop_guided=blueboat.teleop_test:main',
             'local_pub_one=blueboat.local_pub_onee:main',
             'rviz_mapper=blueboat.rviz_mapper:main',
             'coord_list=blueboat.coord_list:main',
             'movement_recorder=blueboat.movement_recorder:main',
-            'rc_override=blueboat.rc_override:main',
             'rov_teleop=blueboat.teleop_cmdvel_rov:main',
-            'bluerov_cam=blueboat.bluerov_cam:main',
             'neopixel_light=blueboat.mavros_serial_led_controller:main'
         ],
     },
