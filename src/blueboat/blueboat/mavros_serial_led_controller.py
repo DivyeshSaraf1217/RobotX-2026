@@ -10,8 +10,8 @@ class MavrosLedController(Node):
         # Open serial port to Arduino. 
         # Change /dev/ttyUSB0 to /dev/ttyACM0 if using an Arduino Uno/Mega via USB
         try:
-            self.arduino = serial.Serial('/dev/ttyTHS1', baudrate=115200, timeout=1)
-            self.get_logger().info("Connected to Arduino on /dev/ttyTHS1")
+            self.arduino = serial.Serial('/dev/ttyTHS1', baudrate=9600, timeout=1)
+            self.get_logger().info("Connected to Arduino on /dev/ttyUSB0 MANUAL = GREEN CODE")
         except serial.SerialException as e:
             self.get_logger().error(f"Serial connection failed: {e}")
             self.arduino = None
@@ -31,7 +31,7 @@ class MavrosLedController(Node):
         # Map ArduPilot/PX4 modes to LED colors
         if mode in ["ALT_HOLD", "DEPTH_HOLD"]:
             cmd = 'Y'  # Yellow
-        elif mode == "GUIDED":
+        elif mode in ["GUIDED"]:
             cmd = 'G'  # Green
         else:
             cmd = 'R'  # Red for all other modes (Manual, Stabilize, RTL, etc.)
