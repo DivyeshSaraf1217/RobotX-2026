@@ -45,6 +45,8 @@ class ObstacleAvoid(Node):
         self.declare_parameter('sidestep_dist', 2.0)     # m, how far to sidestep
         self.declare_parameter('sidestep_angle_deg', 60.0)  # away from current heading
         self.declare_parameter('avoid_timeout_s', 10.0)
+        self.declare_parameter('yaw_tolerance_deg', 10.0)  # rotate step done when within this
+        self.declare_parameter('rotate_timeout_s', 8.0)
         self.declare_parameter('arrival_radius', 0.6)
         self.declare_parameter('lidar_timeout_s', 1.0)
         self.declare_parameter('yaw_offset_deg', 0.0)
@@ -71,6 +73,7 @@ class ObstacleAvoid(Node):
         self.state_since = time.time()
         self.hold_pose = None
         self.avoid_target = None
+        self.target_yaw = 0.0
 
         self.create_timer(0.1, self.loop)
         self.get_logger().info('obstacle_avoid ready (waiting for lidar + pose)')
@@ -119,11 +122,14 @@ class ObstacleAvoid(Node):
         self.right_free = float(np.min(np.hypot(right[:, 0], right[:, 1]))) if len(right) else 99.0
 
     # ---------- outputs ----------
-    def publish(self, x, y, z):
+    def publish(self, x, y, z, yaw=None):
         m = PoseStamped()
         m.header.stamp = self.get_clock().now().to_msg()
         m.header.frame_id = 'map'
         m.pose.position.x, m.pose.position.y, m.pose.position.z = x, y, z
+        if yaw is not None:  # explicit heading in the pose orientation (quaternion about z)
+            m.pose.orientation.z = math.sin(yaw / 2.0)
+            m.pose.orientation.w = math.cos(yaw / 2.0)
         self.out_pub.publish(m)
 
     def set_state(self, s):
@@ -160,14 +166,24 @@ class ObstacleAvoid(Node):
                 sign = 1.0 if self.left_free > self.right_free else -1.0
                 ang = self.yaw + sign * math.radians(self.p('sidestep_angle_deg'))
                 d = self.p('sidestep_dist')
+                self.target_yaw = math.atan2(math.sin(ang), math.cos(ang))
                 self.avoid_target = (self.x + d * math.cos(ang), self.y + d * math.sin(ang), self.z)
                 self.get_logger().info(
                     f"Avoiding {'LEFT' if sign > 0 else 'RIGHT'} "
                     f'(left_free={self.left_free:.1f}m right_free={self.right_free:.1f}m)')
+                self.set_state('ROTATE')
+
+        elif self.state == 'ROTATE':
+            # turn in place: goal pose = current position, new heading
+            self.publish(self.hold_pose[0], self.hold_pose[1], self.hold_pose[2], self.target_yaw)
+            err = abs(math.atan2(math.sin(self.target_yaw - self.yaw),
+                                 math.cos(self.target_yaw - self.yaw)))
+            if err < math.radians(self.p('yaw_tolerance_deg')) or \
+                    now - self.state_since > self.p('rotate_timeout_s'):
                 self.set_state('AVOID')
 
         elif self.state == 'AVOID':
-            self.publish(*self.avoid_target)
+            self.publish(*self.avoid_target, self.target_yaw)
             dist = math.hypot(self.avoid_target[0] - self.x, self.avoid_target[1] - self.y)
             timed_out = now - self.state_since > self.p('avoid_timeout_s')
             if dist <= self.p('arrival_radius') or timed_out:
