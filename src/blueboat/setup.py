@@ -32,7 +32,8 @@ setup(
             'movement_recorder=blueboat.movement_recorder:main',
             'rov_teleop=blueboat.teleop_cmdvel_rov:main',
             'neopixel_light=blueboat.mavros_serial_led_controller:main',
-            'rov_programmer=blueboat.rov_programmer:main'
+            'rov_programmer=blueboat.rov_programmer:main',
+            'obstacle_avoid=blueboat.obstacle_avoid:main'
         ],
     },
 )
