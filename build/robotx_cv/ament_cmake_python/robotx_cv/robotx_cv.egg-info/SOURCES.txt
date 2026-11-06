@@ -1,0 +1,11 @@
+setup.py
+robotx_cv/__init__.py
+robotx_cv.egg-info/PKG-INFO
+robotx_cv.egg-info/SOURCES.txt
+robotx_cv.egg-info/dependency_links.txt
+robotx_cv.egg-info/top_level.txt
+robotx_cv/msg/__init__.py
+robotx_cv/msg/_detection.py
+robotx_cv/msg/_detection_array.py
+robotx_cv/msg/_object.py
+robotx_cv/msg/_object_array.py

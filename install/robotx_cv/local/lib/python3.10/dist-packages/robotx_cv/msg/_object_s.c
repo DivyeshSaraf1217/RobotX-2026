@@ -1,0 +1,1 @@
+/home/soar-uwu/RobotX-2026/build/robotx_cv/rosidl_generator_py/robotx_cv/msg/_object_s.c

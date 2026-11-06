@@ -1,0 +1,258 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-e3405060455980615242.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						17,
+						18
+					]
+				},
+				{
+					"build" : "robotx_cv__py",
+					"jsonFile" : "directory-robotx_cv__py-c38d07b7683fbee95e4f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/soar-uwu/RobotX-2026/build/robotx_cv/robotx_cv__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "robotx_cv__rs",
+					"jsonFile" : "directory-robotx_cv__rs-853a45177d86fc2c1832.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/soar-uwu/RobotX-2026/build/robotx_cv/robotx_cv__rs",
+					"targetIndexes" : 
+					[
+						16
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2
+					],
+					"name" : "robotx_cv",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_robotx_cv_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_robotx_cv_egg-b4a35c660fc5dec72e9d.json",
+					"name" : "ament_cmake_python_build_robotx_cv_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_symlink_robotx_cv::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_symlink_robotx_cv-9de338ce59f4cdc42ccf.json",
+					"name" : "ament_cmake_python_symlink_robotx_cv",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robotx_cv::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robotx_cv-004d2dbc52b717754024.json",
+					"name" : "robotx_cv",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robotx_cv__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robotx_cv__cpp-84fd39aaf4fb217f37d3.json",
+					"name" : "robotx_cv__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "robotx_cv__py::@1a29590f179c62bc6e60",
+					"jsonFile" : "target-robotx_cv__py-a46e5d663a0929b433a3.json",
+					"name" : "robotx_cv__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robotx_cv__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robotx_cv__rosidl_generator_c-a32ae9e995883650f7b0.json",
+					"name" : "robotx_cv__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robotx_cv__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robotx_cv__rosidl_generator_py-df322bdf1b8e99f72360.json",
+					"name" : "robotx_cv__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robotx_cv__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robotx_cv__rosidl_typesupport_c-10a77308ee3a181ebb1a.json",
+					"name" : "robotx_cv__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robotx_cv__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robotx_cv__rosidl_typesupport_c__pyext-83e7b36139c32a0b7c5b.json",
+					"name" : "robotx_cv__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robotx_cv__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robotx_cv__rosidl_typesupport_cpp-7c26d4ea179f72eb25eb.json",
+					"name" : "robotx_cv__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robotx_cv__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robotx_cv__rosidl_typesupport_fastrtps_c-10339a856170ca54a494.json",
+					"name" : "robotx_cv__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robotx_cv__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robotx_cv__rosidl_typesupport_fastrtps_c__pyext-fdc672f37f7ace986d5f.json",
+					"name" : "robotx_cv__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robotx_cv__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robotx_cv__rosidl_typesupport_fastrtps_cpp-9d4095dd31127da98e50.json",
+					"name" : "robotx_cv__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robotx_cv__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robotx_cv__rosidl_typesupport_introspection_c-dcbe8a7d7cb54f24743a.json",
+					"name" : "robotx_cv__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robotx_cv__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robotx_cv__rosidl_typesupport_introspection_c__pyext-0e0b49ed575decae25be.json",
+					"name" : "robotx_cv__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robotx_cv__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robotx_cv__rosidl_typesupport_introspection_cpp-57d965d0958e3d159190.json",
+					"name" : "robotx_cv__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "robotx_cv__rs::@585938b0a52e4e79ec88",
+					"jsonFile" : "target-robotx_cv__rs-05a4d849a9537e0a8d89.json",
+					"name" : "robotx_cv__rs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robotx_cv_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robotx_cv_uninstall-d9d33d00c80be2a276d8.json",
+					"name" : "robotx_cv_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-1ee1caba459b3aa64b67.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/soar-uwu/RobotX-2026/build/robotx_cv",
+		"source" : "/home/soar-uwu/RobotX-2026/src/robotx_cv"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

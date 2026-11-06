@@ -1,0 +1,1 @@
+/home/soar-uwu/RobotX-2026/build/robotx_cv/rosidl_cmake/rosidl_cmake_export_typesupport_targets-extras.cmake

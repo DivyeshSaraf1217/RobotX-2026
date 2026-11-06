@@ -1,0 +1,159 @@
+[0.000000] (-) TimerEvent: {}
+[0.005998] (blueboat) JobQueued: {'identifier': 'blueboat', 'dependencies': OrderedDict()}
+[0.007038] (robotx_cv) JobQueued: {'identifier': 'robotx_cv', 'dependencies': OrderedDict()}
+[0.008097] (blueboat) JobStarted: {'identifier': 'blueboat'}
+[0.059979] (robotx_cv) JobStarted: {'identifier': 'robotx_cv'}
+[0.101900] (-) TimerEvent: {}
+[0.202492] (-) TimerEvent: {}
+[0.303879] (-) TimerEvent: {}
+[0.404624] (-) TimerEvent: {}
+[0.505539] (-) TimerEvent: {}
+[0.606439] (-) TimerEvent: {}
+[0.709116] (-) TimerEvent: {}
+[0.809865] (-) TimerEvent: {}
+[0.910759] (-) TimerEvent: {}
+[1.013246] (-) TimerEvent: {}
+[1.113963] (-) TimerEvent: {}
+[1.215835] (-) TimerEvent: {}
+[1.221547] (robotx_cv) JobProgress: {'identifier': 'robotx_cv', 'progress': 'cmake'}
+[1.221720] (robotx_cv) Command: {'cmd': ['/usr/bin/cmake', '/home/soar-uwu/RobotX-2026/src/robotx_cv', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/soar-uwu/RobotX-2026/install/robotx_cv'], 'cwd': '/home/soar-uwu/RobotX-2026/build/robotx_cv', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'soar-uwu'), ('SSH_CLIENT', '192.168.2.1 49824 22'), ('XDG_SESSION_TYPE', 'tty'), ('BUN_INSTALL', '/home/soar-uwu/.bun'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/soar-uwu/RobotX-2026/install/robotx_cv/lib:/home/soar-uwu/mavros_ws/install/mavros_extras/lib:/home/soar-uwu/mavros_ws/install/mavros/lib:/home/soar-uwu/mavros_ws/install/mavros_msgs/lib:/home/soar-uwu/mavros_ws/install/libmavconn/lib:/home/soar-uwu/lidar_ws/install/rslidar_msg/lib:/home/soar-uwu/ros2_ws/install/zed_components/lib:/home/soar-uwu/ros2_ws/install/robotx_cv/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.6/lib64:'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/soar-uwu'), ('OLDPWD', '/home/soar-uwu'), ('SSH_TTY', '/dev/pts/2'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/soar-uwu/RobotX-2026/install:/home/soar-uwu/mavros_ws/install:/home/soar-uwu/lidar_ws/install:/home/soar-uwu/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'soar-uwu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/soar-uwu/mavros_ws/install/mavlink/lib/aarch64-linux-gnu/pkgconfig:/home/soar-uwu/mavros_ws/install/mavlink/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '54'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/soar-uwu/.local/bin:/home/soar-uwu/.bun/bin:/opt/ros/humble/bin:/usr/local/cuda-12.6/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/soar-uwu/RobotX-2026/install/robotx_cv:/home/soar-uwu/RobotX-2026/install/blueboat:/home/soar-uwu/mavros_ws/install/mavros_extras:/home/soar-uwu/mavros_ws/install/mavros_examples:/home/soar-uwu/mavros_ws/install/mavros:/home/soar-uwu/mavros_ws/install/mavros_msgs:/home/soar-uwu/mavros_ws/install/libmavconn:/home/soar-uwu/lidar_ws/install/rslidar_sdk:/home/soar-uwu/lidar_ws/install/rslidar_msg:/home/soar-uwu/ros2_ws/install/zed_ros2:/home/soar-uwu/ros2_ws/install/zed_wrapper:/home/soar-uwu/ros2_ws/install/zed_debug:/home/soar-uwu/ros2_ws/install/zed_components:/home/soar-uwu/ros2_ws/install/robotx_cv:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/soar-uwu/RobotX-2026/build/robotx_cv'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.2.1 49824 192.168.2.5 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/soar-uwu/RobotX-2026/install/robotx_cv/local/lib/python3.10/dist-packages:/home/soar-uwu/RobotX-2026/install/blueboat/lib/python3.10/site-packages:/home/soar-uwu/mavros_ws/install/mavros_extras/local/lib/python3.10/dist-packages:/home/soar-uwu/mavros_ws/install/mavros_examples/local/lib/python3.10/dist-packages:/home/soar-uwu/mavros_ws/install/mavros/local/lib/python3.10/dist-packages:/home/soar-uwu/mavros_ws/install/mavros_msgs/local/lib/python3.10/dist-packages:/home/soar-uwu/lidar_ws/install/rslidar_msg/local/lib/python3.10/dist-packages:/home/soar-uwu/ros2_ws/install/robotx_cv/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/soar-uwu/RobotX-2026/install/robotx_cv:/home/soar-uwu/mavros_ws/install/mavros_extras:/home/soar-uwu/mavros_ws/install/mavros_examples:/home/soar-uwu/mavros_ws/install/mavros:/home/soar-uwu/mavros_ws/install/mavros_msgs:/home/soar-uwu/mavros_ws/install/libmavconn:/home/soar-uwu/mavros_ws/install/mavlink:/home/soar-uwu/lidar_ws/install/rslidar_sdk:/home/soar-uwu/lidar_ws/install/rslidar_msg:/home/soar-uwu/ros2_ws/install/zed_ros2:/home/soar-uwu/ros2_ws/install/zed_wrapper:/home/soar-uwu/ros2_ws/install/zed_debug:/home/soar-uwu/ros2_ws/install/zed_components:/home/soar-uwu/ros2_ws/install/robotx_cv:/home/soar-uwu/RobotX-2026/install/blueboat:/opt/ros/humble')]), 'shell': False}
+[1.270750] (robotx_cv) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.331514] (-) TimerEvent: {}
+[1.432144] (-) TimerEvent: {}
+[1.532768] (-) TimerEvent: {}
+[1.633459] (-) TimerEvent: {}
+[1.734577] (-) TimerEvent: {}
+[1.835298] (-) TimerEvent: {}
+[1.933464] (robotx_cv) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[1.935422] (-) TimerEvent: {}
+[1.989335] (robotx_cv) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.1 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[2.001872] (robotx_cv) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.010823] (robotx_cv) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.9 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[2.035590] (-) TimerEvent: {}
+[2.136185] (-) TimerEvent: {}
+[2.159592] (robotx_cv) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.236345] (-) TimerEvent: {}
+[2.337069] (-) TimerEvent: {}
+[2.354656] (robotx_cv) StdoutLine: {'line': b'-- Found geometry_msgs: 4.9.2 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[2.437217] (-) TimerEvent: {}
+[2.446258] (robotx_cv) StdoutLine: {'line': b'-- Found vision_msgs: 4.1.1 (/opt/ros/humble/share/vision_msgs/cmake)\n'}
+[2.537885] (-) TimerEvent: {}
+[2.638475] (-) TimerEvent: {}
+[2.739351] (-) TimerEvent: {}
+[2.843495] (-) TimerEvent: {}
+[2.944358] (-) TimerEvent: {}
+[3.045263] (-) TimerEvent: {}
+[3.147032] (-) TimerEvent: {}
+[3.248413] (-) TimerEvent: {}
+[3.349219] (-) TimerEvent: {}
+[3.449943] (-) TimerEvent: {}
+[3.550548] (-) TimerEvent: {}
+[3.651149] (-) TimerEvent: {}
+[3.752129] (-) TimerEvent: {}
+[3.852694] (-) TimerEvent: {}
+[3.953324] (-) TimerEvent: {}
+[4.053949] (-) TimerEvent: {}
+[4.126313] (robotx_cv) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.1 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[4.155831] (-) TimerEvent: {}
+[4.256984] (-) TimerEvent: {}
+[4.358845] (-) TimerEvent: {}
+[4.459457] (-) TimerEvent: {}
+[4.560126] (-) TimerEvent: {}
+[4.660752] (-) TimerEvent: {}
+[4.761384] (-) TimerEvent: {}
+[4.862024] (-) TimerEvent: {}
+[4.962787] (-) TimerEvent: {}
+[5.063403] (-) TimerEvent: {}
+[5.165148] (-) TimerEvent: {}
+[5.275662] (blueboat) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/soar-uwu/RobotX-2026/build/blueboat/build', '--no-deps', 'symlink_data', '--force'], 'cwd': '/home/soar-uwu/RobotX-2026/build/blueboat', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'soar-uwu'), ('SSH_CLIENT', '192.168.2.1 49824 22'), ('XDG_SESSION_TYPE', 'tty'), ('BUN_INSTALL', '/home/soar-uwu/.bun'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/soar-uwu/RobotX-2026/install/robotx_cv/lib:/home/soar-uwu/mavros_ws/install/mavros_extras/lib:/home/soar-uwu/mavros_ws/install/mavros/lib:/home/soar-uwu/mavros_ws/install/mavros_msgs/lib:/home/soar-uwu/mavros_ws/install/libmavconn/lib:/home/soar-uwu/lidar_ws/install/rslidar_msg/lib:/home/soar-uwu/ros2_ws/install/zed_components/lib:/home/soar-uwu/ros2_ws/install/robotx_cv/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.6/lib64:'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/soar-uwu'), ('OLDPWD', '/home/soar-uwu'), ('SSH_TTY', '/dev/pts/2'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/soar-uwu/RobotX-2026/install:/home/soar-uwu/mavros_ws/install:/home/soar-uwu/lidar_ws/install:/home/soar-uwu/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'soar-uwu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/soar-uwu/mavros_ws/install/mavlink/lib/aarch64-linux-gnu/pkgconfig:/home/soar-uwu/mavros_ws/install/mavlink/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '54'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/soar-uwu/.local/bin:/home/soar-uwu/.bun/bin:/opt/ros/humble/bin:/usr/local/cuda-12.6/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/soar-uwu/RobotX-2026/install/robotx_cv:/home/soar-uwu/RobotX-2026/install/blueboat:/home/soar-uwu/mavros_ws/install/mavros_extras:/home/soar-uwu/mavros_ws/install/mavros_examples:/home/soar-uwu/mavros_ws/install/mavros:/home/soar-uwu/mavros_ws/install/mavros_msgs:/home/soar-uwu/mavros_ws/install/libmavconn:/home/soar-uwu/lidar_ws/install/rslidar_sdk:/home/soar-uwu/lidar_ws/install/rslidar_msg:/home/soar-uwu/ros2_ws/install/zed_ros2:/home/soar-uwu/ros2_ws/install/zed_wrapper:/home/soar-uwu/ros2_ws/install/zed_debug:/home/soar-uwu/ros2_ws/install/zed_components:/home/soar-uwu/ros2_ws/install/robotx_cv:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/soar-uwu/RobotX-2026/build/blueboat'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.2.1 49824 192.168.2.5 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/soar-uwu/RobotX-2026/build/blueboat/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/soar-uwu/RobotX-2026/install/blueboat/lib/python3.10/site-packages:/home/soar-uwu/RobotX-2026/install/robotx_cv/local/lib/python3.10/dist-packages:/home/soar-uwu/RobotX-2026/install/blueboat/lib/python3.10/site-packages:/home/soar-uwu/mavros_ws/install/mavros_extras/local/lib/python3.10/dist-packages:/home/soar-uwu/mavros_ws/install/mavros_examples/local/lib/python3.10/dist-packages:/home/soar-uwu/mavros_ws/install/mavros/local/lib/python3.10/dist-packages:/home/soar-uwu/mavros_ws/install/mavros_msgs/local/lib/python3.10/dist-packages:/home/soar-uwu/lidar_ws/install/rslidar_msg/local/lib/python3.10/dist-packages:/home/soar-uwu/ros2_ws/install/robotx_cv/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/soar-uwu/RobotX-2026/install/robotx_cv:/home/soar-uwu/mavros_ws/install/mavros_extras:/home/soar-uwu/mavros_ws/install/mavros_examples:/home/soar-uwu/mavros_ws/install/mavros:/home/soar-uwu/mavros_ws/install/mavros_msgs:/home/soar-uwu/mavros_ws/install/libmavconn:/home/soar-uwu/mavros_ws/install/mavlink:/home/soar-uwu/lidar_ws/install/rslidar_sdk:/home/soar-uwu/lidar_ws/install/rslidar_msg:/home/soar-uwu/ros2_ws/install/zed_ros2:/home/soar-uwu/ros2_ws/install/zed_wrapper:/home/soar-uwu/ros2_ws/install/zed_debug:/home/soar-uwu/ros2_ws/install/zed_components:/home/soar-uwu/ros2_ws/install/robotx_cv')]), 'shell': False}
+[5.277470] (-) TimerEvent: {}
+[5.378235] (-) TimerEvent: {}
+[5.433082] (robotx_cv) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[5.478383] (-) TimerEvent: {}
+[5.580007] (-) TimerEvent: {}
+[5.680640] (-) TimerEvent: {}
+[5.781617] (-) TimerEvent: {}
+[5.882486] (-) TimerEvent: {}
+[5.983396] (-) TimerEvent: {}
+[6.084780] (-) TimerEvent: {}
+[6.185420] (-) TimerEvent: {}
+[6.286144] (-) TimerEvent: {}
+[6.386772] (-) TimerEvent: {}
+[6.487385] (-) TimerEvent: {}
+[6.588031] (-) TimerEvent: {}
+[6.689025] (-) TimerEvent: {}
+[6.789607] (-) TimerEvent: {}
+[6.890231] (-) TimerEvent: {}
+[6.991096] (-) TimerEvent: {}
+[7.091685] (-) TimerEvent: {}
+[7.178154] (blueboat) StdoutLine: {'line': b'running develop\n'}
+[7.191837] (-) TimerEvent: {}
+[7.293241] (-) TimerEvent: {}
+[7.394388] (-) TimerEvent: {}
+[7.497836] (-) TimerEvent: {}
+[7.598843] (-) TimerEvent: {}
+[7.699472] (-) TimerEvent: {}
+[7.756939] (blueboat) StdoutLine: {'line': b'running egg_info\n'}
+[7.760812] (blueboat) StdoutLine: {'line': b'writing blueboat.egg-info/PKG-INFO\n'}
+[7.761295] (blueboat) StdoutLine: {'line': b'writing dependency_links to blueboat.egg-info/dependency_links.txt\n'}
+[7.761493] (blueboat) StdoutLine: {'line': b'writing entry points to blueboat.egg-info/entry_points.txt\n'}
+[7.761670] (blueboat) StdoutLine: {'line': b'writing requirements to blueboat.egg-info/requires.txt\n'}
+[7.761839] (blueboat) StdoutLine: {'line': b'writing top-level names to blueboat.egg-info/top_level.txt\n'}
+[7.765647] (blueboat) StdoutLine: {'line': b"reading manifest file 'blueboat.egg-info/SOURCES.txt'\n"}
+[7.766460] (blueboat) StdoutLine: {'line': b"writing manifest file 'blueboat.egg-info/SOURCES.txt'\n"}
+[7.799607] (-) TimerEvent: {}
+[7.900526] (-) TimerEvent: {}
+[7.930757] (robotx_cv) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[8.000697] (-) TimerEvent: {}
+[8.023133] (blueboat) StdoutLine: {'line': b'running build_ext\n'}
+[8.024705] (blueboat) StdoutLine: {'line': b'Creating /home/soar-uwu/RobotX-2026/install/blueboat/lib/python3.10/site-packages/blueboat.egg-link (link to .)\n'}
+[8.028111] (blueboat) StdoutLine: {'line': b'Installing coord_list script to /home/soar-uwu/RobotX-2026/install/blueboat/lib/blueboat\n'}
+[8.031056] (blueboat) StdoutLine: {'line': b'Installing local_pub_one script to /home/soar-uwu/RobotX-2026/install/blueboat/lib/blueboat\n'}
+[8.034056] (blueboat) StdoutLine: {'line': b'Installing manual_control_teleop script to /home/soar-uwu/RobotX-2026/install/blueboat/lib/blueboat\n'}
+[8.037417] (blueboat) StdoutLine: {'line': b'Installing movement_recorder script to /home/soar-uwu/RobotX-2026/install/blueboat/lib/blueboat\n'}
+[8.039639] (blueboat) StdoutLine: {'line': b'Installing neopixel_light script to /home/soar-uwu/RobotX-2026/install/blueboat/lib/blueboat\n'}
+[8.041663] (blueboat) StdoutLine: {'line': b'Installing rov_programmer script to /home/soar-uwu/RobotX-2026/install/blueboat/lib/blueboat\n'}
+[8.043181] (robotx_cv) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[8.044232] (blueboat) StdoutLine: {'line': b'Installing rov_teleop script to /home/soar-uwu/RobotX-2026/install/blueboat/lib/blueboat\n'}
+[8.046056] (blueboat) StdoutLine: {'line': b'Installing rviz_mapper script to /home/soar-uwu/RobotX-2026/install/blueboat/lib/blueboat\n'}
+[8.048021] (blueboat) StdoutLine: {'line': b'Installing servo_test script to /home/soar-uwu/RobotX-2026/install/blueboat/lib/blueboat\n'}
+[8.060889] (blueboat) StdoutLine: {'line': b'Installing teleop_guided script to /home/soar-uwu/RobotX-2026/install/blueboat/lib/blueboat\n'}
+[8.064470] (blueboat) StdoutLine: {'line': b'\n'}
+[8.065301] (blueboat) StdoutLine: {'line': b'Installed /home/soar-uwu/RobotX-2026/build/blueboat\n'}
+[8.067428] (blueboat) StdoutLine: {'line': b'running symlink_data\n'}
+[8.068394] (blueboat) StdoutLine: {'line': b'symbolically linking /home/soar-uwu/RobotX-2026/build/blueboat/resource/blueboat -> /home/soar-uwu/RobotX-2026/install/blueboat/share/ament_index/resource_index/packages\n'}
+[8.069455] (blueboat) StdoutLine: {'line': b'symbolically linking /home/soar-uwu/RobotX-2026/build/blueboat/package.xml -> /home/soar-uwu/RobotX-2026/install/blueboat/share/blueboat\n'}
+[8.101591] (-) TimerEvent: {}
+[8.202804] (-) TimerEvent: {}
+[8.206796] (robotx_cv) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[8.207399] (robotx_cv) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[8.207679] (robotx_cv) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so\n'}
+[8.265496] (blueboat) CommandEnded: {'returncode': 0}
+[8.313191] (-) TimerEvent: {}
+[8.383549] (blueboat) JobEnded: {'identifier': 'blueboat', 'rc': 0}
+[8.413353] (-) TimerEvent: {}
+[8.514208] (-) TimerEvent: {}
+[8.614800] (-) TimerEvent: {}
+[8.716114] (-) TimerEvent: {}
+[8.817721] (-) TimerEvent: {}
+[8.847546] (robotx_cv) StdoutLine: {'line': b'-- Configuring done\n'}
+[8.917876] (-) TimerEvent: {}
+[9.018427] (-) TimerEvent: {}
+[9.036446] (robotx_cv) StdoutLine: {'line': b'-- Generating done\n'}
+[9.118922] (-) TimerEvent: {}
+[9.150880] (robotx_cv) StdoutLine: {'line': b'-- Build files have been written to: /home/soar-uwu/RobotX-2026/build/robotx_cv\n'}
+[9.184049] (robotx_cv) CommandEnded: {'returncode': 0}
+[9.185156] (robotx_cv) JobProgress: {'identifier': 'robotx_cv', 'progress': 'build'}
+[9.185240] (robotx_cv) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/soar-uwu/RobotX-2026/build/robotx_cv', '--', '-j4', '-l4'], 'cwd': '/home/soar-uwu/RobotX-2026/build/robotx_cv', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'soar-uwu'), ('SSH_CLIENT', '192.168.2.1 49824 22'), ('XDG_SESSION_TYPE', 'tty'), ('BUN_INSTALL', '/home/soar-uwu/.bun'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/soar-uwu/RobotX-2026/install/robotx_cv/lib:/home/soar-uwu/mavros_ws/install/mavros_extras/lib:/home/soar-uwu/mavros_ws/install/mavros/lib:/home/soar-uwu/mavros_ws/install/mavros_msgs/lib:/home/soar-uwu/mavros_ws/install/libmavconn/lib:/home/soar-uwu/lidar_ws/install/rslidar_msg/lib:/home/soar-uwu/ros2_ws/install/zed_components/lib:/home/soar-uwu/ros2_ws/install/robotx_cv/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.6/lib64:'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/soar-uwu'), ('OLDPWD', '/home/soar-uwu'), ('SSH_TTY', '/dev/pts/2'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/soar-uwu/RobotX-2026/install:/home/soar-uwu/mavros_ws/install:/home/soar-uwu/lidar_ws/install:/home/soar-uwu/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'soar-uwu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/soar-uwu/mavros_ws/install/mavlink/lib/aarch64-linux-gnu/pkgconfig:/home/soar-uwu/mavros_ws/install/mavlink/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '54'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/soar-uwu/.local/bin:/home/soar-uwu/.bun/bin:/opt/ros/humble/bin:/usr/local/cuda-12.6/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/soar-uwu/RobotX-2026/install/robotx_cv:/home/soar-uwu/RobotX-2026/install/blueboat:/home/soar-uwu/mavros_ws/install/mavros_extras:/home/soar-uwu/mavros_ws/install/mavros_examples:/home/soar-uwu/mavros_ws/install/mavros:/home/soar-uwu/mavros_ws/install/mavros_msgs:/home/soar-uwu/mavros_ws/install/libmavconn:/home/soar-uwu/lidar_ws/install/rslidar_sdk:/home/soar-uwu/lidar_ws/install/rslidar_msg:/home/soar-uwu/ros2_ws/install/zed_ros2:/home/soar-uwu/ros2_ws/install/zed_wrapper:/home/soar-uwu/ros2_ws/install/zed_debug:/home/soar-uwu/ros2_ws/install/zed_components:/home/soar-uwu/ros2_ws/install/robotx_cv:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/soar-uwu/RobotX-2026/build/robotx_cv'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.2.1 49824 192.168.2.5 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/soar-uwu/RobotX-2026/install/robotx_cv/local/lib/python3.10/dist-packages:/home/soar-uwu/RobotX-2026/install/blueboat/lib/python3.10/site-packages:/home/soar-uwu/mavros_ws/install/mavros_extras/local/lib/python3.10/dist-packages:/home/soar-uwu/mavros_ws/install/mavros_examples/local/lib/python3.10/dist-packages:/home/soar-uwu/mavros_ws/install/mavros/local/lib/python3.10/dist-packages:/home/soar-uwu/mavros_ws/install/mavros_msgs/local/lib/python3.10/dist-packages:/home/soar-uwu/lidar_ws/install/rslidar_msg/local/lib/python3.10/dist-packages:/home/soar-uwu/ros2_ws/install/robotx_cv/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/soar-uwu/RobotX-2026/install/robotx_cv:/home/soar-uwu/mavros_ws/install/mavros_extras:/home/soar-uwu/mavros_ws/install/mavros_examples:/home/soar-uwu/mavros_ws/install/mavros:/home/soar-uwu/mavros_ws/install/mavros_msgs:/home/soar-uwu/mavros_ws/install/libmavconn:/home/soar-uwu/mavros_ws/install/mavlink:/home/soar-uwu/lidar_ws/install/rslidar_sdk:/home/soar-uwu/lidar_ws/install/rslidar_msg:/home/soar-uwu/ros2_ws/install/zed_ros2:/home/soar-uwu/ros2_ws/install/zed_wrapper:/home/soar-uwu/ros2_ws/install/zed_debug:/home/soar-uwu/ros2_ws/install/zed_components:/home/soar-uwu/ros2_ws/install/robotx_cv:/home/soar-uwu/RobotX-2026/install/blueboat:/opt/ros/humble')]), 'shell': False}
+[9.219090] (-) TimerEvent: {}
+[9.319794] (-) TimerEvent: {}
+[9.340181] (robotx_cv) StdoutLine: {'line': b'[  1%] Built target robotx_cv__rs\n'}
+[9.419900] (-) TimerEvent: {}
+[9.508137] (robotx_cv) StderrLine: {'line': b"failed to create symbolic link '/home/soar-uwu/RobotX-2026/build/robotx_cv/ament_cmake_python/robotx_cv/robotx_cv' because existing path cannot be removed: Is a directory\n"}
+[9.516527] (robotx_cv) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/ament_cmake_python_symlink_robotx_cv.dir/build.make:70: CMakeFiles/ament_cmake_python_symlink_robotx_cv] Error 1\n'}
+[9.521360] (-) TimerEvent: {}
+[9.529756] (robotx_cv) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:440: CMakeFiles/ament_cmake_python_symlink_robotx_cv.dir/all] Error 2\n'}
+[9.530190] (robotx_cv) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[9.530399] (robotx_cv) CommandEnded: {'returncode': 2}
+[9.591077] (robotx_cv) JobEnded: {'identifier': 'robotx_cv', 'rc': 2}
+[9.605809] (-) EventReactorShutdown: {}

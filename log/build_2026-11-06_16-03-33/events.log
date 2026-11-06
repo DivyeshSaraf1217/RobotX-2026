@@ -1,0 +1,360 @@
+[0.000000] (-) TimerEvent: {}
+[0.000953] (blueboat) JobQueued: {'identifier': 'blueboat', 'dependencies': OrderedDict()}
+[0.001486] (robotx_cv) JobQueued: {'identifier': 'robotx_cv', 'dependencies': OrderedDict()}
+[0.001620] (blueboat) JobStarted: {'identifier': 'blueboat'}
+[0.052120] (robotx_cv) JobStarted: {'identifier': 'robotx_cv'}
+[0.101223] (-) TimerEvent: {}
+[0.202148] (-) TimerEvent: {}
+[0.303323] (-) TimerEvent: {}
+[0.407908] (-) TimerEvent: {}
+[0.508564] (-) TimerEvent: {}
+[0.609332] (-) TimerEvent: {}
+[0.709927] (-) TimerEvent: {}
+[0.810771] (-) TimerEvent: {}
+[0.911569] (-) TimerEvent: {}
+[1.012234] (-) TimerEvent: {}
+[1.113465] (-) TimerEvent: {}
+[1.215256] (-) TimerEvent: {}
+[1.228805] (robotx_cv) JobProgress: {'identifier': 'robotx_cv', 'progress': 'cmake'}
+[1.231548] (robotx_cv) JobProgress: {'identifier': 'robotx_cv', 'progress': 'build'}
+[1.238167] (robotx_cv) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/soar-uwu/RobotX-2026/build/robotx_cv', '--', '-j4', '-l4'], 'cwd': '/home/soar-uwu/RobotX-2026/build/robotx_cv', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'soar-uwu'), ('SSH_CLIENT', '192.168.2.1 49824 22'), ('XDG_SESSION_TYPE', 'tty'), ('BUN_INSTALL', '/home/soar-uwu/.bun'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/soar-uwu/RobotX-2026/install/robotx_cv/lib:/home/soar-uwu/mavros_ws/install/mavros_extras/lib:/home/soar-uwu/mavros_ws/install/mavros/lib:/home/soar-uwu/mavros_ws/install/mavros_msgs/lib:/home/soar-uwu/mavros_ws/install/libmavconn/lib:/home/soar-uwu/lidar_ws/install/rslidar_msg/lib:/home/soar-uwu/ros2_ws/install/zed_components/lib:/home/soar-uwu/ros2_ws/install/robotx_cv/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.6/lib64:'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/soar-uwu'), ('OLDPWD', '/home/soar-uwu'), ('SSH_TTY', '/dev/pts/2'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/soar-uwu/RobotX-2026/install:/home/soar-uwu/mavros_ws/install:/home/soar-uwu/lidar_ws/install:/home/soar-uwu/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'soar-uwu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/soar-uwu/mavros_ws/install/mavlink/lib/aarch64-linux-gnu/pkgconfig:/home/soar-uwu/mavros_ws/install/mavlink/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '54'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/soar-uwu/.local/bin:/home/soar-uwu/.bun/bin:/opt/ros/humble/bin:/usr/local/cuda-12.6/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/soar-uwu/RobotX-2026/install/robotx_cv:/home/soar-uwu/RobotX-2026/install/blueboat:/home/soar-uwu/mavros_ws/install/mavros_extras:/home/soar-uwu/mavros_ws/install/mavros_examples:/home/soar-uwu/mavros_ws/install/mavros:/home/soar-uwu/mavros_ws/install/mavros_msgs:/home/soar-uwu/mavros_ws/install/libmavconn:/home/soar-uwu/lidar_ws/install/rslidar_sdk:/home/soar-uwu/lidar_ws/install/rslidar_msg:/home/soar-uwu/ros2_ws/install/zed_ros2:/home/soar-uwu/ros2_ws/install/zed_wrapper:/home/soar-uwu/ros2_ws/install/zed_debug:/home/soar-uwu/ros2_ws/install/zed_components:/home/soar-uwu/ros2_ws/install/robotx_cv:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/soar-uwu/RobotX-2026/build/robotx_cv'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.2.1 49824 192.168.2.5 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/soar-uwu/RobotX-2026/install/robotx_cv/local/lib/python3.10/dist-packages:/home/soar-uwu/RobotX-2026/install/blueboat/lib/python3.10/site-packages:/home/soar-uwu/mavros_ws/install/mavros_extras/local/lib/python3.10/dist-packages:/home/soar-uwu/mavros_ws/install/mavros_examples/local/lib/python3.10/dist-packages:/home/soar-uwu/mavros_ws/install/mavros/local/lib/python3.10/dist-packages:/home/soar-uwu/mavros_ws/install/mavros_msgs/local/lib/python3.10/dist-packages:/home/soar-uwu/lidar_ws/install/rslidar_msg/local/lib/python3.10/dist-packages:/home/soar-uwu/ros2_ws/install/robotx_cv/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/soar-uwu/RobotX-2026/install/robotx_cv:/home/soar-uwu/mavros_ws/install/mavros_extras:/home/soar-uwu/mavros_ws/install/mavros_examples:/home/soar-uwu/mavros_ws/install/mavros:/home/soar-uwu/mavros_ws/install/mavros_msgs:/home/soar-uwu/mavros_ws/install/libmavconn:/home/soar-uwu/mavros_ws/install/mavlink:/home/soar-uwu/lidar_ws/install/rslidar_sdk:/home/soar-uwu/lidar_ws/install/rslidar_msg:/home/soar-uwu/ros2_ws/install/zed_ros2:/home/soar-uwu/ros2_ws/install/zed_wrapper:/home/soar-uwu/ros2_ws/install/zed_debug:/home/soar-uwu/ros2_ws/install/zed_components:/home/soar-uwu/ros2_ws/install/robotx_cv:/home/soar-uwu/RobotX-2026/install/blueboat:/opt/ros/humble')]), 'shell': False}
+[1.315412] (-) TimerEvent: {}
+[1.416086] (-) TimerEvent: {}
+[1.516725] (-) TimerEvent: {}
+[1.623610] (-) TimerEvent: {}
+[1.637592] (robotx_cv) StdoutLine: {'line': b'[  1%] Built target robotx_cv__rs\n'}
+[1.723960] (-) TimerEvent: {}
+[1.825939] (-) TimerEvent: {}
+[1.926516] (-) TimerEvent: {}
+[1.959062] (robotx_cv) StdoutLine: {'line': b'[  1%] Built target ament_cmake_python_copy_robotx_cv\n'}
+[2.026673] (-) TimerEvent: {}
+[2.028832] (robotx_cv) StdoutLine: {'line': b'[  3%] Built target robotx_cv__cpp\n'}
+[2.126826] (-) TimerEvent: {}
+[2.227461] (-) TimerEvent: {}
+[2.328080] (-) TimerEvent: {}
+[2.428674] (-) TimerEvent: {}
+[2.529291] (-) TimerEvent: {}
+[2.630058] (-) TimerEvent: {}
+[2.731103] (-) TimerEvent: {}
+[2.831718] (-) TimerEvent: {}
+[2.932357] (-) TimerEvent: {}
+[3.032985] (-) TimerEvent: {}
+[3.137951] (-) TimerEvent: {}
+[3.240157] (-) TimerEvent: {}
+[3.340961] (-) TimerEvent: {}
+[3.441610] (-) TimerEvent: {}
+[3.542203] (-) TimerEvent: {}
+[3.642771] (-) TimerEvent: {}
+[3.743396] (-) TimerEvent: {}
+[3.844304] (-) TimerEvent: {}
+[3.921936] (robotx_cv) StdoutLine: {'line': b'running egg_info\n'}
+[3.923619] (robotx_cv) StdoutLine: {'line': b'writing robotx_cv.egg-info/PKG-INFO\n'}
+[3.927600] (robotx_cv) StdoutLine: {'line': b'writing dependency_links to robotx_cv.egg-info/dependency_links.txt\n'}
+[3.928023] (robotx_cv) StdoutLine: {'line': b'writing top-level names to robotx_cv.egg-info/top_level.txt\n'}
+[3.942342] (robotx_cv) StdoutLine: {'line': b"reading manifest file 'robotx_cv.egg-info/SOURCES.txt'\n"}
+[3.944437] (-) TimerEvent: {}
+[3.958075] (robotx_cv) StdoutLine: {'line': b"writing manifest file 'robotx_cv.egg-info/SOURCES.txt'\n"}
+[4.044606] (-) TimerEvent: {}
+[4.078629] (blueboat) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/blueboat', 'build', '--build-base', '/home/soar-uwu/RobotX-2026/build/blueboat/build', 'install', '--record', '/home/soar-uwu/RobotX-2026/build/blueboat/install.log', '--install-scripts', '$base/lib/blueboat', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/soar-uwu/RobotX-2026/src/blueboat', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'soar-uwu'), ('SSH_CLIENT', '192.168.2.1 49824 22'), ('XDG_SESSION_TYPE', 'tty'), ('BUN_INSTALL', '/home/soar-uwu/.bun'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/soar-uwu/RobotX-2026/install/robotx_cv/lib:/home/soar-uwu/mavros_ws/install/mavros_extras/lib:/home/soar-uwu/mavros_ws/install/mavros/lib:/home/soar-uwu/mavros_ws/install/mavros_msgs/lib:/home/soar-uwu/mavros_ws/install/libmavconn/lib:/home/soar-uwu/lidar_ws/install/rslidar_msg/lib:/home/soar-uwu/ros2_ws/install/zed_components/lib:/home/soar-uwu/ros2_ws/install/robotx_cv/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.6/lib64:'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/soar-uwu'), ('OLDPWD', '/home/soar-uwu'), ('SSH_TTY', '/dev/pts/2'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/soar-uwu/RobotX-2026/install:/home/soar-uwu/mavros_ws/install:/home/soar-uwu/lidar_ws/install:/home/soar-uwu/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'soar-uwu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/soar-uwu/mavros_ws/install/mavlink/lib/aarch64-linux-gnu/pkgconfig:/home/soar-uwu/mavros_ws/install/mavlink/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '54'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/soar-uwu/.local/bin:/home/soar-uwu/.bun/bin:/opt/ros/humble/bin:/usr/local/cuda-12.6/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/soar-uwu/RobotX-2026/install/robotx_cv:/home/soar-uwu/RobotX-2026/install/blueboat:/home/soar-uwu/mavros_ws/install/mavros_extras:/home/soar-uwu/mavros_ws/install/mavros_examples:/home/soar-uwu/mavros_ws/install/mavros:/home/soar-uwu/mavros_ws/install/mavros_msgs:/home/soar-uwu/mavros_ws/install/libmavconn:/home/soar-uwu/lidar_ws/install/rslidar_sdk:/home/soar-uwu/lidar_ws/install/rslidar_msg:/home/soar-uwu/ros2_ws/install/zed_ros2:/home/soar-uwu/ros2_ws/install/zed_wrapper:/home/soar-uwu/ros2_ws/install/zed_debug:/home/soar-uwu/ros2_ws/install/zed_components:/home/soar-uwu/ros2_ws/install/robotx_cv:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/soar-uwu/RobotX-2026/build/blueboat'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.2.1 49824 192.168.2.5 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/soar-uwu/RobotX-2026/build/blueboat/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/soar-uwu/RobotX-2026/install/blueboat/lib/python3.10/site-packages:/home/soar-uwu/RobotX-2026/install/robotx_cv/local/lib/python3.10/dist-packages:/home/soar-uwu/RobotX-2026/install/blueboat/lib/python3.10/site-packages:/home/soar-uwu/mavros_ws/install/mavros_extras/local/lib/python3.10/dist-packages:/home/soar-uwu/mavros_ws/install/mavros_examples/local/lib/python3.10/dist-packages:/home/soar-uwu/mavros_ws/install/mavros/local/lib/python3.10/dist-packages:/home/soar-uwu/mavros_ws/install/mavros_msgs/local/lib/python3.10/dist-packages:/home/soar-uwu/lidar_ws/install/rslidar_msg/local/lib/python3.10/dist-packages:/home/soar-uwu/ros2_ws/install/robotx_cv/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/soar-uwu/RobotX-2026/install/robotx_cv:/home/soar-uwu/mavros_ws/install/mavros_extras:/home/soar-uwu/mavros_ws/install/mavros_examples:/home/soar-uwu/mavros_ws/install/mavros:/home/soar-uwu/mavros_ws/install/mavros_msgs:/home/soar-uwu/mavros_ws/install/libmavconn:/home/soar-uwu/mavros_ws/install/mavlink:/home/soar-uwu/lidar_ws/install/rslidar_sdk:/home/soar-uwu/lidar_ws/install/rslidar_msg:/home/soar-uwu/ros2_ws/install/zed_ros2:/home/soar-uwu/ros2_ws/install/zed_wrapper:/home/soar-uwu/ros2_ws/install/zed_debug:/home/soar-uwu/ros2_ws/install/zed_components:/home/soar-uwu/ros2_ws/install/robotx_cv')]), 'shell': False}
+[4.144948] (-) TimerEvent: {}
+[4.153261] (robotx_cv) StdoutLine: {'line': b'[  3%] Built target ament_cmake_python_build_robotx_cv_egg\n'}
+[4.245679] (-) TimerEvent: {}
+[4.260283] (robotx_cv) StdoutLine: {'line': b'[ 14%] Built target robotx_cv__rosidl_typesupport_introspection_cpp\n'}
+[4.345811] (-) TimerEvent: {}
+[4.446449] (-) TimerEvent: {}
+[4.547533] (-) TimerEvent: {}
+[4.592579] (robotx_cv) StdoutLine: {'line': b'[ 25%] Built target robotx_cv__rosidl_typesupport_cpp\n'}
+[4.647641] (-) TimerEvent: {}
+[4.748724] (-) TimerEvent: {}
+[4.806449] (robotx_cv) StdoutLine: {'line': b'[ 35%] Built target robotx_cv__rosidl_typesupport_fastrtps_cpp\n'}
+[4.848878] (-) TimerEvent: {}
+[4.949622] (-) TimerEvent: {}
+[4.978384] (robotx_cv) StdoutLine: {'line': b'[ 46%] Built target robotx_cv__rosidl_generator_c\n'}
+[5.049804] (-) TimerEvent: {}
+[5.150611] (-) TimerEvent: {}
+[5.251277] (-) TimerEvent: {}
+[5.335463] (robotx_cv) StdoutLine: {'line': b'[ 57%] Built target robotx_cv__rosidl_typesupport_fastrtps_c\n'}
+[5.351418] (-) TimerEvent: {}
+[5.452085] (-) TimerEvent: {}
+[5.482781] (robotx_cv) StdoutLine: {'line': b'[ 67%] Built target robotx_cv__rosidl_typesupport_c\n'}
+[5.552245] (-) TimerEvent: {}
+[5.654207] (-) TimerEvent: {}
+[5.751905] (robotx_cv) StdoutLine: {'line': b'[ 78%] Built target robotx_cv__rosidl_typesupport_introspection_c\n'}
+[5.754358] (-) TimerEvent: {}
+[5.855166] (-) TimerEvent: {}
+[5.955995] (-) TimerEvent: {}
+[5.960627] (robotx_cv) StdoutLine: {'line': b'[ 78%] Built target robotx_cv\n'}
+[6.056129] (-) TimerEvent: {}
+[6.094950] (robotx_cv) StdoutLine: {'line': b'[ 80%] Built target robotx_cv__py\n'}
+[6.156283] (-) TimerEvent: {}
+[6.258131] (-) TimerEvent: {}
+[6.269699] (robotx_cv) StdoutLine: {'line': b'[ 89%] Built target robotx_cv__rosidl_generator_py\n'}
+[6.334908] (robotx_cv) StdoutLine: {'line': b'[ 92%] Built target robotx_cv__rosidl_typesupport_fastrtps_c__pyext\n'}
+[6.358267] (-) TimerEvent: {}
+[6.446395] (robotx_cv) StdoutLine: {'line': b'[ 96%] Built target robotx_cv__rosidl_typesupport_c__pyext\n'}
+[6.458455] (-) TimerEvent: {}
+[6.559025] (-) TimerEvent: {}
+[6.625420] (robotx_cv) StdoutLine: {'line': b'[100%] Built target robotx_cv__rosidl_typesupport_introspection_c__pyext\n'}
+[6.628500] (blueboat) StdoutLine: {'line': b'running egg_info\n'}
+[6.649465] (blueboat) StdoutLine: {'line': b'writing ../../build/blueboat/blueboat.egg-info/PKG-INFO\n'}
+[6.650150] (blueboat) StdoutLine: {'line': b'writing dependency_links to ../../build/blueboat/blueboat.egg-info/dependency_links.txt\n'}
+[6.651338] (blueboat) StdoutLine: {'line': b'writing entry points to ../../build/blueboat/blueboat.egg-info/entry_points.txt\n'}
+[6.652596] (blueboat) StdoutLine: {'line': b'writing requirements to ../../build/blueboat/blueboat.egg-info/requires.txt\n'}
+[6.652970] (blueboat) StdoutLine: {'line': b'writing top-level names to ../../build/blueboat/blueboat.egg-info/top_level.txt\n'}
+[6.659181] (-) TimerEvent: {}
+[6.664814] (blueboat) StdoutLine: {'line': b"reading manifest file '../../build/blueboat/blueboat.egg-info/SOURCES.txt'\n"}
+[6.678362] (blueboat) StdoutLine: {'line': b"writing manifest file '../../build/blueboat/blueboat.egg-info/SOURCES.txt'\n"}
+[6.683111] (blueboat) StdoutLine: {'line': b'running build\n'}
+[6.683717] (blueboat) StdoutLine: {'line': b'running build_py\n'}
+[6.684385] (blueboat) StdoutLine: {'line': b'copying blueboat/servo_test.py -> /home/soar-uwu/RobotX-2026/build/blueboat/build/lib/blueboat\n'}
+[6.710494] (blueboat) StdoutLine: {'line': b'running install\n'}
+[6.712268] (blueboat) StdoutLine: {'line': b'running install_lib\n'}
+[6.727021] (robotx_cv) CommandEnded: {'returncode': 0}
+[6.730318] (robotx_cv) JobProgress: {'identifier': 'robotx_cv', 'progress': 'install'}
+[6.730453] (blueboat) StdoutLine: {'line': b'copying /home/soar-uwu/RobotX-2026/build/blueboat/build/lib/blueboat/servo_test.py -> /home/soar-uwu/RobotX-2026/install/blueboat/lib/python3.10/site-packages/blueboat\n'}
+[6.730765] (blueboat) StdoutLine: {'line': b'byte-compiling /home/soar-uwu/RobotX-2026/install/blueboat/lib/python3.10/site-packages/blueboat/servo_test.py to servo_test.cpython-310.pyc\n'}
+[6.730951] (blueboat) StdoutLine: {'line': b'running install_data\n'}
+[6.740426] (blueboat) StdoutLine: {'line': b'running install_egg_info\n'}
+[6.761761] (-) TimerEvent: {}
+[6.777878] (blueboat) StdoutLine: {'line': b"removing '/home/soar-uwu/RobotX-2026/install/blueboat/lib/python3.10/site-packages/blueboat-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[6.778488] (blueboat) StdoutLine: {'line': b'Copying ../../build/blueboat/blueboat.egg-info to /home/soar-uwu/RobotX-2026/install/blueboat/lib/python3.10/site-packages/blueboat-0.0.0-py3.10.egg-info\n'}
+[6.797490] (blueboat) StdoutLine: {'line': b'running install_scripts\n'}
+[6.838102] (robotx_cv) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/soar-uwu/RobotX-2026/build/robotx_cv'], 'cwd': '/home/soar-uwu/RobotX-2026/build/robotx_cv', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'soar-uwu'), ('SSH_CLIENT', '192.168.2.1 49824 22'), ('XDG_SESSION_TYPE', 'tty'), ('BUN_INSTALL', '/home/soar-uwu/.bun'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/soar-uwu/RobotX-2026/install/robotx_cv/lib:/home/soar-uwu/mavros_ws/install/mavros_extras/lib:/home/soar-uwu/mavros_ws/install/mavros/lib:/home/soar-uwu/mavros_ws/install/mavros_msgs/lib:/home/soar-uwu/mavros_ws/install/libmavconn/lib:/home/soar-uwu/lidar_ws/install/rslidar_msg/lib:/home/soar-uwu/ros2_ws/install/zed_components/lib:/home/soar-uwu/ros2_ws/install/robotx_cv/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.6/lib64:'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/soar-uwu'), ('OLDPWD', '/home/soar-uwu'), ('SSH_TTY', '/dev/pts/2'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/soar-uwu/RobotX-2026/install:/home/soar-uwu/mavros_ws/install:/home/soar-uwu/lidar_ws/install:/home/soar-uwu/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'soar-uwu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/soar-uwu/mavros_ws/install/mavlink/lib/aarch64-linux-gnu/pkgconfig:/home/soar-uwu/mavros_ws/install/mavlink/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '54'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/soar-uwu/.local/bin:/home/soar-uwu/.bun/bin:/opt/ros/humble/bin:/usr/local/cuda-12.6/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/soar-uwu/RobotX-2026/install/robotx_cv:/home/soar-uwu/RobotX-2026/install/blueboat:/home/soar-uwu/mavros_ws/install/mavros_extras:/home/soar-uwu/mavros_ws/install/mavros_examples:/home/soar-uwu/mavros_ws/install/mavros:/home/soar-uwu/mavros_ws/install/mavros_msgs:/home/soar-uwu/mavros_ws/install/libmavconn:/home/soar-uwu/lidar_ws/install/rslidar_sdk:/home/soar-uwu/lidar_ws/install/rslidar_msg:/home/soar-uwu/ros2_ws/install/zed_ros2:/home/soar-uwu/ros2_ws/install/zed_wrapper:/home/soar-uwu/ros2_ws/install/zed_debug:/home/soar-uwu/ros2_ws/install/zed_components:/home/soar-uwu/ros2_ws/install/robotx_cv:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/soar-uwu/RobotX-2026/build/robotx_cv'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.2.1 49824 192.168.2.5 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/soar-uwu/RobotX-2026/install/robotx_cv/local/lib/python3.10/dist-packages:/home/soar-uwu/RobotX-2026/install/blueboat/lib/python3.10/site-packages:/home/soar-uwu/mavros_ws/install/mavros_extras/local/lib/python3.10/dist-packages:/home/soar-uwu/mavros_ws/install/mavros_examples/local/lib/python3.10/dist-packages:/home/soar-uwu/mavros_ws/install/mavros/local/lib/python3.10/dist-packages:/home/soar-uwu/mavros_ws/install/mavros_msgs/local/lib/python3.10/dist-packages:/home/soar-uwu/lidar_ws/install/rslidar_msg/local/lib/python3.10/dist-packages:/home/soar-uwu/ros2_ws/install/robotx_cv/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/soar-uwu/RobotX-2026/install/robotx_cv:/home/soar-uwu/mavros_ws/install/mavros_extras:/home/soar-uwu/mavros_ws/install/mavros_examples:/home/soar-uwu/mavros_ws/install/mavros:/home/soar-uwu/mavros_ws/install/mavros_msgs:/home/soar-uwu/mavros_ws/install/libmavconn:/home/soar-uwu/mavros_ws/install/mavlink:/home/soar-uwu/lidar_ws/install/rslidar_sdk:/home/soar-uwu/lidar_ws/install/rslidar_msg:/home/soar-uwu/ros2_ws/install/zed_ros2:/home/soar-uwu/ros2_ws/install/zed_wrapper:/home/soar-uwu/ros2_ws/install/zed_debug:/home/soar-uwu/ros2_ws/install/zed_components:/home/soar-uwu/ros2_ws/install/robotx_cv:/home/soar-uwu/RobotX-2026/install/blueboat:/opt/ros/humble')]), 'shell': False}
+[6.861908] (-) TimerEvent: {}
+[6.921659] (robotx_cv) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[6.922401] (robotx_cv) StdoutLine: {'line': b'-- Up-to-date: /home/soar-uwu/RobotX-2026/install/robotx_cv/share/ament_index/resource_index/rosidl_interfaces/robotx_cv\n'}
+[6.927581] (robotx_cv) StdoutLine: {'line': b'-- Up-to-date: /home/soar-uwu/RobotX-2026/install/robotx_cv/include/robotx_cv/robotx_cv\n'}
+[6.928092] (robotx_cv) StdoutLine: {'line': b'-- Up-to-date: /home/soar-uwu/RobotX-2026/install/robotx_cv/include/robotx_cv/robotx_cv/msg\n'}
+[6.945564] (robotx_cv) StdoutLine: {'line': b'-- Up-to-date: /home/soar-uwu/RobotX-2026/install/robotx_cv/include/robotx_cv/robotx_cv/msg/rosidl_generator_c__visibility_control.h\n'}
+[6.946589] (robotx_cv) StdoutLine: {'line': b'-- Up-to-date: /home/soar-uwu/RobotX-2026/install/robotx_cv/include/robotx_cv/robotx_cv/msg/detail\n'}
+[6.948477] (robotx_cv) StdoutLine: {'line': b'-- Up-to-date: /home/soar-uwu/RobotX-2026/install/robotx_cv/include/robotx_cv/robotx_cv/msg/detail/detection__functions.c\n'}
+[6.949668] (robotx_cv) StdoutLine: {'line': b'-- Up-to-date: /home/soar-uwu/RobotX-2026/install/robotx_cv/include/robotx_cv/robotx_cv/msg/detail/detection__struct.h\n'}
+[6.952503] (robotx_cv) StdoutLine: {'line': b'-- Up-to-date: /home/soar-uwu/RobotX-2026/install/robotx_cv/include/robotx_cv/robotx_cv/msg/detail/object__functions.c\n'}
+[6.954661] (robotx_cv) StdoutLine: {'line': b'-- Up-to-date: /home/soar-uwu/RobotX-2026/install/robotx_cv/include/robotx_cv/robotx_cv/msg/detail/object_array__type_support.h\n'}
+[6.956279] (robotx_cv) StdoutLine: {'line': b'-- Up-to-date: /home/soar-uwu/RobotX-2026/install/robotx_cv/include/robotx_cv/robotx_cv/msg/detail/object__functions.h\n'}
+[6.959680] (robotx_cv) StdoutLine: {'line': b'-- Up-to-date: /home/soar-uwu/RobotX-2026/install/robotx_cv/include/robotx_cv/robotx_cv/msg/detail/detection_array__struct.h\n'}
+[6.960174] (robotx_cv) StdoutLine: {'line': b'-- Up-to-date: /home/soar-uwu/RobotX-2026/install/robotx_cv/include/robotx_cv/robotx_cv/msg/detail/detection_array__type_support.h\n'}
+[6.960443] (robotx_cv) StdoutLine: {'line': b'-- Up-to-date: /home/soar-uwu/RobotX-2026/install/robotx_cv/include/robotx_cv/robotx_cv/msg/detail/object__type_support.h\n'}
+[6.960815] (robotx_cv) StdoutLine: {'line': b'-- Up-to-date: /home/soar-uwu/RobotX-2026/install/robotx_cv/include/robotx_cv/robotx_cv/msg/detail/detection__functions.h\n'}
+[6.961398] (robotx_cv) StdoutLine: {'line': b'-- Up-to-date: /home/soar-uwu/RobotX-2026/install/robotx_cv/include/robotx_cv/robotx_cv/msg/detail/object_array__functions.c\n'}
+[6.961828] (robotx_cv) StdoutLine: {'line': b'-- Up-to-date: /home/soar-uwu/RobotX-2026/install/robotx_cv/include/robotx_cv/robotx_cv/msg/detail/detection__type_support.h\n'}
+[6.962028] (-) TimerEvent: {}
+[6.966085] (robotx_cv) StdoutLine: {'line': b'-- Up-to-date: /home/soar-uwu/RobotX-2026/install/robotx_cv/include/robotx_cv/robotx_cv/msg/detail/detection_array__functions.c\n'}
+[6.966490] (robotx_cv) StdoutLine: {'line': b'-- Up-to-date: /home/soar-uwu/RobotX-2026/install/robotx_cv/include/robotx_cv/robotx_cv/msg/detail/detection_array__functions.h\n'}
+[6.966681] (robotx_cv) StdoutLine: {'line': b'-- Up-to-date: /home/soar-uwu/RobotX-2026/install/robotx_cv/include/robotx_cv/robotx_cv/msg/detail/object_array__struct.h\n'}
+[6.967101] (robotx_cv) StdoutLine: {'line': b'-- Up-to-date: /home/soar-uwu/RobotX-2026/install/robotx_cv/include/robotx_cv/robotx_cv/msg/detail/object_array__functions.h\n'}
+[6.969854] (robotx_cv) StdoutLine: {'line': b'-- Up-to-date: /home/soar-uwu/RobotX-2026/install/robotx_cv/include/robotx_cv/robotx_cv/msg/detail/object__struct.h\n'}
+[6.970270] (robotx_cv) StdoutLine: {'line': b'-- Up-to-date: /home/soar-uwu/RobotX-2026/install/robotx_cv/include/robotx_cv/robotx_cv/msg/detection.h\n'}
+[6.970452] (robotx_cv) StdoutLine: {'line': b'-- Up-to-date: /home/soar-uwu/RobotX-2026/install/robotx_cv/include/robotx_cv/robotx_cv/msg/detection_array.h\n'}
+[6.972411] (robotx_cv) StdoutLine: {'line': b'-- Up-to-date: /home/soar-uwu/RobotX-2026/install/robotx_cv/include/robotx_cv/robotx_cv/msg/object.h\n'}
+[6.973016] (robotx_cv) StdoutLine: {'line': b'-- Up-to-date: /home/soar-uwu/RobotX-2026/install/robotx_cv/include/robotx_cv/robotx_cv/msg/object_array.h\n'}
+[6.978260] (robotx_cv) StdoutLine: {'line': b'-- Up-to-date: /home/soar-uwu/RobotX-2026/install/robotx_cv/share/robotx_cv/environment/library_path.sh\n'}
+[6.978705] (robotx_cv) StdoutLine: {'line': b'-- Up-to-date: /home/soar-uwu/RobotX-2026/install/robotx_cv/share/robotx_cv/environment/library_path.dsv\n'}
+[6.978894] (robotx_cv) StdoutLine: {'line': b'-- Up-to-date: /home/soar-uwu/RobotX-2026/install/robotx_cv/lib/librobotx_cv__rosidl_generator_c.so\n'}
+[6.982993] (robotx_cv) StdoutLine: {'line': b'-- Up-to-date: /home/soar-uwu/RobotX-2026/install/robotx_cv/include/robotx_cv/robotx_cv\n'}
+[6.983389] (robotx_cv) StdoutLine: {'line': b'-- Up-to-date: /home/soar-uwu/RobotX-2026/install/robotx_cv/include/robotx_cv/robotx_cv/msg\n'}
+[6.983589] (robotx_cv) StdoutLine: {'line': b'-- Up-to-date: /home/soar-uwu/RobotX-2026/install/robotx_cv/include/robotx_cv/robotx_cv/msg/detail\n'}
+[6.984788] (robotx_cv) StdoutLine: {'line': b'-- Up-to-date: /home/soar-uwu/RobotX-2026/install/robotx_cv/include/robotx_cv/robotx_cv/msg/detail/detection_array__rosidl_typesupport_fastrtps_c.h\n'}
+[6.985792] (robotx_cv) StdoutLine: {'line': b'-- Up-to-date: /home/soar-uwu/RobotX-2026/install/robotx_cv/include/robotx_cv/robotx_cv/msg/detail/detection__rosidl_typesupport_fastrtps_c.h\n'}
+[6.986509] (robotx_cv) StdoutLine: {'line': b'-- Up-to-date: /home/soar-uwu/RobotX-2026/install/robotx_cv/include/robotx_cv/robotx_cv/msg/detail/object__rosidl_typesupport_fastrtps_c.h\n'}
+[6.987665] (robotx_cv) StdoutLine: {'line': b'-- Up-to-date: /home/soar-uwu/RobotX-2026/install/robotx_cv/include/robotx_cv/robotx_cv/msg/detail/object_array__rosidl_typesupport_fastrtps_c.h\n'}
+[6.989185] (robotx_cv) StdoutLine: {'line': b'-- Up-to-date: /home/soar-uwu/RobotX-2026/install/robotx_cv/include/robotx_cv/robotx_cv/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[6.991547] (robotx_cv) StdoutLine: {'line': b'-- Up-to-date: /home/soar-uwu/RobotX-2026/install/robotx_cv/lib/librobotx_cv__rosidl_typesupport_fastrtps_c.so\n'}
+[6.991994] (robotx_cv) StdoutLine: {'line': b'-- Up-to-date: /home/soar-uwu/RobotX-2026/install/robotx_cv/include/robotx_cv/robotx_cv\n'}
+[6.992337] (robotx_cv) StdoutLine: {'line': b'-- Up-to-date: /home/soar-uwu/RobotX-2026/install/robotx_cv/include/robotx_cv/robotx_cv/msg\n'}
+[6.992567] (robotx_cv) StdoutLine: {'line': b'-- Up-to-date: /home/soar-uwu/RobotX-2026/install/robotx_cv/include/robotx_cv/robotx_cv/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[6.992753] (robotx_cv) StdoutLine: {'line': b'-- Up-to-date: /home/soar-uwu/RobotX-2026/install/robotx_cv/include/robotx_cv/robotx_cv/msg/detail\n'}
+[6.992919] (robotx_cv) StdoutLine: {'line': b'-- Up-to-date: /home/soar-uwu/RobotX-2026/install/robotx_cv/include/robotx_cv/robotx_cv/msg/detail/detection_array__type_support.c\n'}
+[6.993191] (robotx_cv) StdoutLine: {'line': b'-- Up-to-date: /home/soar-uwu/RobotX-2026/install/robotx_cv/include/robotx_cv/robotx_cv/msg/detail/detection__type_support.c\n'}
+[6.993406] (robotx_cv) StdoutLine: {'line': b'-- Up-to-date: /home/soar-uwu/RobotX-2026/install/robotx_cv/include/robotx_cv/robotx_cv/msg/detail/object__rosidl_typesupport_introspection_c.h\n'}
+[6.993569] (robotx_cv) StdoutLine: {'line': b'-- Up-to-date: /home/soar-uwu/RobotX-2026/install/robotx_cv/include/robotx_cv/robotx_cv/msg/detail/object_array__rosidl_typesupport_introspection_c.h\n'}
+[6.993724] (robotx_cv) StdoutLine: {'line': b'-- Up-to-date: /home/soar-uwu/RobotX-2026/install/robotx_cv/include/robotx_cv/robotx_cv/msg/detail/detection_array__rosidl_typesupport_introspection_c.h\n'}
+[6.993874] (robotx_cv) StdoutLine: {'line': b'-- Up-to-date: /home/soar-uwu/RobotX-2026/install/robotx_cv/include/robotx_cv/robotx_cv/msg/detail/detection__rosidl_typesupport_introspection_c.h\n'}
+[6.994043] (robotx_cv) StdoutLine: {'line': b'-- Up-to-date: /home/soar-uwu/RobotX-2026/install/robotx_cv/include/robotx_cv/robotx_cv/msg/detail/object__type_support.c\n'}
+[6.994199] (robotx_cv) StdoutLine: {'line': b'-- Up-to-date: /home/soar-uwu/RobotX-2026/install/robotx_cv/include/robotx_cv/robotx_cv/msg/detail/object_array__type_support.c\n'}
+[7.005771] (robotx_cv) StdoutLine: {'line': b'-- Up-to-date: /home/soar-uwu/RobotX-2026/install/robotx_cv/lib/librobotx_cv__rosidl_typesupport_introspection_c.so\n'}
+[7.010795] (blueboat) StdoutLine: {'line': b'Installing coord_list script to /home/soar-uwu/RobotX-2026/install/blueboat/lib/blueboat\n'}
+[7.011281] (blueboat) StdoutLine: {'line': b'Installing local_pub_one script to /home/soar-uwu/RobotX-2026/install/blueboat/lib/blueboat\n'}
+[7.011881] (blueboat) StdoutLine: {'line': b'Installing manual_control_teleop script to /home/soar-uwu/RobotX-2026/install/blueboat/lib/blueboat\n'}
+[7.012235] (blueboat) StdoutLine: {'line': b'Installing movement_recorder script to /home/soar-uwu/RobotX-2026/install/blueboat/lib/blueboat\n'}
+[7.012530] (blueboat) StdoutLine: {'line': b'Installing neopixel_light script to /home/soar-uwu/RobotX-2026/install/blueboat/lib/blueboat\n'}
+[7.012844] (blueboat) StdoutLine: {'line': b'Installing rov_programmer script to /home/soar-uwu/RobotX-2026/install/blueboat/lib/blueboat\n'}
+[7.013129] (blueboat) StdoutLine: {'line': b'Installing rov_teleop script to /home/soar-uwu/RobotX-2026/install/blueboat/lib/blueboat\n'}
+[7.013741] (blueboat) StdoutLine: {'line': b'Installing rviz_mapper script to /home/soar-uwu/RobotX-2026/install/blueboat/lib/blueboat\n'}
+[7.014009] (blueboat) StdoutLine: {'line': b'Installing servo_test script to /home/soar-uwu/RobotX-2026/install/blueboat/lib/blueboat\n'}
+[7.014897] (blueboat) StdoutLine: {'line': b'Installing teleop_guided script to /home/soar-uwu/RobotX-2026/install/blueboat/lib/blueboat\n'}
+[7.015305] (blueboat) StdoutLine: {'line': b"writing list of installed files to '/home/soar-uwu/RobotX-2026/build/blueboat/install.log'\n"}
+[7.018333] (robotx_cv) StdoutLine: {'line': b'-- Up-to-date: /home/soar-uwu/RobotX-2026/install/robotx_cv/lib/librobotx_cv__rosidl_typesupport_c.so\n'}
+[7.024757] (robotx_cv) StdoutLine: {'line': b'-- Up-to-date: /home/soar-uwu/RobotX-2026/install/robotx_cv/include/robotx_cv/robotx_cv\n'}
+[7.025165] (robotx_cv) StdoutLine: {'line': b'-- Up-to-date: /home/soar-uwu/RobotX-2026/install/robotx_cv/include/robotx_cv/robotx_cv/msg\n'}
+[7.025355] (robotx_cv) StdoutLine: {'line': b'-- Up-to-date: /home/soar-uwu/RobotX-2026/install/robotx_cv/include/robotx_cv/robotx_cv/msg/object.hpp\n'}
+[7.025568] (robotx_cv) StdoutLine: {'line': b'-- Up-to-date: /home/soar-uwu/RobotX-2026/install/robotx_cv/include/robotx_cv/robotx_cv/msg/detection_array.hpp\n'}
+[7.025750] (robotx_cv) StdoutLine: {'line': b'-- Up-to-date: /home/soar-uwu/RobotX-2026/install/robotx_cv/include/robotx_cv/robotx_cv/msg/detection.hpp\n'}
+[7.025913] (robotx_cv) StdoutLine: {'line': b'-- Up-to-date: /home/soar-uwu/RobotX-2026/install/robotx_cv/include/robotx_cv/robotx_cv/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[7.026076] (robotx_cv) StdoutLine: {'line': b'-- Up-to-date: /home/soar-uwu/RobotX-2026/install/robotx_cv/include/robotx_cv/robotx_cv/msg/object_array.hpp\n'}
+[7.026269] (robotx_cv) StdoutLine: {'line': b'-- Up-to-date: /home/soar-uwu/RobotX-2026/install/robotx_cv/include/robotx_cv/robotx_cv/msg/detail\n'}
+[7.026420] (robotx_cv) StdoutLine: {'line': b'-- Up-to-date: /home/soar-uwu/RobotX-2026/install/robotx_cv/include/robotx_cv/robotx_cv/msg/detail/detection__type_support.hpp\n'}
+[7.028035] (robotx_cv) StdoutLine: {'line': b'-- Up-to-date: /home/soar-uwu/RobotX-2026/install/robotx_cv/include/robotx_cv/robotx_cv/msg/detail/object_array__struct.hpp\n'}
+[7.028423] (robotx_cv) StdoutLine: {'line': b'-- Up-to-date: /home/soar-uwu/RobotX-2026/install/robotx_cv/include/robotx_cv/robotx_cv/msg/detail/object_array__traits.hpp\n'}
+[7.028604] (robotx_cv) StdoutLine: {'line': b'-- Up-to-date: /home/soar-uwu/RobotX-2026/install/robotx_cv/include/robotx_cv/robotx_cv/msg/detail/object__struct.hpp\n'}
+[7.028764] (robotx_cv) StdoutLine: {'line': b'-- Up-to-date: /home/soar-uwu/RobotX-2026/install/robotx_cv/include/robotx_cv/robotx_cv/msg/detail/detection__struct.hpp\n'}
+[7.028919] (robotx_cv) StdoutLine: {'line': b'-- Up-to-date: /home/soar-uwu/RobotX-2026/install/robotx_cv/include/robotx_cv/robotx_cv/msg/detail/object_array__type_support.hpp\n'}
+[7.029103] (robotx_cv) StdoutLine: {'line': b'-- Up-to-date: /home/soar-uwu/RobotX-2026/install/robotx_cv/include/robotx_cv/robotx_cv/msg/detail/object__traits.hpp\n'}
+[7.029255] (robotx_cv) StdoutLine: {'line': b'-- Up-to-date: /home/soar-uwu/RobotX-2026/install/robotx_cv/include/robotx_cv/robotx_cv/msg/detail/object_array__builder.hpp\n'}
+[7.030135] (robotx_cv) StdoutLine: {'line': b'-- Up-to-date: /home/soar-uwu/RobotX-2026/install/robotx_cv/include/robotx_cv/robotx_cv/msg/detail/detection_array__type_support.hpp\n'}
+[7.030655] (robotx_cv) StdoutLine: {'line': b'-- Up-to-date: /home/soar-uwu/RobotX-2026/install/robotx_cv/include/robotx_cv/robotx_cv/msg/detail/detection_array__struct.hpp\n'}
+[7.030954] (robotx_cv) StdoutLine: {'line': b'-- Up-to-date: /home/soar-uwu/RobotX-2026/install/robotx_cv/include/robotx_cv/robotx_cv/msg/detail/detection_array__traits.hpp\n'}
+[7.031167] (robotx_cv) StdoutLine: {'line': b'-- Up-to-date: /home/soar-uwu/RobotX-2026/install/robotx_cv/include/robotx_cv/robotx_cv/msg/detail/detection__builder.hpp\n'}
+[7.032556] (robotx_cv) StdoutLine: {'line': b'-- Up-to-date: /home/soar-uwu/RobotX-2026/install/robotx_cv/include/robotx_cv/robotx_cv/msg/detail/detection__traits.hpp\n'}
+[7.033681] (robotx_cv) StdoutLine: {'line': b'-- Up-to-date: /home/soar-uwu/RobotX-2026/install/robotx_cv/include/robotx_cv/robotx_cv/msg/detail/object__type_support.hpp\n'}
+[7.034099] (robotx_cv) StdoutLine: {'line': b'-- Up-to-date: /home/soar-uwu/RobotX-2026/install/robotx_cv/include/robotx_cv/robotx_cv/msg/detail/object__builder.hpp\n'}
+[7.034336] (robotx_cv) StdoutLine: {'line': b'-- Up-to-date: /home/soar-uwu/RobotX-2026/install/robotx_cv/include/robotx_cv/robotx_cv/msg/detail/detection_array__builder.hpp\n'}
+[7.036111] (robotx_cv) StdoutLine: {'line': b'-- Up-to-date: /home/soar-uwu/RobotX-2026/install/robotx_cv/include/robotx_cv/robotx_cv\n'}
+[7.036516] (robotx_cv) StdoutLine: {'line': b'-- Up-to-date: /home/soar-uwu/RobotX-2026/install/robotx_cv/include/robotx_cv/robotx_cv/msg\n'}
+[7.037509] (robotx_cv) StdoutLine: {'line': b'-- Up-to-date: /home/soar-uwu/RobotX-2026/install/robotx_cv/include/robotx_cv/robotx_cv/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[7.037829] (robotx_cv) StdoutLine: {'line': b'-- Up-to-date: /home/soar-uwu/RobotX-2026/install/robotx_cv/include/robotx_cv/robotx_cv/msg/detail\n'}
+[7.038734] (robotx_cv) StdoutLine: {'line': b'-- Up-to-date: /home/soar-uwu/RobotX-2026/install/robotx_cv/include/robotx_cv/robotx_cv/msg/detail/object_array__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[7.039377] (robotx_cv) StdoutLine: {'line': b'-- Up-to-date: /home/soar-uwu/RobotX-2026/install/robotx_cv/include/robotx_cv/robotx_cv/msg/detail/detection_array__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[7.040229] (robotx_cv) StdoutLine: {'line': b'-- Up-to-date: /home/soar-uwu/RobotX-2026/install/robotx_cv/include/robotx_cv/robotx_cv/msg/detail/object__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[7.041887] (robotx_cv) StdoutLine: {'line': b'-- Up-to-date: /home/soar-uwu/RobotX-2026/install/robotx_cv/include/robotx_cv/robotx_cv/msg/detail/detection__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[7.042232] (robotx_cv) StdoutLine: {'line': b'-- Up-to-date: /home/soar-uwu/RobotX-2026/install/robotx_cv/include/robotx_cv/robotx_cv/msg/detail/dds_fastrtps\n'}
+[7.042517] (robotx_cv) StdoutLine: {'line': b'-- Up-to-date: /home/soar-uwu/RobotX-2026/install/robotx_cv/lib/librobotx_cv__rosidl_typesupport_fastrtps_cpp.so\n'}
+[7.044519] (robotx_cv) StdoutLine: {'line': b'-- Up-to-date: /home/soar-uwu/RobotX-2026/install/robotx_cv/include/robotx_cv/robotx_cv\n'}
+[7.045644] (robotx_cv) StdoutLine: {'line': b'-- Up-to-date: /home/soar-uwu/RobotX-2026/install/robotx_cv/include/robotx_cv/robotx_cv/msg\n'}
+[7.046128] (robotx_cv) StdoutLine: {'line': b'-- Up-to-date: /home/soar-uwu/RobotX-2026/install/robotx_cv/include/robotx_cv/robotx_cv/msg/detail\n'}
+[7.047970] (robotx_cv) StdoutLine: {'line': b'-- Up-to-date: /home/soar-uwu/RobotX-2026/install/robotx_cv/include/robotx_cv/robotx_cv/msg/detail/object__type_support.cpp\n'}
+[7.051711] (robotx_cv) StdoutLine: {'line': b'-- Up-to-date: /home/soar-uwu/RobotX-2026/install/robotx_cv/include/robotx_cv/robotx_cv/msg/detail/detection__rosidl_typesupport_introspection_cpp.hpp\n'}
+[7.054615] (robotx_cv) StdoutLine: {'line': b'-- Up-to-date: /home/soar-uwu/RobotX-2026/install/robotx_cv/include/robotx_cv/robotx_cv/msg/detail/detection_array__type_support.cpp\n'}
+[7.058959] (robotx_cv) StdoutLine: {'line': b'-- Up-to-date: /home/soar-uwu/RobotX-2026/install/robotx_cv/include/robotx_cv/robotx_cv/msg/detail/object_array__rosidl_typesupport_introspection_cpp.hpp\n'}
+[7.060879] (robotx_cv) StdoutLine: {'line': b'-- Up-to-date: /home/soar-uwu/RobotX-2026/install/robotx_cv/include/robotx_cv/robotx_cv/msg/detail/detection__type_support.cpp\n'}
+[7.063024] (-) TimerEvent: {}
+[7.074913] (robotx_cv) StdoutLine: {'line': b'-- Up-to-date: /home/soar-uwu/RobotX-2026/install/robotx_cv/include/robotx_cv/robotx_cv/msg/detail/object__rosidl_typesupport_introspection_cpp.hpp\n'}
+[7.080257] (robotx_cv) StdoutLine: {'line': b'-- Up-to-date: /home/soar-uwu/RobotX-2026/install/robotx_cv/include/robotx_cv/robotx_cv/msg/detail/object_array__type_support.cpp\n'}
+[7.084806] (robotx_cv) StdoutLine: {'line': b'-- Up-to-date: /home/soar-uwu/RobotX-2026/install/robotx_cv/include/robotx_cv/robotx_cv/msg/detail/detection_array__rosidl_typesupport_introspection_cpp.hpp\n'}
+[7.099266] (robotx_cv) StdoutLine: {'line': b'-- Up-to-date: /home/soar-uwu/RobotX-2026/install/robotx_cv/lib/librobotx_cv__rosidl_typesupport_introspection_cpp.so\n'}
+[7.104344] (robotx_cv) StdoutLine: {'line': b'-- Up-to-date: /home/soar-uwu/RobotX-2026/install/robotx_cv/lib/librobotx_cv__rosidl_typesupport_cpp.so\n'}
+[7.109384] (robotx_cv) StdoutLine: {'line': b'-- Up-to-date: /home/soar-uwu/RobotX-2026/install/robotx_cv/share/robotx_cv/environment/pythonpath.sh\n'}
+[7.109776] (robotx_cv) StdoutLine: {'line': b'-- Up-to-date: /home/soar-uwu/RobotX-2026/install/robotx_cv/share/robotx_cv/environment/pythonpath.dsv\n'}
+[7.109975] (robotx_cv) StdoutLine: {'line': b'-- Up-to-date: /home/soar-uwu/RobotX-2026/install/robotx_cv/local/lib/python3.10/dist-packages/robotx_cv-0.1.0-py3.10.egg-info\n'}
+[7.114890] (robotx_cv) StdoutLine: {'line': b'-- Installing: /home/soar-uwu/RobotX-2026/install/robotx_cv/local/lib/python3.10/dist-packages/robotx_cv-0.1.0-py3.10.egg-info/PKG-INFO\n'}
+[7.115218] (robotx_cv) StdoutLine: {'line': b'-- Installing: /home/soar-uwu/RobotX-2026/install/robotx_cv/local/lib/python3.10/dist-packages/robotx_cv-0.1.0-py3.10.egg-info/SOURCES.txt\n'}
+[7.115411] (robotx_cv) StdoutLine: {'line': b'-- Installing: /home/soar-uwu/RobotX-2026/install/robotx_cv/local/lib/python3.10/dist-packages/robotx_cv-0.1.0-py3.10.egg-info/dependency_links.txt\n'}
+[7.132455] (robotx_cv) StdoutLine: {'line': b'-- Installing: /home/soar-uwu/RobotX-2026/install/robotx_cv/local/lib/python3.10/dist-packages/robotx_cv-0.1.0-py3.10.egg-info/top_level.txt\n'}
+[7.137550] (robotx_cv) StdoutLine: {'line': b'-- Up-to-date: /home/soar-uwu/RobotX-2026/install/robotx_cv/local/lib/python3.10/dist-packages/robotx_cv\n'}
+[7.144034] (robotx_cv) StdoutLine: {'line': b'-- Up-to-date: /home/soar-uwu/RobotX-2026/install/robotx_cv/local/lib/python3.10/dist-packages/robotx_cv/msg\n'}
+[7.151375] (robotx_cv) StdoutLine: {'line': b'-- Up-to-date: /home/soar-uwu/RobotX-2026/install/robotx_cv/local/lib/python3.10/dist-packages/robotx_cv/msg/_object_s.c\n'}
+[7.154081] (robotx_cv) StdoutLine: {'line': b'-- Up-to-date: /home/soar-uwu/RobotX-2026/install/robotx_cv/local/lib/python3.10/dist-packages/robotx_cv/msg/_detection_array.py\n'}
+[7.157043] (robotx_cv) StdoutLine: {'line': b'-- Up-to-date: /home/soar-uwu/RobotX-2026/install/robotx_cv/local/lib/python3.10/dist-packages/robotx_cv/msg/_object.py\n'}
+[7.158347] (robotx_cv) StdoutLine: {'line': b'-- Up-to-date: /home/soar-uwu/RobotX-2026/install/robotx_cv/local/lib/python3.10/dist-packages/robotx_cv/msg/_detection_array_s.c\n'}
+[7.158582] (robotx_cv) StdoutLine: {'line': b'-- Up-to-date: /home/soar-uwu/RobotX-2026/install/robotx_cv/local/lib/python3.10/dist-packages/robotx_cv/msg/__init__.py\n'}
+[7.158768] (robotx_cv) StdoutLine: {'line': b'-- Up-to-date: /home/soar-uwu/RobotX-2026/install/robotx_cv/local/lib/python3.10/dist-packages/robotx_cv/msg/_object_array.py\n'}
+[7.158950] (robotx_cv) StdoutLine: {'line': b'-- Up-to-date: /home/soar-uwu/RobotX-2026/install/robotx_cv/local/lib/python3.10/dist-packages/robotx_cv/msg/_detection_s.c\n'}
+[7.159117] (robotx_cv) StdoutLine: {'line': b'-- Up-to-date: /home/soar-uwu/RobotX-2026/install/robotx_cv/local/lib/python3.10/dist-packages/robotx_cv/msg/_object_array_s.c\n'}
+[7.159271] (robotx_cv) StdoutLine: {'line': b'-- Up-to-date: /home/soar-uwu/RobotX-2026/install/robotx_cv/local/lib/python3.10/dist-packages/robotx_cv/msg/_detection.py\n'}
+[7.159434] (robotx_cv) StdoutLine: {'line': b'-- Up-to-date: /home/soar-uwu/RobotX-2026/install/robotx_cv/local/lib/python3.10/dist-packages/robotx_cv/robotx_cv_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[7.159605] (robotx_cv) StdoutLine: {'line': b'-- Up-to-date: /home/soar-uwu/RobotX-2026/install/robotx_cv/local/lib/python3.10/dist-packages/robotx_cv/_robotx_cv_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[7.159759] (robotx_cv) StdoutLine: {'line': b'-- Up-to-date: /home/soar-uwu/RobotX-2026/install/robotx_cv/local/lib/python3.10/dist-packages/robotx_cv/_robotx_cv_s.ep.rosidl_typesupport_c.c\n'}
+[7.159948] (robotx_cv) StdoutLine: {'line': b'-- Up-to-date: /home/soar-uwu/RobotX-2026/install/robotx_cv/local/lib/python3.10/dist-packages/robotx_cv/_robotx_cv_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[7.160111] (robotx_cv) StdoutLine: {'line': b'-- Up-to-date: /home/soar-uwu/RobotX-2026/install/robotx_cv/local/lib/python3.10/dist-packages/robotx_cv/robotx_cv_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[7.160582] (robotx_cv) StdoutLine: {'line': b'-- Installing: /home/soar-uwu/RobotX-2026/install/robotx_cv/local/lib/python3.10/dist-packages/robotx_cv/__init__.py\n'}
+[7.161020] (robotx_cv) StdoutLine: {'line': b'-- Up-to-date: /home/soar-uwu/RobotX-2026/install/robotx_cv/local/lib/python3.10/dist-packages/robotx_cv/robotx_cv_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[7.161229] (robotx_cv) StdoutLine: {'line': b'-- Up-to-date: /home/soar-uwu/RobotX-2026/install/robotx_cv/local/lib/python3.10/dist-packages/robotx_cv/librobotx_cv__rosidl_generator_py.so\n'}
+[7.171637] (-) TimerEvent: {}
+[7.274198] (blueboat) CommandEnded: {'returncode': 0}
+[7.275097] (-) TimerEvent: {}
+[7.314167] (blueboat) JobEnded: {'identifier': 'blueboat', 'rc': 0}
+[7.367318] (robotx_cv) StdoutLine: {'line': b"Listing '/home/soar-uwu/RobotX-2026/install/robotx_cv/local/lib/python3.10/dist-packages/robotx_cv'...\n"}
+[7.367792] (robotx_cv) StdoutLine: {'line': b"Compiling '/home/soar-uwu/RobotX-2026/install/robotx_cv/local/lib/python3.10/dist-packages/robotx_cv/__init__.py'...\n"}
+[7.368069] (robotx_cv) StdoutLine: {'line': b"Listing '/home/soar-uwu/RobotX-2026/install/robotx_cv/local/lib/python3.10/dist-packages/robotx_cv/msg'...\n"}
+[7.375264] (-) TimerEvent: {}
+[7.446574] (robotx_cv) StdoutLine: {'line': b'-- Up-to-date: /home/soar-uwu/RobotX-2026/install/robotx_cv/local/lib/python3.10/dist-packages/robotx_cv/robotx_cv_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[7.447220] (robotx_cv) StdoutLine: {'line': b'-- Up-to-date: /home/soar-uwu/RobotX-2026/install/robotx_cv/local/lib/python3.10/dist-packages/robotx_cv/robotx_cv_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[7.447445] (robotx_cv) StdoutLine: {'line': b'-- Up-to-date: /home/soar-uwu/RobotX-2026/install/robotx_cv/local/lib/python3.10/dist-packages/robotx_cv/robotx_cv_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[7.458558] (robotx_cv) StdoutLine: {'line': b'-- Up-to-date: /home/soar-uwu/RobotX-2026/install/robotx_cv/lib/librobotx_cv__rosidl_generator_py.so\n'}
+[7.459132] (robotx_cv) StdoutLine: {'line': b'-- Up-to-date: /home/soar-uwu/RobotX-2026/install/robotx_cv/share/robotx_cv/rust\n'}
+[7.459353] (robotx_cv) StdoutLine: {'line': b'-- Up-to-date: /home/soar-uwu/RobotX-2026/install/robotx_cv/share/robotx_cv/rust/Cargo.toml\n'}
+[7.459528] (robotx_cv) StdoutLine: {'line': b'-- Up-to-date: /home/soar-uwu/RobotX-2026/install/robotx_cv/share/robotx_cv/rust/build.rs\n'}
+[7.459695] (robotx_cv) StdoutLine: {'line': b'-- Up-to-date: /home/soar-uwu/RobotX-2026/install/robotx_cv/share/robotx_cv/rust/src\n'}
+[7.459930] (robotx_cv) StdoutLine: {'line': b'-- Up-to-date: /home/soar-uwu/RobotX-2026/install/robotx_cv/share/robotx_cv/rust/src/msg\n'}
+[7.460117] (robotx_cv) StdoutLine: {'line': b'-- Up-to-date: /home/soar-uwu/RobotX-2026/install/robotx_cv/share/robotx_cv/rust/src/msg/rmw.rs\n'}
+[7.460283] (robotx_cv) StdoutLine: {'line': b'-- Up-to-date: /home/soar-uwu/RobotX-2026/install/robotx_cv/share/robotx_cv/rust/src/msg.rs\n'}
+[7.460442] (robotx_cv) StdoutLine: {'line': b'-- Up-to-date: /home/soar-uwu/RobotX-2026/install/robotx_cv/share/robotx_cv/rust/src/lib.rs\n'}
+[7.460596] (robotx_cv) StdoutLine: {'line': b'-- Up-to-date: /home/soar-uwu/RobotX-2026/install/robotx_cv/share/robotx_cv/msg/Object.idl\n'}
+[7.460798] (robotx_cv) StdoutLine: {'line': b'-- Up-to-date: /home/soar-uwu/RobotX-2026/install/robotx_cv/share/robotx_cv/msg/ObjectArray.idl\n'}
+[7.460957] (robotx_cv) StdoutLine: {'line': b'-- Up-to-date: /home/soar-uwu/RobotX-2026/install/robotx_cv/share/robotx_cv/msg/Detection.idl\n'}
+[7.461107] (robotx_cv) StdoutLine: {'line': b'-- Up-to-date: /home/soar-uwu/RobotX-2026/install/robotx_cv/share/robotx_cv/msg/DetectionArray.idl\n'}
+[7.461256] (robotx_cv) StdoutLine: {'line': b'-- Up-to-date: /home/soar-uwu/RobotX-2026/install/robotx_cv/share/robotx_cv/msg/Object.msg\n'}
+[7.476781] (-) TimerEvent: {}
+[7.477212] (robotx_cv) StdoutLine: {'line': b'-- Up-to-date: /home/soar-uwu/RobotX-2026/install/robotx_cv/share/robotx_cv/msg/ObjectArray.msg\n'}
+[7.477595] (robotx_cv) StdoutLine: {'line': b'-- Up-to-date: /home/soar-uwu/RobotX-2026/install/robotx_cv/share/robotx_cv/msg/Detection.msg\n'}
+[7.477797] (robotx_cv) StdoutLine: {'line': b'-- Up-to-date: /home/soar-uwu/RobotX-2026/install/robotx_cv/share/robotx_cv/msg/DetectionArray.msg\n'}
+[7.479738] (robotx_cv) StdoutLine: {'line': b'-- Up-to-date: /home/soar-uwu/RobotX-2026/install/robotx_cv/local/lib/python3.10/dist-packages/robotx_cv\n'}
+[7.484586] (robotx_cv) StdoutLine: {'line': b'-- Up-to-date: /home/soar-uwu/RobotX-2026/install/robotx_cv/local/lib/python3.10/dist-packages/robotx_cv/light.py\n'}
+[7.489439] (robotx_cv) StdoutLine: {'line': b'-- Up-to-date: /home/soar-uwu/RobotX-2026/install/robotx_cv/local/lib/python3.10/dist-packages/robotx_cv/beacon.py\n'}
+[7.492226] (robotx_cv) StdoutLine: {'line': b'-- Up-to-date: /home/soar-uwu/RobotX-2026/install/robotx_cv/local/lib/python3.10/dist-packages/robotx_cv/detector.py\n'}
+[7.495169] (robotx_cv) StdoutLine: {'line': b'-- Installing: /home/soar-uwu/RobotX-2026/install/robotx_cv/local/lib/python3.10/dist-packages/robotx_cv/__init__.py\n'}
+[7.542777] (robotx_cv) StdoutLine: {'line': b'-- Up-to-date: /home/soar-uwu/RobotX-2026/install/robotx_cv/local/lib/python3.10/dist-packages/robotx_cv/dock.py\n'}
+[7.556101] (robotx_cv) StdoutLine: {'line': b'-- Up-to-date: /home/soar-uwu/RobotX-2026/install/robotx_cv/local/lib/python3.10/dist-packages/robotx_cv/ranging.py\n'}
+[7.563372] (robotx_cv) StdoutLine: {'line': b'-- Up-to-date: /home/soar-uwu/RobotX-2026/install/robotx_cv/local/lib/python3.10/dist-packages/robotx_cv/task1.py\n'}
+[7.567389] (robotx_cv) StdoutLine: {'line': b'-- Up-to-date: /home/soar-uwu/RobotX-2026/install/robotx_cv/lib/robotx_cv/detector.py\n'}
+[7.568514] (robotx_cv) StdoutLine: {'line': b'-- Up-to-date: /home/soar-uwu/RobotX-2026/install/robotx_cv/lib/robotx_cv/task1.py\n'}
+[7.570100] (robotx_cv) StdoutLine: {'line': b'-- Up-to-date: /home/soar-uwu/RobotX-2026/install/robotx_cv/share/robotx_cv/launch\n'}
+[7.571640] (robotx_cv) StdoutLine: {'line': b'-- Up-to-date: /home/soar-uwu/RobotX-2026/install/robotx_cv/share/robotx_cv/launch/detector.launch.py\n'}
+[7.584990] (-) TimerEvent: {}
+[7.586021] (robotx_cv) StdoutLine: {'line': b'-- Up-to-date: /home/soar-uwu/RobotX-2026/install/robotx_cv/share/robotx_cv/launch/task1.launch.py\n'}
+[7.588996] (robotx_cv) StdoutLine: {'line': b'-- Up-to-date: /home/soar-uwu/RobotX-2026/install/robotx_cv/share/robotx_cv/config\n'}
+[7.611659] (robotx_cv) StdoutLine: {'line': b'-- Up-to-date: /home/soar-uwu/RobotX-2026/install/robotx_cv/share/robotx_cv/config/usv_task1.yaml\n'}
+[7.615655] (robotx_cv) StdoutLine: {'line': b'-- Up-to-date: /home/soar-uwu/RobotX-2026/install/robotx_cv/share/robotx_cv/config/buoy_test.yaml\n'}
+[7.620235] (robotx_cv) StdoutLine: {'line': b'-- Up-to-date: /home/soar-uwu/RobotX-2026/install/robotx_cv/share/robotx_cv/config/uuv_por.yaml\n'}
+[7.621281] (robotx_cv) StdoutLine: {'line': b'-- Up-to-date: /home/soar-uwu/RobotX-2026/install/robotx_cv/share/robotx_cv/config/camera\n'}
+[7.622594] (robotx_cv) StdoutLine: {'line': b'-- Up-to-date: /home/soar-uwu/RobotX-2026/install/robotx_cv/share/robotx_cv/config/camera/bull_camera.yaml\n'}
+[7.626018] (robotx_cv) StdoutLine: {'line': b'-- Up-to-date: /home/soar-uwu/RobotX-2026/install/robotx_cv/share/robotx_cv/config/usv_task1_buoytest.yaml\n'}
+[7.627104] (robotx_cv) StdoutLine: {'line': b'-- Up-to-date: /home/soar-uwu/RobotX-2026/install/robotx_cv/share/robotx_cv/config/uuv.yaml\n'}
+[7.628428] (robotx_cv) StdoutLine: {'line': b'-- Up-to-date: /home/soar-uwu/RobotX-2026/install/robotx_cv/share/robotx_cv/config/coco.yaml\n'}
+[7.629919] (robotx_cv) StdoutLine: {'line': b'-- Up-to-date: /home/soar-uwu/RobotX-2026/install/robotx_cv/share/robotx_cv/config/usv.yaml\n'}
+[7.632524] (robotx_cv) StdoutLine: {'line': b'-- Up-to-date: /home/soar-uwu/RobotX-2026/install/robotx_cv/share/robotx_cv/config/uav.yaml\n'}
+[7.637182] (robotx_cv) StdoutLine: {'line': b'-- Up-to-date: /home/soar-uwu/RobotX-2026/install/robotx_cv/share/ament_index/resource_index/package_run_dependencies/robotx_cv\n'}
+[7.639233] (robotx_cv) StdoutLine: {'line': b'-- Up-to-date: /home/soar-uwu/RobotX-2026/install/robotx_cv/share/ament_index/resource_index/parent_prefix_path/robotx_cv\n'}
+[7.641239] (robotx_cv) StdoutLine: {'line': b'-- Up-to-date: /home/soar-uwu/RobotX-2026/install/robotx_cv/share/robotx_cv/environment/ament_prefix_path.sh\n'}
+[7.643076] (robotx_cv) StdoutLine: {'line': b'-- Up-to-date: /home/soar-uwu/RobotX-2026/install/robotx_cv/share/robotx_cv/environment/ament_prefix_path.dsv\n'}
+[7.645072] (robotx_cv) StdoutLine: {'line': b'-- Up-to-date: /home/soar-uwu/RobotX-2026/install/robotx_cv/share/robotx_cv/environment/path.sh\n'}
+[7.646058] (robotx_cv) StdoutLine: {'line': b'-- Up-to-date: /home/soar-uwu/RobotX-2026/install/robotx_cv/share/robotx_cv/environment/path.dsv\n'}
+[7.651072] (robotx_cv) StdoutLine: {'line': b'-- Up-to-date: /home/soar-uwu/RobotX-2026/install/robotx_cv/share/robotx_cv/local_setup.bash\n'}
+[7.671904] (robotx_cv) StdoutLine: {'line': b'-- Up-to-date: /home/soar-uwu/RobotX-2026/install/robotx_cv/share/robotx_cv/local_setup.sh\n'}
+[7.672707] (robotx_cv) StdoutLine: {'line': b'-- Up-to-date: /home/soar-uwu/RobotX-2026/install/robotx_cv/share/robotx_cv/local_setup.zsh\n'}
+[7.674833] (robotx_cv) StdoutLine: {'line': b'-- Up-to-date: /home/soar-uwu/RobotX-2026/install/robotx_cv/share/robotx_cv/local_setup.dsv\n'}
+[7.675598] (robotx_cv) StdoutLine: {'line': b'-- Installing: /home/soar-uwu/RobotX-2026/install/robotx_cv/share/robotx_cv/package.dsv\n'}
+[7.676563] (robotx_cv) StdoutLine: {'line': b'-- Up-to-date: /home/soar-uwu/RobotX-2026/install/robotx_cv/share/ament_index/resource_index/packages/robotx_cv\n'}
+[7.677522] (robotx_cv) StdoutLine: {'line': b'-- Up-to-date: /home/soar-uwu/RobotX-2026/install/robotx_cv/share/robotx_cv/cmake/export_robotx_cv__rosidl_generator_cExport.cmake\n'}
+[7.678448] (robotx_cv) StdoutLine: {'line': b'-- Up-to-date: /home/soar-uwu/RobotX-2026/install/robotx_cv/share/robotx_cv/cmake/export_robotx_cv__rosidl_generator_cExport-noconfig.cmake\n'}
+[7.679313] (robotx_cv) StdoutLine: {'line': b'-- Up-to-date: /home/soar-uwu/RobotX-2026/install/robotx_cv/share/robotx_cv/cmake/export_robotx_cv__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[7.680319] (robotx_cv) StdoutLine: {'line': b'-- Up-to-date: /home/soar-uwu/RobotX-2026/install/robotx_cv/share/robotx_cv/cmake/export_robotx_cv__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[7.687573] (-) TimerEvent: {}
+[7.688514] (robotx_cv) StdoutLine: {'line': b'-- Up-to-date: /home/soar-uwu/RobotX-2026/install/robotx_cv/share/robotx_cv/cmake/robotx_cv__rosidl_typesupport_introspection_cExport.cmake\n'}
+[7.689642] (robotx_cv) StdoutLine: {'line': b'-- Up-to-date: /home/soar-uwu/RobotX-2026/install/robotx_cv/share/robotx_cv/cmake/robotx_cv__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[7.692908] (robotx_cv) StdoutLine: {'line': b'-- Up-to-date: /home/soar-uwu/RobotX-2026/install/robotx_cv/share/robotx_cv/cmake/robotx_cv__rosidl_typesupport_cExport.cmake\n'}
+[7.695473] (robotx_cv) StdoutLine: {'line': b'-- Up-to-date: /home/soar-uwu/RobotX-2026/install/robotx_cv/share/robotx_cv/cmake/robotx_cv__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[7.697188] (robotx_cv) StdoutLine: {'line': b'-- Up-to-date: /home/soar-uwu/RobotX-2026/install/robotx_cv/share/robotx_cv/cmake/export_robotx_cv__rosidl_generator_cppExport.cmake\n'}
+[7.698403] (robotx_cv) StdoutLine: {'line': b'-- Up-to-date: /home/soar-uwu/RobotX-2026/install/robotx_cv/share/robotx_cv/cmake/export_robotx_cv__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[7.700326] (robotx_cv) StdoutLine: {'line': b'-- Up-to-date: /home/soar-uwu/RobotX-2026/install/robotx_cv/share/robotx_cv/cmake/export_robotx_cv__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[7.700989] (robotx_cv) StdoutLine: {'line': b'-- Up-to-date: /home/soar-uwu/RobotX-2026/install/robotx_cv/share/robotx_cv/cmake/robotx_cv__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[7.758916] (robotx_cv) StdoutLine: {'line': b'-- Up-to-date: /home/soar-uwu/RobotX-2026/install/robotx_cv/share/robotx_cv/cmake/robotx_cv__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[7.760314] (robotx_cv) StdoutLine: {'line': b'-- Up-to-date: /home/soar-uwu/RobotX-2026/install/robotx_cv/share/robotx_cv/cmake/robotx_cv__rosidl_typesupport_cppExport.cmake\n'}
+[7.761879] (robotx_cv) StdoutLine: {'line': b'-- Up-to-date: /home/soar-uwu/RobotX-2026/install/robotx_cv/share/robotx_cv/cmake/robotx_cv__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[7.762137] (robotx_cv) StdoutLine: {'line': b'-- Up-to-date: /home/soar-uwu/RobotX-2026/install/robotx_cv/share/robotx_cv/cmake/export_robotx_cv__rosidl_generator_pyExport.cmake\n'}
+[7.762319] (robotx_cv) StdoutLine: {'line': b'-- Up-to-date: /home/soar-uwu/RobotX-2026/install/robotx_cv/share/robotx_cv/cmake/export_robotx_cv__rosidl_generator_pyExport-noconfig.cmake\n'}
+[7.762480] (robotx_cv) StdoutLine: {'line': b'-- Up-to-date: /home/soar-uwu/RobotX-2026/install/robotx_cv/share/robotx_cv/cmake/rosidl_cmake-extras.cmake\n'}
+[7.762636] (robotx_cv) StdoutLine: {'line': b'-- Up-to-date: /home/soar-uwu/RobotX-2026/install/robotx_cv/share/robotx_cv/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[7.762807] (robotx_cv) StdoutLine: {'line': b'-- Up-to-date: /home/soar-uwu/RobotX-2026/install/robotx_cv/share/robotx_cv/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[7.762957] (robotx_cv) StdoutLine: {'line': b'-- Up-to-date: /home/soar-uwu/RobotX-2026/install/robotx_cv/share/robotx_cv/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[7.763108] (robotx_cv) StdoutLine: {'line': b'-- Up-to-date: /home/soar-uwu/RobotX-2026/install/robotx_cv/share/robotx_cv/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[7.763260] (robotx_cv) StdoutLine: {'line': b'-- Up-to-date: /home/soar-uwu/RobotX-2026/install/robotx_cv/share/robotx_cv/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[7.763406] (robotx_cv) StdoutLine: {'line': b'-- Up-to-date: /home/soar-uwu/RobotX-2026/install/robotx_cv/share/robotx_cv/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[7.763565] (robotx_cv) StdoutLine: {'line': b'-- Up-to-date: /home/soar-uwu/RobotX-2026/install/robotx_cv/share/robotx_cv/cmake/rosidl_cmake_aggregate_target-extras.cmake\n'}
+[7.763714] (robotx_cv) StdoutLine: {'line': b'-- Up-to-date: /home/soar-uwu/RobotX-2026/install/robotx_cv/share/robotx_cv/cmake/robotx_cvConfig.cmake\n'}
+[7.763913] (robotx_cv) StdoutLine: {'line': b'-- Up-to-date: /home/soar-uwu/RobotX-2026/install/robotx_cv/share/robotx_cv/cmake/robotx_cvConfig-version.cmake\n'}
+[7.764075] (robotx_cv) StdoutLine: {'line': b'-- Up-to-date: /home/soar-uwu/RobotX-2026/install/robotx_cv/share/robotx_cv/package.xml\n'}
+[7.764226] (robotx_cv) CommandEnded: {'returncode': 0}
+[7.792774] (-) TimerEvent: {}
+[7.830258] (robotx_cv) JobEnded: {'identifier': 'robotx_cv', 'rc': 0}
+[7.831686] (-) EventReactorShutdown: {}

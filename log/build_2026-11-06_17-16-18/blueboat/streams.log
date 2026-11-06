@@ -1,0 +1,33 @@
+[5.716s] Invoking command in '/home/soar-uwu/RobotX-2026/src/blueboat': PYTHONPATH=/home/soar-uwu/RobotX-2026/build/blueboat/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/soar-uwu/RobotX-2026/install/blueboat/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/blueboat build --build-base /home/soar-uwu/RobotX-2026/build/blueboat/build install --record /home/soar-uwu/RobotX-2026/build/blueboat/install.log --install-scripts $base/lib/blueboat --single-version-externally-managed install_data
+[7.498s] running egg_info
+[7.509s] writing ../../build/blueboat/blueboat.egg-info/PKG-INFO
+[7.511s] writing dependency_links to ../../build/blueboat/blueboat.egg-info/dependency_links.txt
+[7.513s] writing entry points to ../../build/blueboat/blueboat.egg-info/entry_points.txt
+[7.514s] writing requirements to ../../build/blueboat/blueboat.egg-info/requires.txt
+[7.515s] writing top-level names to ../../build/blueboat/blueboat.egg-info/top_level.txt
+[7.524s] reading manifest file '../../build/blueboat/blueboat.egg-info/SOURCES.txt'
+[7.531s] writing manifest file '../../build/blueboat/blueboat.egg-info/SOURCES.txt'
+[7.532s] running build
+[7.533s] running build_py
+[7.533s] copying blueboat/servo_test.py -> /home/soar-uwu/RobotX-2026/build/blueboat/build/lib/blueboat
+[7.533s] running install
+[7.534s] running install_lib
+[7.538s] copying /home/soar-uwu/RobotX-2026/build/blueboat/build/lib/blueboat/servo_test.py -> /home/soar-uwu/RobotX-2026/install/blueboat/lib/python3.10/site-packages/blueboat
+[7.540s] byte-compiling /home/soar-uwu/RobotX-2026/install/blueboat/lib/python3.10/site-packages/blueboat/servo_test.py to servo_test.cpython-310.pyc
+[7.544s] running install_data
+[7.550s] running install_egg_info
+[7.556s] removing '/home/soar-uwu/RobotX-2026/install/blueboat/lib/python3.10/site-packages/blueboat-0.0.0-py3.10.egg-info' (and everything under it)
+[7.576s] Copying ../../build/blueboat/blueboat.egg-info to /home/soar-uwu/RobotX-2026/install/blueboat/lib/python3.10/site-packages/blueboat-0.0.0-py3.10.egg-info
+[7.584s] running install_scripts
+[7.744s] Installing coord_list script to /home/soar-uwu/RobotX-2026/install/blueboat/lib/blueboat
+[7.746s] Installing local_pub_one script to /home/soar-uwu/RobotX-2026/install/blueboat/lib/blueboat
+[7.747s] Installing manual_control_teleop script to /home/soar-uwu/RobotX-2026/install/blueboat/lib/blueboat
+[7.747s] Installing movement_recorder script to /home/soar-uwu/RobotX-2026/install/blueboat/lib/blueboat
+[7.748s] Installing neopixel_light script to /home/soar-uwu/RobotX-2026/install/blueboat/lib/blueboat
+[7.777s] Installing rov_programmer script to /home/soar-uwu/RobotX-2026/install/blueboat/lib/blueboat
+[7.779s] Installing rov_teleop script to /home/soar-uwu/RobotX-2026/install/blueboat/lib/blueboat
+[7.781s] Installing rviz_mapper script to /home/soar-uwu/RobotX-2026/install/blueboat/lib/blueboat
+[7.788s] Installing servo_test script to /home/soar-uwu/RobotX-2026/install/blueboat/lib/blueboat
+[7.790s] Installing teleop_guided script to /home/soar-uwu/RobotX-2026/install/blueboat/lib/blueboat
+[7.792s] writing list of installed files to '/home/soar-uwu/RobotX-2026/build/blueboat/install.log'
+[8.146s] Invoked command in '/home/soar-uwu/RobotX-2026/src/blueboat' returned '0': PYTHONPATH=/home/soar-uwu/RobotX-2026/build/blueboat/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/soar-uwu/RobotX-2026/install/blueboat/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/blueboat build --build-base /home/soar-uwu/RobotX-2026/build/blueboat/build install --record /home/soar-uwu/RobotX-2026/build/blueboat/install.log --install-scripts $base/lib/blueboat --single-version-externally-managed install_data

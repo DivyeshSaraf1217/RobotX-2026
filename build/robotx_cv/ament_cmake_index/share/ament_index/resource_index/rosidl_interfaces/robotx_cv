@@ -1,0 +1,8 @@
+msg/Detection.idl
+msg/Detection.msg
+msg/DetectionArray.idl
+msg/DetectionArray.msg
+msg/Object.idl
+msg/Object.msg
+msg/ObjectArray.idl
+msg/ObjectArray.msg

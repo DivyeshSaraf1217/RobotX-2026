@@ -1,0 +1,56 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from robotx_cv/msg/Object.msg
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Point.idl"
+#include "vision_msgs/msg/BoundingBox2D.idl"
+
+module robotx_cv {
+  module msg {
+    @verbatim (language="comment", text=
+      "One detected object.")
+    struct Object {
+      string class_name;
+
+      float score;
+
+      @verbatim (language="comment", text=
+        "pixels, original image; center.theta = rotation (rad), 0 if upright")
+      vision_msgs::msg::BoundingBox2D bbox;
+
+      @verbatim (language="comment", text=
+        "Part of another object (dock.py: window / dock_indicator of a dock_face), else -1 and ''." "\n"
+        "index in ObjectArray.objects of the whole object")
+      int32 parent;
+
+      @verbatim (language="comment", text=
+        "window_left | window_right | indicator")
+      string part;
+
+      @verbatim (language="comment", text=
+        "part seen in the image; false: placed from the layout")
+      boolean found;
+
+      @verbatim (language="comment", text=
+        "LED state, '' if the class has no LED:" "\n"
+        "red | green | blue (steady), <colour>_flash, seq_<c1>_<c2>, off, unknown")
+      string light;
+
+      @verbatim (language="comment", text=
+        "same light across frames, -1 if no LED")
+      int32 light_id;
+
+      @verbatim (language="comment", text=
+        "this frame only: red | green | blue | off, '' if not read / can't tell")
+      string colour;
+
+      @verbatim (language="comment", text=
+        "m, camera to object, NaN if unknown")
+      float distance;
+
+      @verbatim (language="comment", text=
+        "m, camera optical frame (x right, y down, z forward), NaN if unknown")
+      geometry_msgs::msg::Point position;
+    };
+  };
+};

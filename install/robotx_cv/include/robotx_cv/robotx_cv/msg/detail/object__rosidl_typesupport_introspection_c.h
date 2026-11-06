@@ -1,0 +1,1 @@
+/home/soar-uwu/RobotX-2026/build/robotx_cv/rosidl_typesupport_introspection_c/robotx_cv/msg/detail/object__rosidl_typesupport_introspection_c.h

@@ -1,0 +1,4 @@
+source;share/robotx_cv/local_setup.bash
+source;share/robotx_cv/local_setup.dsv
+source;share/robotx_cv/local_setup.sh
+source;share/robotx_cv/local_setup.zsh

@@ -1,0 +1,7 @@
+# Test of usv_buoy_test1.pt (yolo11n, one class 'buoy', trained at 640x640). Plain boxes.
+# imgsz [384, 640]: same scale as 640x640 for a 16:9 image, without the padding.
+model: /workspace/models/usv_buoy_test1.engine
+task: detect
+imgsz: [384, 640]
+objects:
+  buoy: {size: 0.43, dim: w}   # robobuoy width estimate; change if the training buoys differ

@@ -1,0 +1,77 @@
+[0.000000] (-) TimerEvent: {}
+[0.001092] (-) JobUnselected: {'identifier': 'robotx_cv'}
+[0.001270] (blueboat) JobQueued: {'identifier': 'blueboat', 'dependencies': OrderedDict()}
+[0.005696] (blueboat) JobStarted: {'identifier': 'blueboat'}
+[0.098696] (-) TimerEvent: {}
+[0.199491] (-) TimerEvent: {}
+[0.300254] (-) TimerEvent: {}
+[0.401125] (-) TimerEvent: {}
+[0.501915] (-) TimerEvent: {}
+[0.603018] (-) TimerEvent: {}
+[0.703770] (-) TimerEvent: {}
+[0.804826] (-) TimerEvent: {}
+[0.905777] (-) TimerEvent: {}
+[1.007372] (-) TimerEvent: {}
+[1.108373] (-) TimerEvent: {}
+[1.209212] (-) TimerEvent: {}
+[1.310072] (-) TimerEvent: {}
+[1.410747] (-) TimerEvent: {}
+[1.511466] (-) TimerEvent: {}
+[1.612577] (-) TimerEvent: {}
+[1.713321] (-) TimerEvent: {}
+[1.814000] (-) TimerEvent: {}
+[1.914711] (-) TimerEvent: {}
+[2.015295] (-) TimerEvent: {}
+[2.115973] (-) TimerEvent: {}
+[2.216709] (-) TimerEvent: {}
+[2.317475] (-) TimerEvent: {}
+[2.418543] (-) TimerEvent: {}
+[2.519560] (-) TimerEvent: {}
+[2.620928] (-) TimerEvent: {}
+[2.706250] (blueboat) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/blueboat', 'build', '--build-base', '/home/soar-uwu/RobotX-2026/build/blueboat/build', 'install', '--record', '/home/soar-uwu/RobotX-2026/build/blueboat/install.log', '--install-scripts', '$base/lib/blueboat', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/soar-uwu/RobotX-2026/src/blueboat', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'soar-uwu'), ('SSH_CLIENT', '192.168.2.1 49824 22'), ('XDG_SESSION_TYPE', 'tty'), ('BUN_INSTALL', '/home/soar-uwu/.bun'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/soar-uwu/RobotX-2026/install/robotx_cv/lib:/home/soar-uwu/mavros_ws/install/mavros_extras/lib:/home/soar-uwu/mavros_ws/install/mavros/lib:/home/soar-uwu/mavros_ws/install/mavros_msgs/lib:/home/soar-uwu/mavros_ws/install/libmavconn/lib:/home/soar-uwu/lidar_ws/install/rslidar_msg/lib:/home/soar-uwu/ros2_ws/install/zed_components/lib:/home/soar-uwu/ros2_ws/install/robotx_cv/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.6/lib64:'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/soar-uwu'), ('OLDPWD', '/home/soar-uwu'), ('SSH_TTY', '/dev/pts/2'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/soar-uwu/RobotX-2026/install:/home/soar-uwu/mavros_ws/install:/home/soar-uwu/lidar_ws/install:/home/soar-uwu/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'soar-uwu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/soar-uwu/mavros_ws/install/mavlink/lib/aarch64-linux-gnu/pkgconfig:/home/soar-uwu/mavros_ws/install/mavlink/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '54'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/soar-uwu/.local/bin:/home/soar-uwu/.bun/bin:/opt/ros/humble/bin:/usr/local/cuda-12.6/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/soar-uwu/RobotX-2026/install/robotx_cv:/home/soar-uwu/RobotX-2026/install/blueboat:/home/soar-uwu/mavros_ws/install/mavros_extras:/home/soar-uwu/mavros_ws/install/mavros_examples:/home/soar-uwu/mavros_ws/install/mavros:/home/soar-uwu/mavros_ws/install/mavros_msgs:/home/soar-uwu/mavros_ws/install/libmavconn:/home/soar-uwu/lidar_ws/install/rslidar_sdk:/home/soar-uwu/lidar_ws/install/rslidar_msg:/home/soar-uwu/ros2_ws/install/zed_ros2:/home/soar-uwu/ros2_ws/install/zed_wrapper:/home/soar-uwu/ros2_ws/install/zed_debug:/home/soar-uwu/ros2_ws/install/zed_components:/home/soar-uwu/ros2_ws/install/robotx_cv:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/soar-uwu/RobotX-2026/build/blueboat'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.2.1 49824 192.168.2.5 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/soar-uwu/RobotX-2026/build/blueboat/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/soar-uwu/RobotX-2026/install/blueboat/lib/python3.10/site-packages:/home/soar-uwu/RobotX-2026/install/robotx_cv/local/lib/python3.10/dist-packages:/home/soar-uwu/RobotX-2026/install/blueboat/lib/python3.10/site-packages:/home/soar-uwu/mavros_ws/install/mavros_extras/local/lib/python3.10/dist-packages:/home/soar-uwu/mavros_ws/install/mavros_examples/local/lib/python3.10/dist-packages:/home/soar-uwu/mavros_ws/install/mavros/local/lib/python3.10/dist-packages:/home/soar-uwu/mavros_ws/install/mavros_msgs/local/lib/python3.10/dist-packages:/home/soar-uwu/lidar_ws/install/rslidar_msg/local/lib/python3.10/dist-packages:/home/soar-uwu/ros2_ws/install/robotx_cv/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/soar-uwu/RobotX-2026/install/robotx_cv:/home/soar-uwu/mavros_ws/install/mavros_extras:/home/soar-uwu/mavros_ws/install/mavros_examples:/home/soar-uwu/mavros_ws/install/mavros:/home/soar-uwu/mavros_ws/install/mavros_msgs:/home/soar-uwu/mavros_ws/install/libmavconn:/home/soar-uwu/mavros_ws/install/mavlink:/home/soar-uwu/lidar_ws/install/rslidar_sdk:/home/soar-uwu/lidar_ws/install/rslidar_msg:/home/soar-uwu/ros2_ws/install/zed_ros2:/home/soar-uwu/ros2_ws/install/zed_wrapper:/home/soar-uwu/ros2_ws/install/zed_debug:/home/soar-uwu/ros2_ws/install/zed_components:/home/soar-uwu/ros2_ws/install/robotx_cv')]), 'shell': False}
+[2.721093] (-) TimerEvent: {}
+[2.821916] (-) TimerEvent: {}
+[2.923119] (-) TimerEvent: {}
+[3.024071] (-) TimerEvent: {}
+[3.125406] (-) TimerEvent: {}
+[3.226410] (-) TimerEvent: {}
+[3.327513] (-) TimerEvent: {}
+[3.428640] (-) TimerEvent: {}
+[3.529521] (-) TimerEvent: {}
+[3.591430] (blueboat) StdoutLine: {'line': b'running egg_info\n'}
+[3.593368] (blueboat) StdoutLine: {'line': b'writing ../../build/blueboat/blueboat.egg-info/PKG-INFO\n'}
+[3.593838] (blueboat) StdoutLine: {'line': b'writing dependency_links to ../../build/blueboat/blueboat.egg-info/dependency_links.txt\n'}
+[3.594366] (blueboat) StdoutLine: {'line': b'writing entry points to ../../build/blueboat/blueboat.egg-info/entry_points.txt\n'}
+[3.594594] (blueboat) StdoutLine: {'line': b'writing requirements to ../../build/blueboat/blueboat.egg-info/requires.txt\n'}
+[3.594795] (blueboat) StdoutLine: {'line': b'writing top-level names to ../../build/blueboat/blueboat.egg-info/top_level.txt\n'}
+[3.599015] (blueboat) StdoutLine: {'line': b"reading manifest file '../../build/blueboat/blueboat.egg-info/SOURCES.txt'\n"}
+[3.601587] (blueboat) StdoutLine: {'line': b"writing manifest file '../../build/blueboat/blueboat.egg-info/SOURCES.txt'\n"}
+[3.602229] (blueboat) StdoutLine: {'line': b'running build\n'}
+[3.602489] (blueboat) StdoutLine: {'line': b'running build_py\n'}
+[3.603705] (blueboat) StdoutLine: {'line': b'copying blueboat/servo_test.py -> /home/soar-uwu/RobotX-2026/build/blueboat/build/lib/blueboat\n'}
+[3.604241] (blueboat) StdoutLine: {'line': b'running install\n'}
+[3.605334] (blueboat) StdoutLine: {'line': b'running install_lib\n'}
+[3.608300] (blueboat) StdoutLine: {'line': b'copying /home/soar-uwu/RobotX-2026/build/blueboat/build/lib/blueboat/servo_test.py -> /home/soar-uwu/RobotX-2026/install/blueboat/lib/python3.10/site-packages/blueboat\n'}
+[3.612788] (blueboat) StdoutLine: {'line': b'byte-compiling /home/soar-uwu/RobotX-2026/install/blueboat/lib/python3.10/site-packages/blueboat/servo_test.py to servo_test.cpython-310.pyc\n'}
+[3.613464] (blueboat) StdoutLine: {'line': b'running install_data\n'}
+[3.615937] (blueboat) StdoutLine: {'line': b'running install_egg_info\n'}
+[3.618459] (blueboat) StdoutLine: {'line': b"removing '/home/soar-uwu/RobotX-2026/install/blueboat/lib/python3.10/site-packages/blueboat-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[3.625276] (blueboat) StdoutLine: {'line': b'Copying ../../build/blueboat/blueboat.egg-info to /home/soar-uwu/RobotX-2026/install/blueboat/lib/python3.10/site-packages/blueboat-0.0.0-py3.10.egg-info\n'}
+[3.625553] (blueboat) StdoutLine: {'line': b'running install_scripts\n'}
+[3.630747] (-) TimerEvent: {}
+[3.720336] (blueboat) StdoutLine: {'line': b'Installing coord_list script to /home/soar-uwu/RobotX-2026/install/blueboat/lib/blueboat\n'}
+[3.721046] (blueboat) StdoutLine: {'line': b'Installing local_pub_one script to /home/soar-uwu/RobotX-2026/install/blueboat/lib/blueboat\n'}
+[3.721410] (blueboat) StdoutLine: {'line': b'Installing manual_control_teleop script to /home/soar-uwu/RobotX-2026/install/blueboat/lib/blueboat\n'}
+[3.721666] (blueboat) StdoutLine: {'line': b'Installing movement_recorder script to /home/soar-uwu/RobotX-2026/install/blueboat/lib/blueboat\n'}
+[3.723570] (blueboat) StdoutLine: {'line': b'Installing neopixel_light script to /home/soar-uwu/RobotX-2026/install/blueboat/lib/blueboat\n'}
+[3.723912] (blueboat) StdoutLine: {'line': b'Installing rov_programmer script to /home/soar-uwu/RobotX-2026/install/blueboat/lib/blueboat\n'}
+[3.724079] (blueboat) StdoutLine: {'line': b'Installing rov_teleop script to /home/soar-uwu/RobotX-2026/install/blueboat/lib/blueboat\n'}
+[3.724229] (blueboat) StdoutLine: {'line': b'Installing rviz_mapper script to /home/soar-uwu/RobotX-2026/install/blueboat/lib/blueboat\n'}
+[3.724371] (blueboat) StdoutLine: {'line': b'Installing servo_test script to /home/soar-uwu/RobotX-2026/install/blueboat/lib/blueboat\n'}
+[3.724542] (blueboat) StdoutLine: {'line': b'Installing teleop_guided script to /home/soar-uwu/RobotX-2026/install/blueboat/lib/blueboat\n'}
+[3.724917] (blueboat) StdoutLine: {'line': b"writing list of installed files to '/home/soar-uwu/RobotX-2026/build/blueboat/install.log'\n"}
+[3.730944] (-) TimerEvent: {}
+[3.831711] (-) TimerEvent: {}
+[3.843114] (blueboat) CommandEnded: {'returncode': 0}
+[3.887236] (blueboat) JobEnded: {'identifier': 'blueboat', 'rc': 0}
+[3.889556] (-) EventReactorShutdown: {}

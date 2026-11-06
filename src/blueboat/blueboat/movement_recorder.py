@@ -64,13 +64,13 @@ class RecordReplayNode(Node):
 
         # Subscribers and Publishers
         self.local_pos_sub = self.create_subscription(
-            PoseStamped, '/blueboat/mavros/local_position/pose', self.pose_callback, qos_profile
+            PoseStamped, '/mavros/local_position/pose', self.pose_callback, qos_profile
         )
         self.state_sub = self.create_subscription(
-            State, '/blueboat/mavros/state', self.state_callback, 10
+            State, '/mavros/state', self.state_callback, 10
         )
         self.local_pos_pub = self.create_publisher(
-            PoseStamped, '/blueboat/mavros/setpoint_position/local', 10
+            PoseStamped, '/mavros/setpoint_position/local', 10
         )
 
         # Vehicle Position, Heading & Telemetry State

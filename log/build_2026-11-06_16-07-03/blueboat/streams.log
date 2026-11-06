@@ -1,0 +1,58 @@
+[4.303s] Invoking command in '/home/soar-uwu/RobotX-2026/build/blueboat': PYTHONPATH=/home/soar-uwu/RobotX-2026/build/blueboat/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/soar-uwu/RobotX-2026/install/blueboat/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/soar-uwu/RobotX-2026/build/blueboat/build
+[5.960s] running develop
+[6.871s] Removing /home/soar-uwu/RobotX-2026/install/blueboat/lib/python3.10/site-packages/blueboat.egg-link (link to .)
+[7.019s] Invoked command in '/home/soar-uwu/RobotX-2026/build/blueboat' returned '0': PYTHONPATH=/home/soar-uwu/RobotX-2026/build/blueboat/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/soar-uwu/RobotX-2026/install/blueboat/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/soar-uwu/RobotX-2026/build/blueboat/build
+[7.021s] Invoking command in '/home/soar-uwu/RobotX-2026/src/blueboat': PYTHONPATH=/home/soar-uwu/RobotX-2026/build/blueboat/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/soar-uwu/RobotX-2026/install/blueboat/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/blueboat build --build-base /home/soar-uwu/RobotX-2026/build/blueboat/build install --record /home/soar-uwu/RobotX-2026/build/blueboat/install.log --install-scripts $base/lib/blueboat --single-version-externally-managed install_data --force
+[8.862s] running egg_info
+[8.865s] writing ../../build/blueboat/blueboat.egg-info/PKG-INFO
+[8.865s] writing dependency_links to ../../build/blueboat/blueboat.egg-info/dependency_links.txt
+[8.866s] writing entry points to ../../build/blueboat/blueboat.egg-info/entry_points.txt
+[8.867s] writing requirements to ../../build/blueboat/blueboat.egg-info/requires.txt
+[8.868s] writing top-level names to ../../build/blueboat/blueboat.egg-info/top_level.txt
+[8.877s] reading manifest file '../../build/blueboat/blueboat.egg-info/SOURCES.txt'
+[8.882s] writing manifest file '../../build/blueboat/blueboat.egg-info/SOURCES.txt'
+[8.883s] running build
+[8.884s] running build_py
+[8.884s] copying blueboat/servo_test.py -> /home/soar-uwu/RobotX-2026/build/blueboat/build/lib/blueboat
+[8.887s] running install
+[8.889s] running install_lib
+[8.894s] copying /home/soar-uwu/RobotX-2026/build/blueboat/build/lib/blueboat/servo_test.py -> /home/soar-uwu/RobotX-2026/install/blueboat/lib/python3.10/site-packages/blueboat
+[8.894s] copying /home/soar-uwu/RobotX-2026/build/blueboat/build/lib/blueboat/local_pub_one.py -> /home/soar-uwu/RobotX-2026/install/blueboat/lib/python3.10/site-packages/blueboat
+[8.896s] copying /home/soar-uwu/RobotX-2026/build/blueboat/build/lib/blueboat/coord_list.py -> /home/soar-uwu/RobotX-2026/install/blueboat/lib/python3.10/site-packages/blueboat
+[8.897s] copying /home/soar-uwu/RobotX-2026/build/blueboat/build/lib/blueboat/rviz_mapper.py -> /home/soar-uwu/RobotX-2026/install/blueboat/lib/python3.10/site-packages/blueboat
+[8.897s] copying /home/soar-uwu/RobotX-2026/build/blueboat/build/lib/blueboat/teleop_test.py -> /home/soar-uwu/RobotX-2026/install/blueboat/lib/python3.10/site-packages/blueboat
+[8.897s] copying /home/soar-uwu/RobotX-2026/build/blueboat/build/lib/blueboat/mavros_serial_led_controller.py -> /home/soar-uwu/RobotX-2026/install/blueboat/lib/python3.10/site-packages/blueboat
+[8.897s] copying /home/soar-uwu/RobotX-2026/build/blueboat/build/lib/blueboat/__init__.py -> /home/soar-uwu/RobotX-2026/install/blueboat/lib/python3.10/site-packages/blueboat
+[8.899s] copying /home/soar-uwu/RobotX-2026/build/blueboat/build/lib/blueboat/movement_recorder.py -> /home/soar-uwu/RobotX-2026/install/blueboat/lib/python3.10/site-packages/blueboat
+[8.900s] copying /home/soar-uwu/RobotX-2026/build/blueboat/build/lib/blueboat/teleop_cmdvel_rov.py -> /home/soar-uwu/RobotX-2026/install/blueboat/lib/python3.10/site-packages/blueboat
+[8.901s] copying /home/soar-uwu/RobotX-2026/build/blueboat/build/lib/blueboat/rov_programmer.py -> /home/soar-uwu/RobotX-2026/install/blueboat/lib/python3.10/site-packages/blueboat
+[8.904s] copying /home/soar-uwu/RobotX-2026/build/blueboat/build/lib/blueboat/manual_control_teleop.py -> /home/soar-uwu/RobotX-2026/install/blueboat/lib/python3.10/site-packages/blueboat
+[8.907s] byte-compiling /home/soar-uwu/RobotX-2026/install/blueboat/lib/python3.10/site-packages/blueboat/servo_test.py to servo_test.cpython-310.pyc
+[8.909s] byte-compiling /home/soar-uwu/RobotX-2026/install/blueboat/lib/python3.10/site-packages/blueboat/local_pub_one.py to local_pub_one.cpython-310.pyc
+[8.915s] byte-compiling /home/soar-uwu/RobotX-2026/install/blueboat/lib/python3.10/site-packages/blueboat/coord_list.py to coord_list.cpython-310.pyc
+[8.920s] byte-compiling /home/soar-uwu/RobotX-2026/install/blueboat/lib/python3.10/site-packages/blueboat/rviz_mapper.py to rviz_mapper.cpython-310.pyc
+[8.925s] byte-compiling /home/soar-uwu/RobotX-2026/install/blueboat/lib/python3.10/site-packages/blueboat/teleop_test.py to teleop_test.cpython-310.pyc
+[8.933s] byte-compiling /home/soar-uwu/RobotX-2026/install/blueboat/lib/python3.10/site-packages/blueboat/mavros_serial_led_controller.py to mavros_serial_led_controller.cpython-310.pyc
+[8.937s] byte-compiling /home/soar-uwu/RobotX-2026/install/blueboat/lib/python3.10/site-packages/blueboat/__init__.py to __init__.cpython-310.pyc
+[8.938s] byte-compiling /home/soar-uwu/RobotX-2026/install/blueboat/lib/python3.10/site-packages/blueboat/movement_recorder.py to movement_recorder.cpython-310.pyc
+[8.940s] byte-compiling /home/soar-uwu/RobotX-2026/install/blueboat/lib/python3.10/site-packages/blueboat/teleop_cmdvel_rov.py to teleop_cmdvel_rov.cpython-310.pyc
+[8.945s] byte-compiling /home/soar-uwu/RobotX-2026/install/blueboat/lib/python3.10/site-packages/blueboat/rov_programmer.py to rov_programmer.cpython-310.pyc
+[8.953s] byte-compiling /home/soar-uwu/RobotX-2026/install/blueboat/lib/python3.10/site-packages/blueboat/manual_control_teleop.py to manual_control_teleop.cpython-310.pyc
+[8.958s] running install_data
+[8.959s] copying resource/blueboat -> /home/soar-uwu/RobotX-2026/install/blueboat/share/ament_index/resource_index/packages
+[8.960s] copying package.xml -> /home/soar-uwu/RobotX-2026/install/blueboat/share/blueboat
+[8.962s] running install_egg_info
+[8.968s] Copying ../../build/blueboat/blueboat.egg-info to /home/soar-uwu/RobotX-2026/install/blueboat/lib/python3.10/site-packages/blueboat-0.0.0-py3.10.egg-info
+[8.974s] running install_scripts
+[9.046s] Installing coord_list script to /home/soar-uwu/RobotX-2026/install/blueboat/lib/blueboat
+[9.049s] Installing local_pub_one script to /home/soar-uwu/RobotX-2026/install/blueboat/lib/blueboat
+[9.049s] Installing manual_control_teleop script to /home/soar-uwu/RobotX-2026/install/blueboat/lib/blueboat
+[9.049s] Installing movement_recorder script to /home/soar-uwu/RobotX-2026/install/blueboat/lib/blueboat
+[9.049s] Installing neopixel_light script to /home/soar-uwu/RobotX-2026/install/blueboat/lib/blueboat
+[9.050s] Installing rov_programmer script to /home/soar-uwu/RobotX-2026/install/blueboat/lib/blueboat
+[9.051s] Installing rov_teleop script to /home/soar-uwu/RobotX-2026/install/blueboat/lib/blueboat
+[9.052s] Installing rviz_mapper script to /home/soar-uwu/RobotX-2026/install/blueboat/lib/blueboat
+[9.052s] Installing servo_test script to /home/soar-uwu/RobotX-2026/install/blueboat/lib/blueboat
+[9.052s] Installing teleop_guided script to /home/soar-uwu/RobotX-2026/install/blueboat/lib/blueboat
+[9.054s] writing list of installed files to '/home/soar-uwu/RobotX-2026/build/blueboat/install.log'
+[9.161s] Invoked command in '/home/soar-uwu/RobotX-2026/src/blueboat' returned '0': PYTHONPATH=/home/soar-uwu/RobotX-2026/build/blueboat/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/soar-uwu/RobotX-2026/install/blueboat/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/blueboat build --build-base /home/soar-uwu/RobotX-2026/build/blueboat/build install --record /home/soar-uwu/RobotX-2026/build/blueboat/install.log --install-scripts $base/lib/blueboat --single-version-externally-managed install_data --force

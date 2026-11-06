@@ -1,0 +1,21 @@
+# UUV, underwater camera. RobotX 2026 (handbook 2026-10-15); preliminary sizes, re-measure on site.
+# task: obb (rotated boxes) | detect (upright boxes, default).
+# objects: the classes published (must match the model) -> size m, dim used for distance, light.
+# dim: w | h (side closer to horizontal / vertical) | max (round objects, any tilt) |
+#      min (thickness of long objects; they may cross the image edge).
+# light: true (any of RED / GREEN / BLUE) or {colours: [...]} to only look for these.
+# Model classes not listed here are detected but not published.
+# Rotated boxes (obb, from yolo11s-obb.pt) for the pipe. One model has one box type: classes that
+# need no rotation are labelled as plain boxes (rotation 0) in the OBB format.
+model: /workspace/models/uuv.engine
+task: obb
+imgsz: [384, 640]
+objects:
+  # Task 2: pipeline survey
+  # LED ring OD; handbook: RED or GREEN only. Facing it: plain box. Clearly oblique (ellipse):
+  # rotated along the ellipse's long axis, else the distance comes out up to ~40 % too far.
+  light_node: {size: 0.0445, dim: max, light: {colours: [RED, GREEN]}}
+  # The 3" pipeline only (Ø 88.9 mm), one rotated box per straight run between elbows (tees included).
+  pipe:       {size: 0.0889, dim: min}
+  # Also train, but do not list: pipe_stand (vertical 2" legs, rotated as they appear) and
+  # pipe_base (frames on the floor, roughly rotated), so the model learns them apart from the pipeline.

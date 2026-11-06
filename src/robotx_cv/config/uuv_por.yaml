@@ -1,0 +1,14 @@
+# UUV Proof of Readiness (handbook 3.1.3): through the gate, around the marker, back through the gate.
+# Plain boxes (detect): with the UUV level, the gate is horizontal and the marker vertical in the image.
+# Outputs /uuv_por/cv/objects. See uuv.yaml for the format. Both are team-built: set the real sizes.
+model: /workspace/models/uuv_por.engine
+task: detect
+imgsz: [384, 640]
+objects:
+  # Horizontal gate, 2 m wide, 1 m below the surface. Box around the whole gate (bar and legs);
+  # no distance once it fills the image (box at the edges).
+  gate:   {size: 2.0, dim: w}
+  # Vertical marker, 10 m beyond the gate. dim min = its thickness, so the distance still works
+  # when the pole runs off the top / bottom of the image. Set size to the marker's diameter (m),
+  # e.g. {size: 0.0889, dim: min} for 3" PVC; {} = no distance.
+  marker: {}

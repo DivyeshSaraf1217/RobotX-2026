@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "robotx_cv__py",
+		"source" : "/home/soar-uwu/RobotX-2026/build/robotx_cv/robotx_cv__py"
+	}
+}

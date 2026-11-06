@@ -1,0 +1,11 @@
+# Bench test with the stock COCO model until the RobotX models are trained.
+# See uuv.yaml for the format. Sizes are rough typical values.
+model: /workspace/models/yolo11s.engine
+imgsz: [384, 640]
+objects:
+  person:        {size: 1.7, dim: h}
+  chair:         {size: 0.9, dim: h}
+  bottle:        {size: 0.25, dim: h}
+  cup:           {size: 0.1, dim: h}
+  cell phone:    {size: 0.15, dim: max}
+  traffic light: {light: true}

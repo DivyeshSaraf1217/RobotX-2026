@@ -1,0 +1,9 @@
+{
+  "package_name": "robotx_cv",
+  "non_idl_tuples": [
+    "/home/soar-uwu/RobotX-2026/src/robotx_cv:msg/Object.msg",
+    "/home/soar-uwu/RobotX-2026/src/robotx_cv:msg/ObjectArray.msg",
+    "/home/soar-uwu/RobotX-2026/src/robotx_cv:msg/Detection.msg",
+    "/home/soar-uwu/RobotX-2026/src/robotx_cv:msg/DetectionArray.msg"
+  ]
+}

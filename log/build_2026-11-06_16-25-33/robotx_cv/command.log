@@ -1,0 +1,6 @@
+Invoking command in '/home/soar-uwu/RobotX-2026/build/robotx_cv': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/soar-uwu/RobotX-2026/src/robotx_cv -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/soar-uwu/RobotX-2026/install/robotx_cv
+Invoked command in '/home/soar-uwu/RobotX-2026/build/robotx_cv' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/soar-uwu/RobotX-2026/src/robotx_cv -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/soar-uwu/RobotX-2026/install/robotx_cv
+Invoking command in '/home/soar-uwu/RobotX-2026/build/robotx_cv': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/soar-uwu/RobotX-2026/build/robotx_cv -- -j4 -l4
+Invoked command in '/home/soar-uwu/RobotX-2026/build/robotx_cv' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/soar-uwu/RobotX-2026/build/robotx_cv -- -j4 -l4
+Invoking command in '/home/soar-uwu/RobotX-2026/build/robotx_cv': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/soar-uwu/RobotX-2026/build/robotx_cv
+Invoked command in '/home/soar-uwu/RobotX-2026/build/robotx_cv' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/soar-uwu/RobotX-2026/build/robotx_cv

@@ -1,0 +1,21 @@
+# USV (or surfaced UUV), side-looking camera. RobotX 2026; preliminary sizes, re-measure on site.
+# See uuv.yaml for the format.
+# Plain boxes (detect, from yolo11s.pt): everything stands upright on the water; COCO weights
+# (side views, boats) transfer better than the aerial OBB ones.
+model: /workspace/models/usv.engine
+task: detect
+imgsz: [384, 640]
+objects:
+  # Task 1 safe passage, Task 2 survey buoys
+  robobuoy:              {size: 0.43, dim: w}                  # estimated from the BOM, measure
+  light_beacon:          {size: 0.0889, dim: w, light: true}   # LED strip on 3.5" OD pipe; red, green, blue
+  # Task 2 start buoy, Task 3 safe bay (painted fins, colour is the class)
+  color_indicator_red:   {size: 0.135, dim: h}
+  color_indicator_green: {size: 0.135, dim: h}
+  # Task 3 docking
+  dock_structure:        {}                                    # drawing only, measure
+  # Front panel of one bay (build guide "Docking Bay Structure", 1000 x 1000 mm): 2 windows and the
+  # colour indicator, found by dock.py and published as `window` / `dock_indicator` with `parent`.
+  # dim h: the boat looks across, so yaw shrinks widths only.
+  dock_face:             {size: 1.0, dim: h, parts: {split: 0.75}}
+  window:                {size: 0.36, dim: h, light: true}     # black frame 280 x 360 mm, 16x16 RGB LED matrix behind

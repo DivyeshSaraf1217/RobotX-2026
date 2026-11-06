@@ -1,0 +1,216 @@
+[1.397s] Invoking command in '/home/soar-uwu/RobotX-2026/build/robotx_cv': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/soar-uwu/RobotX-2026/install/blueboat:/opt/ros/humble /usr/bin/cmake --build /home/soar-uwu/RobotX-2026/build/robotx_cv -- -j4 -l4
+[2.009s] [  1%] Built target robotx_cv__rs
+[2.153s] [  1%] Built target ament_cmake_python_symlink_robotx_cv
+[2.248s] [  3%] Built target robotx_cv__cpp
+[4.471s] running egg_info
+[4.482s] writing robotx_cv.egg-info/PKG-INFO
+[4.487s] writing dependency_links to robotx_cv.egg-info/dependency_links.txt
+[4.496s] writing top-level names to robotx_cv.egg-info/top_level.txt
+[4.548s] reading manifest file 'robotx_cv.egg-info/SOURCES.txt'
+[4.562s] writing manifest file 'robotx_cv.egg-info/SOURCES.txt'
+[5.108s] [  3%] Built target ament_cmake_python_build_robotx_cv_egg
+[5.289s] [ 14%] Built target robotx_cv__rosidl_typesupport_introspection_cpp
+[5.399s] [ 25%] Built target robotx_cv__rosidl_typesupport_cpp
+[5.658s] [ 35%] Built target robotx_cv__rosidl_typesupport_fastrtps_cpp
+[5.792s] [ 46%] Built target robotx_cv__rosidl_generator_c
+[6.175s] [ 57%] Built target robotx_cv__rosidl_typesupport_fastrtps_c
+[6.414s] [ 67%] Built target robotx_cv__rosidl_typesupport_c
+[6.622s] [ 78%] Built target robotx_cv__rosidl_typesupport_introspection_c
+[6.760s] [ 78%] Built target robotx_cv
+[6.938s] [ 80%] Built target robotx_cv__py
+[7.127s] [ 89%] Built target robotx_cv__rosidl_generator_py
+[7.216s] [ 92%] Built target robotx_cv__rosidl_typesupport_fastrtps_c__pyext
+[7.362s] [ 96%] Built target robotx_cv__rosidl_typesupport_c__pyext
+[7.564s] [100%] Built target robotx_cv__rosidl_typesupport_introspection_c__pyext
+[7.706s] Invoked command in '/home/soar-uwu/RobotX-2026/build/robotx_cv' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/soar-uwu/RobotX-2026/install/blueboat:/opt/ros/humble /usr/bin/cmake --build /home/soar-uwu/RobotX-2026/build/robotx_cv -- -j4 -l4
+[7.740s] Invoking command in '/home/soar-uwu/RobotX-2026/build/robotx_cv': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/soar-uwu/RobotX-2026/install/blueboat:/opt/ros/humble /usr/bin/cmake --install /home/soar-uwu/RobotX-2026/build/robotx_cv
+[7.771s] -- Install configuration: ""
+[7.773s] -- Execute custom install script
+[7.773s] -- Up-to-date symlink: /home/soar-uwu/RobotX-2026/install/robotx_cv/share/ament_index/resource_index/rosidl_interfaces/robotx_cv
+[7.778s] -- Up-to-date symlink: /home/soar-uwu/RobotX-2026/install/robotx_cv/include/robotx_cv/robotx_cv/msg/detail/detection__functions.h
+[7.779s] -- Up-to-date symlink: /home/soar-uwu/RobotX-2026/install/robotx_cv/include/robotx_cv/robotx_cv/msg/detail/detection__struct.h
+[7.779s] -- Up-to-date symlink: /home/soar-uwu/RobotX-2026/install/robotx_cv/include/robotx_cv/robotx_cv/msg/detail/detection__type_support.h
+[7.779s] -- Up-to-date symlink: /home/soar-uwu/RobotX-2026/install/robotx_cv/include/robotx_cv/robotx_cv/msg/detail/detection_array__functions.h
+[7.779s] -- Up-to-date symlink: /home/soar-uwu/RobotX-2026/install/robotx_cv/include/robotx_cv/robotx_cv/msg/detail/detection_array__struct.h
+[7.780s] -- Up-to-date symlink: /home/soar-uwu/RobotX-2026/install/robotx_cv/include/robotx_cv/robotx_cv/msg/detail/detection_array__type_support.h
+[7.780s] -- Up-to-date symlink: /home/soar-uwu/RobotX-2026/install/robotx_cv/include/robotx_cv/robotx_cv/msg/detail/object__functions.h
+[7.780s] -- Up-to-date symlink: /home/soar-uwu/RobotX-2026/install/robotx_cv/include/robotx_cv/robotx_cv/msg/detail/object__struct.h
+[7.780s] -- Up-to-date symlink: /home/soar-uwu/RobotX-2026/install/robotx_cv/include/robotx_cv/robotx_cv/msg/detail/object__type_support.h
+[7.781s] -- Up-to-date symlink: /home/soar-uwu/RobotX-2026/install/robotx_cv/include/robotx_cv/robotx_cv/msg/detail/object_array__functions.h
+[7.781s] -- Up-to-date symlink: /home/soar-uwu/RobotX-2026/install/robotx_cv/include/robotx_cv/robotx_cv/msg/detail/object_array__struct.h
+[7.781s] -- Up-to-date symlink: /home/soar-uwu/RobotX-2026/install/robotx_cv/include/robotx_cv/robotx_cv/msg/detail/object_array__type_support.h
+[7.782s] -- Up-to-date symlink: /home/soar-uwu/RobotX-2026/install/robotx_cv/include/robotx_cv/robotx_cv/msg/detection.h
+[7.782s] -- Up-to-date symlink: /home/soar-uwu/RobotX-2026/install/robotx_cv/include/robotx_cv/robotx_cv/msg/detection_array.h
+[7.782s] -- Up-to-date symlink: /home/soar-uwu/RobotX-2026/install/robotx_cv/include/robotx_cv/robotx_cv/msg/object.h
+[7.782s] -- Up-to-date symlink: /home/soar-uwu/RobotX-2026/install/robotx_cv/include/robotx_cv/robotx_cv/msg/object_array.h
+[7.783s] -- Up-to-date symlink: /home/soar-uwu/RobotX-2026/install/robotx_cv/include/robotx_cv/robotx_cv/msg/rosidl_generator_c__visibility_control.h
+[7.783s] -- Up-to-date symlink: /home/soar-uwu/RobotX-2026/install/robotx_cv/share/robotx_cv/environment/library_path.sh
+[7.783s] -- Up-to-date symlink: /home/soar-uwu/RobotX-2026/install/robotx_cv/share/robotx_cv/environment/library_path.dsv
+[7.786s] -- Up-to-date symlink: /home/soar-uwu/RobotX-2026/install/robotx_cv/include/robotx_cv/robotx_cv/msg/detail/detection__rosidl_typesupport_fastrtps_c.h
+[7.787s] -- Up-to-date symlink: /home/soar-uwu/RobotX-2026/install/robotx_cv/include/robotx_cv/robotx_cv/msg/detail/detection_array__rosidl_typesupport_fastrtps_c.h
+[7.787s] -- Up-to-date symlink: /home/soar-uwu/RobotX-2026/install/robotx_cv/include/robotx_cv/robotx_cv/msg/detail/object__rosidl_typesupport_fastrtps_c.h
+[7.787s] -- Up-to-date symlink: /home/soar-uwu/RobotX-2026/install/robotx_cv/include/robotx_cv/robotx_cv/msg/detail/object_array__rosidl_typesupport_fastrtps_c.h
+[7.787s] -- Up-to-date symlink: /home/soar-uwu/RobotX-2026/install/robotx_cv/include/robotx_cv/robotx_cv/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[7.788s] -- Up-to-date symlink: /home/soar-uwu/RobotX-2026/install/robotx_cv/include/robotx_cv/robotx_cv/msg/detail/detection__rosidl_typesupport_introspection_c.h
+[7.788s] -- Up-to-date symlink: /home/soar-uwu/RobotX-2026/install/robotx_cv/include/robotx_cv/robotx_cv/msg/detail/detection_array__rosidl_typesupport_introspection_c.h
+[7.789s] -- Up-to-date symlink: /home/soar-uwu/RobotX-2026/install/robotx_cv/include/robotx_cv/robotx_cv/msg/detail/object__rosidl_typesupport_introspection_c.h
+[7.789s] -- Up-to-date symlink: /home/soar-uwu/RobotX-2026/install/robotx_cv/include/robotx_cv/robotx_cv/msg/detail/object_array__rosidl_typesupport_introspection_c.h
+[7.789s] -- Up-to-date symlink: /home/soar-uwu/RobotX-2026/install/robotx_cv/include/robotx_cv/robotx_cv/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[7.792s] -- Up-to-date symlink: /home/soar-uwu/RobotX-2026/install/robotx_cv/include/robotx_cv/robotx_cv/msg/detail/detection__builder.hpp
+[7.793s] -- Up-to-date symlink: /home/soar-uwu/RobotX-2026/install/robotx_cv/include/robotx_cv/robotx_cv/msg/detail/detection__struct.hpp
+[7.793s] -- Up-to-date symlink: /home/soar-uwu/RobotX-2026/install/robotx_cv/include/robotx_cv/robotx_cv/msg/detail/detection__traits.hpp
+[7.794s] -- Up-to-date symlink: /home/soar-uwu/RobotX-2026/install/robotx_cv/include/robotx_cv/robotx_cv/msg/detail/detection__type_support.hpp
+[7.796s] -- Up-to-date symlink: /home/soar-uwu/RobotX-2026/install/robotx_cv/include/robotx_cv/robotx_cv/msg/detail/detection_array__builder.hpp
+[7.796s] -- Up-to-date symlink: /home/soar-uwu/RobotX-2026/install/robotx_cv/include/robotx_cv/robotx_cv/msg/detail/detection_array__struct.hpp
+[7.796s] -- Up-to-date symlink: /home/soar-uwu/RobotX-2026/install/robotx_cv/include/robotx_cv/robotx_cv/msg/detail/detection_array__traits.hpp
+[7.797s] -- Up-to-date symlink: /home/soar-uwu/RobotX-2026/install/robotx_cv/include/robotx_cv/robotx_cv/msg/detail/detection_array__type_support.hpp
+[7.798s] -- Up-to-date symlink: /home/soar-uwu/RobotX-2026/install/robotx_cv/include/robotx_cv/robotx_cv/msg/detail/object__builder.hpp
+[7.798s] -- Up-to-date symlink: /home/soar-uwu/RobotX-2026/install/robotx_cv/include/robotx_cv/robotx_cv/msg/detail/object__struct.hpp
+[7.798s] -- Up-to-date symlink: /home/soar-uwu/RobotX-2026/install/robotx_cv/include/robotx_cv/robotx_cv/msg/detail/object__traits.hpp
+[7.800s] -- Up-to-date symlink: /home/soar-uwu/RobotX-2026/install/robotx_cv/include/robotx_cv/robotx_cv/msg/detail/object__type_support.hpp
+[7.801s] -- Up-to-date symlink: /home/soar-uwu/RobotX-2026/install/robotx_cv/include/robotx_cv/robotx_cv/msg/detail/object_array__builder.hpp
+[7.801s] -- Up-to-date symlink: /home/soar-uwu/RobotX-2026/install/robotx_cv/include/robotx_cv/robotx_cv/msg/detail/object_array__struct.hpp
+[7.801s] -- Up-to-date symlink: /home/soar-uwu/RobotX-2026/install/robotx_cv/include/robotx_cv/robotx_cv/msg/detail/object_array__traits.hpp
+[7.803s] -- Up-to-date symlink: /home/soar-uwu/RobotX-2026/install/robotx_cv/include/robotx_cv/robotx_cv/msg/detail/object_array__type_support.hpp
+[7.803s] -- Up-to-date symlink: /home/soar-uwu/RobotX-2026/install/robotx_cv/include/robotx_cv/robotx_cv/msg/detection.hpp
+[7.803s] -- Up-to-date symlink: /home/soar-uwu/RobotX-2026/install/robotx_cv/include/robotx_cv/robotx_cv/msg/detection_array.hpp
+[7.805s] -- Up-to-date symlink: /home/soar-uwu/RobotX-2026/install/robotx_cv/include/robotx_cv/robotx_cv/msg/object.hpp
+[7.806s] -- Up-to-date symlink: /home/soar-uwu/RobotX-2026/install/robotx_cv/include/robotx_cv/robotx_cv/msg/object_array.hpp
+[7.806s] -- Up-to-date symlink: /home/soar-uwu/RobotX-2026/install/robotx_cv/include/robotx_cv/robotx_cv/msg/rosidl_generator_cpp__visibility_control.hpp
+[7.811s] -- Up-to-date symlink: /home/soar-uwu/RobotX-2026/install/robotx_cv/include/robotx_cv/robotx_cv/msg/detail/detection__rosidl_typesupport_fastrtps_cpp.hpp
+[7.812s] -- Up-to-date symlink: /home/soar-uwu/RobotX-2026/install/robotx_cv/include/robotx_cv/robotx_cv/msg/detail/detection_array__rosidl_typesupport_fastrtps_cpp.hpp
+[7.813s] -- Up-to-date symlink: /home/soar-uwu/RobotX-2026/install/robotx_cv/include/robotx_cv/robotx_cv/msg/detail/object__rosidl_typesupport_fastrtps_cpp.hpp
+[7.813s] -- Up-to-date symlink: /home/soar-uwu/RobotX-2026/install/robotx_cv/include/robotx_cv/robotx_cv/msg/detail/object_array__rosidl_typesupport_fastrtps_cpp.hpp
+[7.813s] -- Up-to-date symlink: /home/soar-uwu/RobotX-2026/install/robotx_cv/include/robotx_cv/robotx_cv/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[7.814s] -- Up-to-date symlink: /home/soar-uwu/RobotX-2026/install/robotx_cv/include/robotx_cv/robotx_cv/msg/detail/detection__rosidl_typesupport_introspection_cpp.hpp
+[7.818s] -- Up-to-date symlink: /home/soar-uwu/RobotX-2026/install/robotx_cv/include/robotx_cv/robotx_cv/msg/detail/detection_array__rosidl_typesupport_introspection_cpp.hpp
+[7.819s] -- Up-to-date symlink: /home/soar-uwu/RobotX-2026/install/robotx_cv/include/robotx_cv/robotx_cv/msg/detail/object__rosidl_typesupport_introspection_cpp.hpp
+[7.820s] -- Up-to-date symlink: /home/soar-uwu/RobotX-2026/install/robotx_cv/include/robotx_cv/robotx_cv/msg/detail/object_array__rosidl_typesupport_introspection_cpp.hpp
+[7.821s] -- Up-to-date symlink: /home/soar-uwu/RobotX-2026/install/robotx_cv/share/robotx_cv/environment/pythonpath.sh
+[7.823s] -- Up-to-date symlink: /home/soar-uwu/RobotX-2026/install/robotx_cv/share/robotx_cv/environment/pythonpath.dsv
+[7.824s] -- Up-to-date symlink: /home/soar-uwu/RobotX-2026/install/robotx_cv/local/lib/python3.10/dist-packages/robotx_cv-0.1.0-py3.10.egg-info/PKG-INFO
+[7.824s] -- Up-to-date symlink: /home/soar-uwu/RobotX-2026/install/robotx_cv/local/lib/python3.10/dist-packages/robotx_cv-0.1.0-py3.10.egg-info/SOURCES.txt
+[7.825s] -- Up-to-date symlink: /home/soar-uwu/RobotX-2026/install/robotx_cv/local/lib/python3.10/dist-packages/robotx_cv-0.1.0-py3.10.egg-info/dependency_links.txt
+[7.825s] -- Up-to-date symlink: /home/soar-uwu/RobotX-2026/install/robotx_cv/local/lib/python3.10/dist-packages/robotx_cv-0.1.0-py3.10.egg-info/top_level.txt
+[7.830s] -- Symlinking: /home/soar-uwu/RobotX-2026/install/robotx_cv/local/lib/python3.10/dist-packages/robotx_cv/__init__.py
+[7.908s] -- Up-to-date symlink: /home/soar-uwu/RobotX-2026/install/robotx_cv/local/lib/python3.10/dist-packages/robotx_cv/_robotx_cv_s.ep.rosidl_typesupport_c.c
+[7.909s] -- Up-to-date symlink: /home/soar-uwu/RobotX-2026/install/robotx_cv/local/lib/python3.10/dist-packages/robotx_cv/_robotx_cv_s.ep.rosidl_typesupport_fastrtps_c.c
+[7.909s] -- Up-to-date symlink: /home/soar-uwu/RobotX-2026/install/robotx_cv/local/lib/python3.10/dist-packages/robotx_cv/_robotx_cv_s.ep.rosidl_typesupport_introspection_c.c
+[7.910s] -- Up-to-date symlink: /home/soar-uwu/RobotX-2026/install/robotx_cv/local/lib/python3.10/dist-packages/robotx_cv/librobotx_cv__rosidl_generator_py.so
+[7.911s] -- Up-to-date symlink: /home/soar-uwu/RobotX-2026/install/robotx_cv/local/lib/python3.10/dist-packages/robotx_cv/msg/__init__.py
+[7.911s] -- Up-to-date symlink: /home/soar-uwu/RobotX-2026/install/robotx_cv/local/lib/python3.10/dist-packages/robotx_cv/msg/_detection.py
+[7.911s] -- Up-to-date symlink: /home/soar-uwu/RobotX-2026/install/robotx_cv/local/lib/python3.10/dist-packages/robotx_cv/msg/_detection_array.py
+[7.911s] -- Up-to-date symlink: /home/soar-uwu/RobotX-2026/install/robotx_cv/local/lib/python3.10/dist-packages/robotx_cv/msg/_detection_array_s.c
+[7.911s] -- Up-to-date symlink: /home/soar-uwu/RobotX-2026/install/robotx_cv/local/lib/python3.10/dist-packages/robotx_cv/msg/_detection_s.c
+[7.911s] -- Up-to-date symlink: /home/soar-uwu/RobotX-2026/install/robotx_cv/local/lib/python3.10/dist-packages/robotx_cv/msg/_object.py
+[7.912s] -- Up-to-date symlink: /home/soar-uwu/RobotX-2026/install/robotx_cv/local/lib/python3.10/dist-packages/robotx_cv/msg/_object_array.py
+[7.912s] -- Up-to-date symlink: /home/soar-uwu/RobotX-2026/install/robotx_cv/local/lib/python3.10/dist-packages/robotx_cv/msg/_object_array_s.c
+[7.912s] -- Up-to-date symlink: /home/soar-uwu/RobotX-2026/install/robotx_cv/local/lib/python3.10/dist-packages/robotx_cv/msg/_object_s.c
+[7.913s] -- Up-to-date symlink: /home/soar-uwu/RobotX-2026/install/robotx_cv/local/lib/python3.10/dist-packages/robotx_cv/robotx_cv_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[7.913s] -- Up-to-date symlink: /home/soar-uwu/RobotX-2026/install/robotx_cv/local/lib/python3.10/dist-packages/robotx_cv/robotx_cv_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[7.913s] -- Up-to-date symlink: /home/soar-uwu/RobotX-2026/install/robotx_cv/local/lib/python3.10/dist-packages/robotx_cv/robotx_cv_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[7.914s] -- Up-to-date symlink: /home/soar-uwu/RobotX-2026/install/robotx_cv/local/lib/python3.10/dist-packages/robotx_cv/robotx_cv_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[7.914s] -- Up-to-date symlink: /home/soar-uwu/RobotX-2026/install/robotx_cv/local/lib/python3.10/dist-packages/robotx_cv/robotx_cv_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[7.915s] -- Up-to-date symlink: /home/soar-uwu/RobotX-2026/install/robotx_cv/local/lib/python3.10/dist-packages/robotx_cv/robotx_cv_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[7.916s] -- Up-to-date symlink: /home/soar-uwu/RobotX-2026/install/robotx_cv/share/robotx_cv/rust/Cargo.toml
+[7.917s] -- Up-to-date symlink: /home/soar-uwu/RobotX-2026/install/robotx_cv/share/robotx_cv/rust/build.rs
+[7.917s] -- Up-to-date symlink: /home/soar-uwu/RobotX-2026/install/robotx_cv/share/robotx_cv/rust/src/lib.rs
+[7.917s] -- Up-to-date symlink: /home/soar-uwu/RobotX-2026/install/robotx_cv/share/robotx_cv/rust/src/msg.rs
+[7.921s] -- Up-to-date symlink: /home/soar-uwu/RobotX-2026/install/robotx_cv/share/robotx_cv/rust/src/msg/rmw.rs
+[7.921s] -- Up-to-date symlink: /home/soar-uwu/RobotX-2026/install/robotx_cv/share/robotx_cv/msg/Object.idl
+[7.923s] -- Up-to-date symlink: /home/soar-uwu/RobotX-2026/install/robotx_cv/share/robotx_cv/msg/ObjectArray.idl
+[7.924s] -- Up-to-date symlink: /home/soar-uwu/RobotX-2026/install/robotx_cv/share/robotx_cv/msg/Detection.idl
+[7.924s] -- Up-to-date symlink: /home/soar-uwu/RobotX-2026/install/robotx_cv/share/robotx_cv/msg/DetectionArray.idl
+[7.925s] -- Up-to-date symlink: /home/soar-uwu/RobotX-2026/install/robotx_cv/share/robotx_cv/msg/Object.msg
+[7.926s] -- Up-to-date symlink: /home/soar-uwu/RobotX-2026/install/robotx_cv/share/robotx_cv/msg/ObjectArray.msg
+[7.926s] -- Up-to-date symlink: /home/soar-uwu/RobotX-2026/install/robotx_cv/share/robotx_cv/msg/Detection.msg
+[7.927s] -- Up-to-date symlink: /home/soar-uwu/RobotX-2026/install/robotx_cv/share/robotx_cv/msg/DetectionArray.msg
+[7.928s] -- Symlinking: /home/soar-uwu/RobotX-2026/install/robotx_cv/local/lib/python3.10/dist-packages/robotx_cv/__init__.py
+[7.977s] -- Symlinking: /home/soar-uwu/RobotX-2026/install/robotx_cv/local/lib/python3.10/dist-packages/robotx_cv/__pycache__/__init__.cpython-310.pyc
+[8.025s] -- Symlinking: /home/soar-uwu/RobotX-2026/install/robotx_cv/local/lib/python3.10/dist-packages/robotx_cv/__pycache__/beacon.cpython-310.pyc
+[8.081s] -- Up-to-date symlink: /home/soar-uwu/RobotX-2026/install/robotx_cv/local/lib/python3.10/dist-packages/robotx_cv/__pycache__/dock.cpython-310.pyc
+[8.081s] -- Up-to-date symlink: /home/soar-uwu/RobotX-2026/install/robotx_cv/local/lib/python3.10/dist-packages/robotx_cv/__pycache__/light.cpython-310.pyc
+[8.081s] -- Symlinking: /home/soar-uwu/RobotX-2026/install/robotx_cv/local/lib/python3.10/dist-packages/robotx_cv/__pycache__/ranging.cpython-310.pyc
+[8.156s] -- Up-to-date symlink: /home/soar-uwu/RobotX-2026/install/robotx_cv/local/lib/python3.10/dist-packages/robotx_cv/__pycache__/task1.cpython-310.pyc
+[8.157s] -- Up-to-date symlink: /home/soar-uwu/RobotX-2026/install/robotx_cv/local/lib/python3.10/dist-packages/robotx_cv/beacon.py
+[8.157s] -- Up-to-date symlink: /home/soar-uwu/RobotX-2026/install/robotx_cv/local/lib/python3.10/dist-packages/robotx_cv/detector.py
+[8.157s] -- Up-to-date symlink: /home/soar-uwu/RobotX-2026/install/robotx_cv/local/lib/python3.10/dist-packages/robotx_cv/dock.py
+[8.157s] -- Up-to-date symlink: /home/soar-uwu/RobotX-2026/install/robotx_cv/local/lib/python3.10/dist-packages/robotx_cv/light.py
+[8.157s] -- Up-to-date symlink: /home/soar-uwu/RobotX-2026/install/robotx_cv/local/lib/python3.10/dist-packages/robotx_cv/ranging.py
+[8.157s] -- Up-to-date symlink: /home/soar-uwu/RobotX-2026/install/robotx_cv/local/lib/python3.10/dist-packages/robotx_cv/task1.py
+[8.158s] -- Up-to-date symlink: /home/soar-uwu/RobotX-2026/install/robotx_cv/lib/robotx_cv/detector.py
+[8.158s] -- Up-to-date symlink: /home/soar-uwu/RobotX-2026/install/robotx_cv/lib/robotx_cv/task1.py
+[8.158s] -- Up-to-date symlink: /home/soar-uwu/RobotX-2026/install/robotx_cv/share/robotx_cv/launch/detector.launch.py
+[8.158s] -- Up-to-date symlink: /home/soar-uwu/RobotX-2026/install/robotx_cv/share/robotx_cv/launch/task1.launch.py
+[8.158s] -- Up-to-date symlink: /home/soar-uwu/RobotX-2026/install/robotx_cv/share/robotx_cv/config/buoy_test.yaml
+[8.158s] -- Up-to-date symlink: /home/soar-uwu/RobotX-2026/install/robotx_cv/share/robotx_cv/config/camera/bull_camera.yaml
+[8.159s] -- Up-to-date symlink: /home/soar-uwu/RobotX-2026/install/robotx_cv/share/robotx_cv/config/coco.yaml
+[8.159s] -- Up-to-date symlink: /home/soar-uwu/RobotX-2026/install/robotx_cv/share/robotx_cv/config/uav.yaml
+[8.159s] -- Up-to-date symlink: /home/soar-uwu/RobotX-2026/install/robotx_cv/share/robotx_cv/config/usv.yaml
+[8.159s] -- Up-to-date symlink: /home/soar-uwu/RobotX-2026/install/robotx_cv/share/robotx_cv/config/usv_task1.yaml
+[8.159s] -- Up-to-date symlink: /home/soar-uwu/RobotX-2026/install/robotx_cv/share/robotx_cv/config/usv_task1_buoytest.yaml
+[8.159s] -- Up-to-date symlink: /home/soar-uwu/RobotX-2026/install/robotx_cv/share/robotx_cv/config/uuv.yaml
+[8.159s] -- Up-to-date symlink: /home/soar-uwu/RobotX-2026/install/robotx_cv/share/robotx_cv/config/uuv_por.yaml
+[8.160s] -- Up-to-date symlink: /home/soar-uwu/RobotX-2026/install/robotx_cv/share/ament_index/resource_index/package_run_dependencies/robotx_cv
+[8.160s] -- Up-to-date symlink: /home/soar-uwu/RobotX-2026/install/robotx_cv/share/ament_index/resource_index/parent_prefix_path/robotx_cv
+[8.160s] -- Up-to-date symlink: /home/soar-uwu/RobotX-2026/install/robotx_cv/share/robotx_cv/environment/ament_prefix_path.sh
+[8.160s] -- Up-to-date symlink: /home/soar-uwu/RobotX-2026/install/robotx_cv/share/robotx_cv/environment/ament_prefix_path.dsv
+[8.160s] -- Up-to-date symlink: /home/soar-uwu/RobotX-2026/install/robotx_cv/share/robotx_cv/environment/path.sh
+[8.164s] -- Up-to-date symlink: /home/soar-uwu/RobotX-2026/install/robotx_cv/share/robotx_cv/environment/path.dsv
+[8.169s] -- Up-to-date symlink: /home/soar-uwu/RobotX-2026/install/robotx_cv/share/robotx_cv/local_setup.bash
+[8.171s] -- Up-to-date symlink: /home/soar-uwu/RobotX-2026/install/robotx_cv/share/robotx_cv/local_setup.sh
+[8.174s] -- Up-to-date symlink: /home/soar-uwu/RobotX-2026/install/robotx_cv/share/robotx_cv/local_setup.zsh
+[8.175s] -- Up-to-date symlink: /home/soar-uwu/RobotX-2026/install/robotx_cv/share/robotx_cv/local_setup.dsv
+[8.176s] -- Symlinking: /home/soar-uwu/RobotX-2026/install/robotx_cv/share/robotx_cv/package.dsv
+[8.236s] -- Up-to-date symlink: /home/soar-uwu/RobotX-2026/install/robotx_cv/share/ament_index/resource_index/packages/robotx_cv
+[8.236s] -- Up-to-date symlink: /home/soar-uwu/RobotX-2026/install/robotx_cv/share/robotx_cv/cmake/rosidl_cmake-extras.cmake
+[8.236s] -- Up-to-date symlink: /home/soar-uwu/RobotX-2026/install/robotx_cv/share/robotx_cv/cmake/ament_cmake_export_dependencies-extras.cmake
+[8.237s] -- Up-to-date symlink: /home/soar-uwu/RobotX-2026/install/robotx_cv/share/robotx_cv/cmake/ament_cmake_export_include_directories-extras.cmake
+[8.237s] -- Up-to-date symlink: /home/soar-uwu/RobotX-2026/install/robotx_cv/share/robotx_cv/cmake/ament_cmake_export_libraries-extras.cmake
+[8.237s] -- Up-to-date symlink: /home/soar-uwu/RobotX-2026/install/robotx_cv/share/robotx_cv/cmake/ament_cmake_export_targets-extras.cmake
+[8.237s] -- Up-to-date symlink: /home/soar-uwu/RobotX-2026/install/robotx_cv/share/robotx_cv/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[8.237s] -- Up-to-date symlink: /home/soar-uwu/RobotX-2026/install/robotx_cv/share/robotx_cv/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[8.237s] -- Up-to-date symlink: /home/soar-uwu/RobotX-2026/install/robotx_cv/share/robotx_cv/cmake/rosidl_cmake_aggregate_target-extras.cmake
+[8.237s] -- Up-to-date symlink: /home/soar-uwu/RobotX-2026/install/robotx_cv/share/robotx_cv/cmake/robotx_cvConfig.cmake
+[8.238s] -- Up-to-date symlink: /home/soar-uwu/RobotX-2026/install/robotx_cv/share/robotx_cv/cmake/robotx_cvConfig-version.cmake
+[8.238s] -- Up-to-date symlink: /home/soar-uwu/RobotX-2026/install/robotx_cv/share/robotx_cv/package.xml
+[8.238s] -- Up-to-date: /home/soar-uwu/RobotX-2026/install/robotx_cv/lib/librobotx_cv__rosidl_generator_c.so
+[8.238s] -- Up-to-date: /home/soar-uwu/RobotX-2026/install/robotx_cv/lib/librobotx_cv__rosidl_typesupport_fastrtps_c.so
+[8.238s] -- Up-to-date: /home/soar-uwu/RobotX-2026/install/robotx_cv/lib/librobotx_cv__rosidl_typesupport_introspection_c.so
+[8.263s] -- Up-to-date: /home/soar-uwu/RobotX-2026/install/robotx_cv/lib/librobotx_cv__rosidl_typesupport_c.so
+[8.263s] -- Up-to-date: /home/soar-uwu/RobotX-2026/install/robotx_cv/lib/librobotx_cv__rosidl_typesupport_fastrtps_cpp.so
+[8.264s] -- Up-to-date: /home/soar-uwu/RobotX-2026/install/robotx_cv/lib/librobotx_cv__rosidl_typesupport_introspection_cpp.so
+[8.264s] -- Up-to-date: /home/soar-uwu/RobotX-2026/install/robotx_cv/lib/librobotx_cv__rosidl_typesupport_cpp.so
+[8.420s] Listing '/home/soar-uwu/RobotX-2026/install/robotx_cv/local/lib/python3.10/dist-packages/robotx_cv'...
+[8.421s] Compiling '/home/soar-uwu/RobotX-2026/install/robotx_cv/local/lib/python3.10/dist-packages/robotx_cv/__init__.py'...
+[8.421s] *** FileExistsError: /home/soar-uwu/RobotX-2026/install/robotx_cv/local/lib/python3.10/dist-packages/robotx_cv/__pycache__/__init__.cpython-310.pyc is a symlink and will be changed into a regular file if import writes a byte-compiled file to it
+[8.421s] Compiling '/home/soar-uwu/RobotX-2026/install/robotx_cv/local/lib/python3.10/dist-packages/robotx_cv/beacon.py'...
+[8.421s] *** FileExistsError: /home/soar-uwu/RobotX-2026/install/robotx_cv/local/lib/python3.10/dist-packages/robotx_cv/__pycache__/beacon.cpython-310.pyc is a symlink and will be changed into a regular file if import writes a byte-compiled file to it
+[8.422s] Compiling '/home/soar-uwu/RobotX-2026/install/robotx_cv/local/lib/python3.10/dist-packages/robotx_cv/dock.py'...
+[8.422s] *** FileExistsError: /home/soar-uwu/RobotX-2026/install/robotx_cv/local/lib/python3.10/dist-packages/robotx_cv/__pycache__/dock.cpython-310.pyc is a symlink and will be changed into a regular file if import writes a byte-compiled file to it
+[8.422s] Compiling '/home/soar-uwu/RobotX-2026/install/robotx_cv/local/lib/python3.10/dist-packages/robotx_cv/light.py'...
+[8.422s] *** FileExistsError: /home/soar-uwu/RobotX-2026/install/robotx_cv/local/lib/python3.10/dist-packages/robotx_cv/__pycache__/light.cpython-310.pyc is a symlink and will be changed into a regular file if import writes a byte-compiled file to it
+[8.423s] Listing '/home/soar-uwu/RobotX-2026/install/robotx_cv/local/lib/python3.10/dist-packages/robotx_cv/msg'...
+[8.423s] Compiling '/home/soar-uwu/RobotX-2026/install/robotx_cv/local/lib/python3.10/dist-packages/robotx_cv/ranging.py'...
+[8.423s] *** FileExistsError: /home/soar-uwu/RobotX-2026/install/robotx_cv/local/lib/python3.10/dist-packages/robotx_cv/__pycache__/ranging.cpython-310.pyc is a symlink and will be changed into a regular file if import writes a byte-compiled file to it
+[8.423s] Compiling '/home/soar-uwu/RobotX-2026/install/robotx_cv/local/lib/python3.10/dist-packages/robotx_cv/task1.py'...
+[8.423s] *** FileExistsError: /home/soar-uwu/RobotX-2026/install/robotx_cv/local/lib/python3.10/dist-packages/robotx_cv/__pycache__/task1.cpython-310.pyc is a symlink and will be changed into a regular file if import writes a byte-compiled file to it
+[8.443s] -- Up-to-date: /home/soar-uwu/RobotX-2026/install/robotx_cv/lib/librobotx_cv__rosidl_generator_py.so
+[8.443s] -- Up-to-date: /home/soar-uwu/RobotX-2026/install/robotx_cv/share/robotx_cv/cmake/export_robotx_cv__rosidl_generator_cExport.cmake
+[8.443s] -- Up-to-date: /home/soar-uwu/RobotX-2026/install/robotx_cv/share/robotx_cv/cmake/export_robotx_cv__rosidl_generator_cExport-noconfig.cmake
+[8.444s] -- Up-to-date: /home/soar-uwu/RobotX-2026/install/robotx_cv/share/robotx_cv/cmake/export_robotx_cv__rosidl_typesupport_fastrtps_cExport.cmake
+[8.444s] -- Up-to-date: /home/soar-uwu/RobotX-2026/install/robotx_cv/share/robotx_cv/cmake/export_robotx_cv__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[8.444s] -- Up-to-date: /home/soar-uwu/RobotX-2026/install/robotx_cv/share/robotx_cv/cmake/robotx_cv__rosidl_typesupport_introspection_cExport.cmake
+[8.444s] -- Up-to-date: /home/soar-uwu/RobotX-2026/install/robotx_cv/share/robotx_cv/cmake/robotx_cv__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[8.444s] -- Up-to-date: /home/soar-uwu/RobotX-2026/install/robotx_cv/share/robotx_cv/cmake/robotx_cv__rosidl_typesupport_cExport.cmake
+[8.444s] -- Up-to-date: /home/soar-uwu/RobotX-2026/install/robotx_cv/share/robotx_cv/cmake/robotx_cv__rosidl_typesupport_cExport-noconfig.cmake
+[8.444s] -- Up-to-date: /home/soar-uwu/RobotX-2026/install/robotx_cv/share/robotx_cv/cmake/export_robotx_cv__rosidl_generator_cppExport.cmake
+[8.445s] -- Up-to-date: /home/soar-uwu/RobotX-2026/install/robotx_cv/share/robotx_cv/cmake/export_robotx_cv__rosidl_typesupport_fastrtps_cppExport.cmake
+[8.445s] -- Up-to-date: /home/soar-uwu/RobotX-2026/install/robotx_cv/share/robotx_cv/cmake/export_robotx_cv__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[8.445s] -- Up-to-date: /home/soar-uwu/RobotX-2026/install/robotx_cv/share/robotx_cv/cmake/robotx_cv__rosidl_typesupport_introspection_cppExport.cmake
+[8.445s] -- Up-to-date: /home/soar-uwu/RobotX-2026/install/robotx_cv/share/robotx_cv/cmake/robotx_cv__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[8.445s] -- Up-to-date: /home/soar-uwu/RobotX-2026/install/robotx_cv/share/robotx_cv/cmake/robotx_cv__rosidl_typesupport_cppExport.cmake
+[8.445s] -- Up-to-date: /home/soar-uwu/RobotX-2026/install/robotx_cv/share/robotx_cv/cmake/robotx_cv__rosidl_typesupport_cppExport-noconfig.cmake
+[8.445s] -- Up-to-date: /home/soar-uwu/RobotX-2026/install/robotx_cv/share/robotx_cv/cmake/export_robotx_cv__rosidl_generator_pyExport.cmake
+[8.446s] -- Up-to-date: /home/soar-uwu/RobotX-2026/install/robotx_cv/share/robotx_cv/cmake/export_robotx_cv__rosidl_generator_pyExport-noconfig.cmake
+[8.455s] Invoked command in '/home/soar-uwu/RobotX-2026/build/robotx_cv' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/soar-uwu/RobotX-2026/install/blueboat:/opt/ros/humble /usr/bin/cmake --install /home/soar-uwu/RobotX-2026/build/robotx_cv

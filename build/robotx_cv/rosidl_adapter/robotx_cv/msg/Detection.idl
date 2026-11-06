@@ -1,0 +1,43 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from robotx_cv/msg/Detection.msg
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Point.idl"
+#include "vision_msgs/msg/BoundingBox2D.idl"
+
+module robotx_cv {
+  module msg {
+    @verbatim (language="comment", text=
+      "One detected object, any vehicle / task.")
+    struct Detection {
+      @verbatim (language="comment", text=
+        "model class (light_beacon, robobuoy, ...)")
+      string class_name;
+
+      @verbatim (language="comment", text=
+        "model confidence, this frame")
+      float score;
+
+      @verbatim (language="comment", text=
+        "same object across frames, -1 if not tracked")
+      int32 id;
+
+      @verbatim (language="comment", text=
+        "pixels, original image; center.theta = rotation (rad), 0 if upright")
+      vision_msgs::msg::BoundingBox2D bbox;
+
+      @verbatim (language="comment", text=
+        "Confirmed state of a tracked object, '' if its class has none. Task 1 robobuoy, its light beacon:" "\n"
+        "off | flashing_red | flashing_green | flashing_blue | solid_blue | unknown (not confirmed yet)")
+      string state;
+
+      @verbatim (language="comment", text=
+        "m, camera to object, NaN if unknown")
+      float distance;
+
+      @verbatim (language="comment", text=
+        "m, from the depth image at the box centroid, ROS body axes (x forward, y left, z up; task1 ros_frame:=false: optical x right, y down, z forward), NaN if unknown")
+      geometry_msgs::msg::Point position;
+    };
+  };
+};

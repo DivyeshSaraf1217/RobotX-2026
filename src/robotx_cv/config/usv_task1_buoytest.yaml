@@ -1,0 +1,14 @@
+# Bench / field check of task1.py before the robobuoy model exists: buoy_test1.pt (pool pyramid
+# buoys, class buoy). The beacon is read above the box, as in usv_task1.yaml.
+# Outputs on /usv/task1_buoytest/. Run: task1.launch.py config:=usv_task1_buoytest
+model: /workspace/models/buoy_test1.pt
+task: detect
+imgsz: [384, 640]
+conf: 0.25
+buoy_class: buoy
+size: 0.43
+dim: w
+roi: [0.1, -0.5, 0.9, 0.0]
+led: {window: 0.333, excess: 40, v_min: 100, min_ratio: 0.05, dominance: 2.0, min_box: 25}
+state: {cycles: 3, flash: 1.0, tol: 0.5, min_run: 0.3, min_share: 0.7,
+        hold: 2.0, max_dist: 3.0, max_gap: 0.5, history: 10.0}

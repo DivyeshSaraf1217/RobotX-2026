@@ -1,0 +1,7 @@
+[0.038s] Invoking command in '/home/soar-uwu/RobotX-2026/build/robotx_cv': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/soar-uwu/RobotX-2026/build/robotx_cv -- -j4 -l4
+[0.238s] [  1%] Built target robotx_cv__rs
+[0.315s] failed to create symbolic link '/home/soar-uwu/RobotX-2026/build/robotx_cv/ament_cmake_python/robotx_cv/robotx_cv' because existing path cannot be removed: Is a directory
+[0.317s] gmake[2]: *** [CMakeFiles/ament_cmake_python_symlink_robotx_cv.dir/build.make:70: CMakeFiles/ament_cmake_python_symlink_robotx_cv] Error 1
+[0.317s] gmake[1]: *** [CMakeFiles/Makefile2:440: CMakeFiles/ament_cmake_python_symlink_robotx_cv.dir/all] Error 2
+[0.318s] gmake: *** [Makefile:146: all] Error 2
+[0.327s] Invoked command in '/home/soar-uwu/RobotX-2026/build/robotx_cv' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/soar-uwu/RobotX-2026/build/robotx_cv -- -j4 -l4

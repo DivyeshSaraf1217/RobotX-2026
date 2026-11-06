@@ -1,0 +1,36 @@
+# USV, Task 1 Safe Passage (one model per vehicle and task). Run: task1.launch.py.
+# Outputs on /usv/task1/... (<vehicle>_<task>.yaml -> /<vehicle>/<task>/).
+# The model finds robobuoy (the buoy only, the beacon on top NOT included) and light_beacon.
+# buoy_beacon.pt: data/buoy_beacon_yolo (All_extracted, last 20 % of each recording = val),
+# yolo11s 1280, val mAP50 robobuoy 0.87, light_beacon 0.74 (pool 0.99, indoor far beacons 0.16).
+model: /home/soar-uwu/RobotX-2026/src/buoy_beacon.pt
+task: detect
+# [h, w], = the engine's export imgsz. 1280 wide: far buoys are ~2x smaller at 640.
+imgsz: [736, 1280]
+conf: 0.25
+buoy_class: robobuoy
+size: 0.43           # m, box width = robobuoy (preliminary, measure)
+dim: w
+# The LED colour is read in the light_beacon box on top of the buoy ('' = never), else in `roi`.
+beacon_class: light_beacon
+# Beacon search area, fractions of the buoy box (x0, y0, x1, y1; y < 0 = above it): 80 % of the
+# width (a tilted buoy moves the beacon sideways), half the box height above it. A beacon box counts
+# for the buoy if its centre is in this area widened by half its size.
+roi: [0.1, -0.5, 0.9, 0.0]
+# LED colour per frame (beacon.led_colour): pixels with one channel >= v_min and `excess` above both
+# others, counted in a window `window` x the box width slid across the roi; the window with the
+# most is the beacon; < min_ratio of the window = OFF; buoys under min_box px wide are not read.
+# usv_buoy with buoy_test1.pt: no colour 0-1 %, red caps >= 8 %, false blue (water) < 4 %.
+# Real flashing red beacon (pool bag): lit 10-40 %, dark < 2 %, nothing in between.
+led: {window: 0.333, excess: 40, v_min: 100, min_ratio: 0.05, dominance: 2.0, min_box: 25}
+# In the beacon box: the whole box, any size. The LED ring is only 3-5 % of a close beacon's box
+# (shade, pipe): min_ratio 2 % (pool, dark: < 2 %). A blue LED looks cyan-blue (B 172 G 145 R 97):
+# blue_green 20. Far LEDs are blown-out white cores (all channels >= blown): colour from the ring
+# around them, else None (lit, colour unknown), not OFF.
+beacon_led: {window: 1.0, min_box: 0, min_ratio: 0.02, blue_green: 20, blown: 240, ring_excess: 20}
+# State (beacon.decode): confirmed after `cycles` lit + `cycles` dark runs of flash ± tol s.
+# max_dist 3 box sizes: the boat rolls, at ~5 fps the box jumps > 1 size and the history restarted.
+# Competition beacons flash 1 s / 1 s; the indoor test beacon (bag 1104_1355) 0.5 s:
+# flash 0.5, tol 0.25, min_run 0.15 for it.
+state: {cycles: 3, flash: 1.0, tol: 0.5, min_run: 0.3, min_share: 0.7,
+        hold: 2.0, max_dist: 3.0, max_gap: 0.5, history: 10.0}

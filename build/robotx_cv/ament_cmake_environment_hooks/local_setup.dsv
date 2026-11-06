@@ -1,0 +1,4 @@
+source;share/robotx_cv/environment/ament_prefix_path.sh
+source;share/robotx_cv/environment/library_path.sh
+source;share/robotx_cv/environment/path.sh
+source;share/robotx_cv/environment/pythonpath.sh

@@ -1,0 +1,79 @@
+{
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target"
+		],
+		"files" : 
+		[
+			"/home/soar-uwu/RobotX-2026/build/robotx_cv/robotx_cv__py/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 34,
+				"parent" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "robotx_cv::@6890427a1f51a3e7e1df"
+		}
+	],
+	"id" : "robotx_cv__py::@1a29590f179c62bc6e60",
+	"name" : "robotx_cv__py",
+	"paths" : 
+	{
+		"build" : "robotx_cv__py",
+		"source" : "/home/soar-uwu/RobotX-2026/build/robotx_cv/robotx_cv__py"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1,
+				2
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "/home/soar-uwu/RobotX-2026/build/robotx_cv/robotx_cv__py/CMakeFiles/robotx_cv__py",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/soar-uwu/RobotX-2026/build/robotx_cv/robotx_cv__py/CMakeFiles/robotx_cv__py.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/soar-uwu/RobotX-2026/build/robotx_cv/rosidl_generator_py/robotx_cv/_robotx_cv_s.ep.rosidl_typesupport_fastrtps_c.c.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

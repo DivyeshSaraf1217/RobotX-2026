@@ -1,0 +1,242 @@
+[0.355s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.355s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0xffffaaaf0370>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffffaaac7cd0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffffaaac7cd0>>, mixin_verb=('build',))
+[1.101s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.102s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.102s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.102s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.103s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.103s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.103s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/soar-uwu/RobotX-2026'
+[1.104s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.104s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.104s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.105s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.105s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.105s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.105s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.105s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.106s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.198s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.198s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.199s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.199s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.199s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.200s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.200s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.200s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.201s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.201s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.202s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.202s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.202s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.203s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.203s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[1.203s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[1.204s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[1.204s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[1.204s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[1.204s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[1.204s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[1.205s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[1.205s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[1.205s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[1.205s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[1.206s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[1.206s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[1.206s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[1.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/blueboat) by extensions ['ignore', 'ignore_ament_install']
+[1.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/blueboat) by extension 'ignore'
+[1.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/blueboat) by extension 'ignore_ament_install'
+[1.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/blueboat) by extensions ['colcon_pkg']
+[1.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/blueboat) by extension 'colcon_pkg'
+[1.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/blueboat) by extensions ['colcon_meta']
+[1.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/blueboat) by extension 'colcon_meta'
+[1.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/blueboat) by extensions ['ros']
+[1.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/blueboat) by extension 'ros'
+[1.219s] DEBUG:colcon.colcon_core.package_identification:Package 'src/blueboat' with type 'ros.ament_python' and name 'blueboat'
+[1.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/esp_neo_light) by extensions ['ignore', 'ignore_ament_install']
+[1.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/esp_neo_light) by extension 'ignore'
+[1.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/esp_neo_light) by extension 'ignore_ament_install'
+[1.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/esp_neo_light) by extensions ['colcon_pkg']
+[1.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/esp_neo_light) by extension 'colcon_pkg'
+[1.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/esp_neo_light) by extensions ['colcon_meta']
+[1.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/esp_neo_light) by extension 'colcon_meta'
+[1.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/esp_neo_light) by extensions ['ros']
+[1.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/esp_neo_light) by extension 'ros'
+[1.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/esp_neo_light) by extensions ['cmake', 'python']
+[1.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/esp_neo_light) by extension 'cmake'
+[1.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/esp_neo_light) by extension 'python'
+[1.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/esp_neo_light) by extensions ['python_setup_py']
+[1.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/esp_neo_light) by extension 'python_setup_py'
+[1.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/esp_neo_light/mavros_serial_neo_light) by extensions ['ignore', 'ignore_ament_install']
+[1.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/esp_neo_light/mavros_serial_neo_light) by extension 'ignore'
+[1.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/esp_neo_light/mavros_serial_neo_light) by extension 'ignore_ament_install'
+[1.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/esp_neo_light/mavros_serial_neo_light) by extensions ['colcon_pkg']
+[1.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/esp_neo_light/mavros_serial_neo_light) by extension 'colcon_pkg'
+[1.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/esp_neo_light/mavros_serial_neo_light) by extensions ['colcon_meta']
+[1.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/esp_neo_light/mavros_serial_neo_light) by extension 'colcon_meta'
+[1.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/esp_neo_light/mavros_serial_neo_light) by extensions ['ros']
+[1.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/esp_neo_light/mavros_serial_neo_light) by extension 'ros'
+[1.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/esp_neo_light/mavros_serial_neo_light) by extensions ['cmake', 'python']
+[1.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/esp_neo_light/mavros_serial_neo_light) by extension 'cmake'
+[1.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/esp_neo_light/mavros_serial_neo_light) by extension 'python'
+[1.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/esp_neo_light/mavros_serial_neo_light) by extensions ['python_setup_py']
+[1.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/esp_neo_light/mavros_serial_neo_light) by extension 'python_setup_py'
+[1.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavlink trial) by extensions ['ignore', 'ignore_ament_install']
+[1.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavlink trial) by extension 'ignore'
+[1.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavlink trial) by extension 'ignore_ament_install'
+[1.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavlink trial) by extensions ['colcon_pkg']
+[1.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavlink trial) by extension 'colcon_pkg'
+[1.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavlink trial) by extensions ['colcon_meta']
+[1.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavlink trial) by extension 'colcon_meta'
+[1.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavlink trial) by extensions ['ros']
+[1.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavlink trial) by extension 'ros'
+[1.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavlink trial) by extensions ['cmake', 'python']
+[1.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavlink trial) by extension 'cmake'
+[1.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavlink trial) by extension 'python'
+[1.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavlink trial) by extensions ['python_setup_py']
+[1.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavlink trial) by extension 'python_setup_py'
+[1.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotx_cv) by extensions ['ignore', 'ignore_ament_install']
+[1.239s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotx_cv) by extension 'ignore'
+[1.239s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotx_cv) by extension 'ignore_ament_install'
+[1.239s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotx_cv) by extensions ['colcon_pkg']
+[1.239s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotx_cv) by extension 'colcon_pkg'
+[1.240s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotx_cv) by extensions ['colcon_meta']
+[1.240s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotx_cv) by extension 'colcon_meta'
+[1.240s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotx_cv) by extensions ['ros']
+[1.240s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotx_cv) by extension 'ros'
+[1.243s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robotx_cv' with type 'ros.ament_cmake' and name 'robotx_cv'
+[1.243s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.243s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.243s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.243s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.243s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.325s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.325s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.331s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/soar-uwu/RobotX-2026/install
+[1.336s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 6 installed packages in /home/soar-uwu/mavros_ws/install
+[1.338s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/soar-uwu/lidar_ws/install
+[1.339s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 5 installed packages in /home/soar-uwu/ros2_ws/install
+[1.341s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 216 installed packages in /opt/ros/humble
+[1.344s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.484s] Level 5:colcon.colcon_core.verb:set package 'blueboat' build argument 'cmake_args' from command line to 'None'
+[1.485s] Level 5:colcon.colcon_core.verb:set package 'blueboat' build argument 'cmake_target' from command line to 'None'
+[1.485s] Level 5:colcon.colcon_core.verb:set package 'blueboat' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.485s] Level 5:colcon.colcon_core.verb:set package 'blueboat' build argument 'cmake_clean_cache' from command line to 'False'
+[1.485s] Level 5:colcon.colcon_core.verb:set package 'blueboat' build argument 'cmake_clean_first' from command line to 'False'
+[1.485s] Level 5:colcon.colcon_core.verb:set package 'blueboat' build argument 'cmake_force_configure' from command line to 'False'
+[1.485s] Level 5:colcon.colcon_core.verb:set package 'blueboat' build argument 'ament_cmake_args' from command line to 'None'
+[1.486s] Level 5:colcon.colcon_core.verb:set package 'blueboat' build argument 'catkin_cmake_args' from command line to 'None'
+[1.486s] Level 5:colcon.colcon_core.verb:set package 'blueboat' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.486s] DEBUG:colcon.colcon_core.verb:Building package 'blueboat' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/soar-uwu/RobotX-2026/build/blueboat', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/soar-uwu/RobotX-2026/install/blueboat', 'merge_install': False, 'path': '/home/soar-uwu/RobotX-2026/src/blueboat', 'symlink_install': False, 'test_result_base': None}
+[1.488s] Level 5:colcon.colcon_core.verb:set package 'robotx_cv' build argument 'cmake_args' from command line to 'None'
+[1.488s] Level 5:colcon.colcon_core.verb:set package 'robotx_cv' build argument 'cmake_target' from command line to 'None'
+[1.488s] Level 5:colcon.colcon_core.verb:set package 'robotx_cv' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.488s] Level 5:colcon.colcon_core.verb:set package 'robotx_cv' build argument 'cmake_clean_cache' from command line to 'False'
+[1.489s] Level 5:colcon.colcon_core.verb:set package 'robotx_cv' build argument 'cmake_clean_first' from command line to 'False'
+[1.489s] Level 5:colcon.colcon_core.verb:set package 'robotx_cv' build argument 'cmake_force_configure' from command line to 'False'
+[1.489s] Level 5:colcon.colcon_core.verb:set package 'robotx_cv' build argument 'ament_cmake_args' from command line to 'None'
+[1.489s] Level 5:colcon.colcon_core.verb:set package 'robotx_cv' build argument 'catkin_cmake_args' from command line to 'None'
+[1.489s] Level 5:colcon.colcon_core.verb:set package 'robotx_cv' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.490s] DEBUG:colcon.colcon_core.verb:Building package 'robotx_cv' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/soar-uwu/RobotX-2026/build/robotx_cv', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/soar-uwu/RobotX-2026/install/robotx_cv', 'merge_install': False, 'path': '/home/soar-uwu/RobotX-2026/src/robotx_cv', 'symlink_install': False, 'test_result_base': None}
+[1.491s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.498s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.499s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/soar-uwu/RobotX-2026/src/blueboat' with build type 'ament_python'
+[1.500s] Level 1:colcon.colcon_core.shell:create_environment_hook('blueboat', 'ament_prefix_path')
+[1.508s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.509s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/soar-uwu/RobotX-2026/install/blueboat/share/blueboat/hook/ament_prefix_path.ps1'
+[1.511s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/soar-uwu/RobotX-2026/install/blueboat/share/blueboat/hook/ament_prefix_path.dsv'
+[1.513s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/soar-uwu/RobotX-2026/install/blueboat/share/blueboat/hook/ament_prefix_path.sh'
+[1.520s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.521s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.541s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/soar-uwu/RobotX-2026/src/robotx_cv' with build type 'ament_cmake'
+[1.541s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/soar-uwu/RobotX-2026/src/robotx_cv'
+[1.542s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.543s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.733s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/soar-uwu/RobotX-2026/src/blueboat'
+[2.734s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.734s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.766s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/soar-uwu/RobotX-2026/build/robotx_cv': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/soar-uwu/RobotX-2026/install/blueboat:/opt/ros/humble /usr/bin/cmake --build /home/soar-uwu/RobotX-2026/build/robotx_cv -- -j4 -l4
+[4.924s] DEBUG:colcon.colcon_core.task.python.build:Available setuptools commands: develop, dist_info, rotate, install_lib, install_scripts, install, clean, symlink_data, build_scripts, saveopts, build_py, upload, alias, bdist, check, easy_install, build_ext, install_data, bdist_egg, upload_docs, build, bdist_dumb, install_headers, sdist, build_clib, setopt, install_egg_info, egg_info, bdist_wheel, test, bdist_rpm, register
+[4.935s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/soar-uwu/RobotX-2026/src/blueboat': PYTHONPATH=/home/soar-uwu/RobotX-2026/build/blueboat/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/soar-uwu/RobotX-2026/install/blueboat/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/blueboat build --build-base /home/soar-uwu/RobotX-2026/build/blueboat/build install --record /home/soar-uwu/RobotX-2026/build/blueboat/install.log --install-scripts $base/lib/blueboat --single-version-externally-managed install_data
+[6.624s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/soar-uwu/RobotX-2026/src/blueboat' returned '0': PYTHONPATH=/home/soar-uwu/RobotX-2026/build/blueboat/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/soar-uwu/RobotX-2026/install/blueboat/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/blueboat build --build-base /home/soar-uwu/RobotX-2026/build/blueboat/build install --record /home/soar-uwu/RobotX-2026/build/blueboat/install.log --install-scripts $base/lib/blueboat --single-version-externally-managed install_data
+[6.639s] Level 1:colcon.colcon_core.environment:checking '/home/soar-uwu/RobotX-2026/install/blueboat' for CMake module files
+[6.642s] Level 1:colcon.colcon_core.environment:checking '/home/soar-uwu/RobotX-2026/install/blueboat' for CMake config files
+[6.685s] Level 1:colcon.colcon_core.environment:checking '/home/soar-uwu/RobotX-2026/install/blueboat/lib'
+[6.690s] Level 1:colcon.colcon_core.environment:checking '/home/soar-uwu/RobotX-2026/install/blueboat/bin'
+[6.698s] Level 1:colcon.colcon_core.environment:checking '/home/soar-uwu/RobotX-2026/install/blueboat/lib/pkgconfig/blueboat.pc'
+[6.709s] Level 1:colcon.colcon_core.environment:checking '/home/soar-uwu/RobotX-2026/install/blueboat/lib/python3.10/site-packages'
+[6.710s] Level 1:colcon.colcon_core.shell:create_environment_hook('blueboat', 'pythonpath')
+[6.711s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/soar-uwu/RobotX-2026/install/blueboat/share/blueboat/hook/pythonpath.ps1'
+[6.718s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/soar-uwu/RobotX-2026/install/blueboat/share/blueboat/hook/pythonpath.dsv'
+[6.758s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/soar-uwu/RobotX-2026/install/blueboat/share/blueboat/hook/pythonpath.sh'
+[6.773s] Level 1:colcon.colcon_core.environment:checking '/home/soar-uwu/RobotX-2026/install/blueboat/bin'
+[6.773s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(blueboat)
+[6.774s] INFO:colcon.colcon_core.shell:Creating package script '/home/soar-uwu/RobotX-2026/install/blueboat/share/blueboat/package.ps1'
+[6.804s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/soar-uwu/RobotX-2026/install/blueboat/share/blueboat/package.dsv'
+[6.820s] INFO:colcon.colcon_core.shell:Creating package script '/home/soar-uwu/RobotX-2026/install/blueboat/share/blueboat/package.sh'
+[6.830s] INFO:colcon.colcon_core.shell:Creating package script '/home/soar-uwu/RobotX-2026/install/blueboat/share/blueboat/package.bash'
+[6.856s] INFO:colcon.colcon_core.shell:Creating package script '/home/soar-uwu/RobotX-2026/install/blueboat/share/blueboat/package.zsh'
+[6.860s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/soar-uwu/RobotX-2026/install/blueboat/share/colcon-core/packages/blueboat)
+[7.956s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/soar-uwu/RobotX-2026/build/robotx_cv' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/soar-uwu/RobotX-2026/install/blueboat:/opt/ros/humble /usr/bin/cmake --build /home/soar-uwu/RobotX-2026/build/robotx_cv -- -j4 -l4
+[8.001s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/soar-uwu/RobotX-2026/build/robotx_cv': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/soar-uwu/RobotX-2026/install/blueboat:/opt/ros/humble /usr/bin/cmake --install /home/soar-uwu/RobotX-2026/build/robotx_cv
+[8.462s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robotx_cv)
+[8.463s] Level 1:colcon.colcon_core.environment:checking '/home/soar-uwu/RobotX-2026/install/robotx_cv' for CMake module files
+[8.465s] Level 1:colcon.colcon_core.environment:checking '/home/soar-uwu/RobotX-2026/install/robotx_cv' for CMake config files
+[8.467s] Level 1:colcon.colcon_core.shell:create_environment_hook('robotx_cv', 'cmake_prefix_path')
+[8.467s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/soar-uwu/RobotX-2026/install/robotx_cv/share/robotx_cv/hook/cmake_prefix_path.ps1'
+[8.469s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/soar-uwu/RobotX-2026/install/robotx_cv/share/robotx_cv/hook/cmake_prefix_path.dsv'
+[8.470s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/soar-uwu/RobotX-2026/build/robotx_cv' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/soar-uwu/RobotX-2026/install/blueboat:/opt/ros/humble /usr/bin/cmake --install /home/soar-uwu/RobotX-2026/build/robotx_cv
+[8.472s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/soar-uwu/RobotX-2026/install/robotx_cv/share/robotx_cv/hook/cmake_prefix_path.sh'
+[8.474s] Level 1:colcon.colcon_core.environment:checking '/home/soar-uwu/RobotX-2026/install/robotx_cv/lib'
+[8.474s] Level 1:colcon.colcon_core.shell:create_environment_hook('robotx_cv', 'ld_library_path_lib')
+[8.474s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/soar-uwu/RobotX-2026/install/robotx_cv/share/robotx_cv/hook/ld_library_path_lib.ps1'
+[8.475s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/soar-uwu/RobotX-2026/install/robotx_cv/share/robotx_cv/hook/ld_library_path_lib.dsv'
+[8.477s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/soar-uwu/RobotX-2026/install/robotx_cv/share/robotx_cv/hook/ld_library_path_lib.sh'
+[8.478s] Level 1:colcon.colcon_core.environment:checking '/home/soar-uwu/RobotX-2026/install/robotx_cv/bin'
+[8.478s] Level 1:colcon.colcon_core.environment:checking '/home/soar-uwu/RobotX-2026/install/robotx_cv/lib/pkgconfig/robotx_cv.pc'
+[8.478s] Level 1:colcon.colcon_core.environment:checking '/home/soar-uwu/RobotX-2026/install/robotx_cv/lib/python3.10/site-packages'
+[8.479s] Level 1:colcon.colcon_core.environment:checking '/home/soar-uwu/RobotX-2026/install/robotx_cv/bin'
+[8.480s] INFO:colcon.colcon_core.shell:Creating package script '/home/soar-uwu/RobotX-2026/install/robotx_cv/share/robotx_cv/package.ps1'
+[8.482s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/soar-uwu/RobotX-2026/install/robotx_cv/share/robotx_cv/package.dsv'
+[8.483s] INFO:colcon.colcon_core.shell:Creating package script '/home/soar-uwu/RobotX-2026/install/robotx_cv/share/robotx_cv/package.sh'
+[8.484s] INFO:colcon.colcon_core.shell:Creating package script '/home/soar-uwu/RobotX-2026/install/robotx_cv/share/robotx_cv/package.bash'
+[8.485s] INFO:colcon.colcon_core.shell:Creating package script '/home/soar-uwu/RobotX-2026/install/robotx_cv/share/robotx_cv/package.zsh'
+[8.486s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/soar-uwu/RobotX-2026/install/robotx_cv/share/colcon-core/packages/robotx_cv)
+[8.487s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robotx_cv)
+[8.488s] Level 1:colcon.colcon_core.environment:checking '/home/soar-uwu/RobotX-2026/install/robotx_cv' for CMake module files
+[8.489s] Level 1:colcon.colcon_core.environment:checking '/home/soar-uwu/RobotX-2026/install/robotx_cv' for CMake config files
+[8.492s] Level 1:colcon.colcon_core.shell:create_environment_hook('robotx_cv', 'cmake_prefix_path')
+[8.493s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/soar-uwu/RobotX-2026/install/robotx_cv/share/robotx_cv/hook/cmake_prefix_path.ps1'
+[8.495s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/soar-uwu/RobotX-2026/install/robotx_cv/share/robotx_cv/hook/cmake_prefix_path.dsv'
+[8.496s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/soar-uwu/RobotX-2026/install/robotx_cv/share/robotx_cv/hook/cmake_prefix_path.sh'
+[8.497s] Level 1:colcon.colcon_core.environment:checking '/home/soar-uwu/RobotX-2026/install/robotx_cv/lib'
+[8.498s] Level 1:colcon.colcon_core.shell:create_environment_hook('robotx_cv', 'ld_library_path_lib')
+[8.498s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/soar-uwu/RobotX-2026/install/robotx_cv/share/robotx_cv/hook/ld_library_path_lib.ps1'
+[8.500s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/soar-uwu/RobotX-2026/install/robotx_cv/share/robotx_cv/hook/ld_library_path_lib.dsv'
+[8.501s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/soar-uwu/RobotX-2026/install/robotx_cv/share/robotx_cv/hook/ld_library_path_lib.sh'
+[8.505s] Level 1:colcon.colcon_core.environment:checking '/home/soar-uwu/RobotX-2026/install/robotx_cv/bin'
+[8.506s] Level 1:colcon.colcon_core.environment:checking '/home/soar-uwu/RobotX-2026/install/robotx_cv/lib/pkgconfig/robotx_cv.pc'
+[8.507s] Level 1:colcon.colcon_core.environment:checking '/home/soar-uwu/RobotX-2026/install/robotx_cv/lib/python3.10/site-packages'
+[8.508s] Level 1:colcon.colcon_core.environment:checking '/home/soar-uwu/RobotX-2026/install/robotx_cv/bin'
+[8.509s] INFO:colcon.colcon_core.shell:Creating package script '/home/soar-uwu/RobotX-2026/install/robotx_cv/share/robotx_cv/package.ps1'
+[8.512s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/soar-uwu/RobotX-2026/install/robotx_cv/share/robotx_cv/package.dsv'
+[8.514s] INFO:colcon.colcon_core.shell:Creating package script '/home/soar-uwu/RobotX-2026/install/robotx_cv/share/robotx_cv/package.sh'
+[8.515s] INFO:colcon.colcon_core.shell:Creating package script '/home/soar-uwu/RobotX-2026/install/robotx_cv/share/robotx_cv/package.bash'
+[8.522s] INFO:colcon.colcon_core.shell:Creating package script '/home/soar-uwu/RobotX-2026/install/robotx_cv/share/robotx_cv/package.zsh'
+[8.524s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/soar-uwu/RobotX-2026/install/robotx_cv/share/colcon-core/packages/robotx_cv)
+[8.527s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[8.528s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[8.528s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[8.528s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[8.529s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[8.530s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/soar-uwu/RobotX-2026/install/local_setup.ps1'
+[8.533s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/soar-uwu/RobotX-2026/install/_local_setup_util_ps1.py'
+[8.538s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/soar-uwu/RobotX-2026/install/setup.ps1'
+[8.544s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/soar-uwu/RobotX-2026/install/local_setup.sh'
+[8.547s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/soar-uwu/RobotX-2026/install/_local_setup_util_sh.py'
+[8.549s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/soar-uwu/RobotX-2026/install/setup.sh'
+[8.555s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/soar-uwu/RobotX-2026/install/local_setup.bash'
+[8.557s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/soar-uwu/RobotX-2026/install/setup.bash'
+[8.562s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/soar-uwu/RobotX-2026/install/local_setup.zsh'
+[8.563s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/soar-uwu/RobotX-2026/install/setup.zsh'

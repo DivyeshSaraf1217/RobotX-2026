@@ -1,0 +1,17 @@
+# UAV, down-looking camera. RobotX 2026; preliminary sizes, re-measure on site.
+# See uuv.yaml for the format. From above, altitude is usually a better range than size.
+# No color_indicator: it is only visible from the side.
+model: /workspace/models/uav.engine
+task: obb
+imgsz: [384, 640]
+objects:
+  # Task 1: top-facing beacons
+  robobuoy:     {size: 0.43, dim: max}
+  light_beacon: {size: 0.254, dim: max, light: true}  # sun hat diameter
+  # Tasks 2, 3: resource delivery
+  platform:     {size: 2.0, dim: max}
+  circle_red:   {size: 0.65, dim: max}
+  circle_green: {size: 0.65, dim: max}
+  circle_blue:  {size: 0.65, dim: max}
+  tin:          {}                                     # measure
+  uav_pad:      {size: 2.0, dim: max}
